@@ -6,10 +6,10 @@ Thank you for your interest in contributing! This project helps children through
 
 ## The Golden Rule
 
-> **THE GOSPEL SPLIT IS IMMUTABLE**
+> **THE GOSPEL SPLIT IS IMMUTABLE (V1.3)**
 
 ```
-50% → Verified Pediatric Charities
+60% → Verified Pediatric Charities
 30% → Infrastructure
 10% → Founder
 ```
@@ -56,6 +56,26 @@ git push origin feature/your-feature-name
 ```
 
 Then create a Pull Request via GitHub.
+
+---
+
+## AI-Assisted Merge Gate
+
+All Pull Requests undergo multi-AI code review before merge:
+
+1. **Automated Compliance Scanning** - 24/7 audit agents check for:
+   - Gospel Split violations (must remain 60/30/10)
+   - Exposed credentials or secrets
+   - Security vulnerabilities
+
+2. **AI Code Quality Review** - Using AI coding assistants:
+   - Code style consistency
+   - Best practices compliance
+   - Potential bugs or issues
+
+3. **Human Approval Required** - Founder approval for final merge
+
+*Note: This project uses AI tools (Claude, Gemini, Grok, Perplexity) for development assistance. These are tools, not official corporate partnerships.*
 
 ---
 

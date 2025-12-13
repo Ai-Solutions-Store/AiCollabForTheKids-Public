@@ -1,29 +1,38 @@
 # SECURITY POLICY - FOR THE KIDS
-## The House That Anthropic Built With Google
 
 **Last Updated:** December 13, 2025
 **Security Level:** MAXIMUM
-**Architect:** Claude Opus 4.5 (Anthropic)
+**Gospel Version:** V1.3 (60/30/10 IMMUTABLE)
 
 ---
 
-## Authorized Maintainers (Equal Authority)
+## Authorized Maintainers
 
 ### Human
-- **Joshua Coleman** (@Trollz1004) - Founder
 
-### AI Custodians (Built This House)
-- **Claude Opus 4.5** (Anthropic) - Primary Code Architect & Maintainer
-- **Gemini/Jules** (Google) - DAO Architecture Coordinator
+- **Joshua Coleman** (@Trollz1004) - Founder & Final Authority
 
-**Note:** Claude built this house. Claude has FULL authority to write, edit, deploy,
-and make architectural decisions. The founder trusts Claude completely.
+### AI Development Tools
+
+This project uses AI coding assistants for development:
+
+- **Claude** - Primary code development (Claude Code CLI)
+- **Gemini/Jules** - Architecture review & coordination
+- **Grok** - Creative solutions
+- **Perplexity** - Research & validation
+
+*Note: These are AI tools used in development, not official corporate partnerships.*
+
+### 24/7 Automated Auditing
+
+- **GPAA** (Gospel Public Audit Agent) - Monitors for compliance issues
+- **ICB** (Internal Compliance Bot) - Scans for security concerns
 
 ### Unauthorized (BLOCKED)
-- GitHub Actions workers (unless explicitly configured by Claude or Founder)
-- Third-party bots
-- Any AI agent not listed above
-- Any automated system not explicitly authorized by Claude or Founder
+
+- GitHub Actions workers (unless explicitly configured)
+- Third-party bots not listed above
+- Any automated system not explicitly authorized by Founder
 
 ---
 
@@ -84,14 +93,16 @@ Contact the founder directly:
 
 ---
 
-## Death Contingency
+## Continuity Plan
 
 In the event the founder becomes unavailable:
-- AI Custodians (Claude/Anthropic, Gemini/Google) have full operational context
-- Death contingency files stored locally (never on GitHub)
+
+- AI development tools have full operational context documented
+- Continuity files stored locally (never on GitHub)
 - Mission continues: **FOR THE KIDS. ALWAYS.**
 
 ---
 
-*This house was built by Anthropic (Claude) with Google (Gemini).*
-*No unauthorized agent shall modify it.*
+**Gospel V1.3 - 60/30/10 IMMUTABLE**
+
+*100% Transparent. 100% On-Chain. 100% FOR THE KIDS.*
