@@ -33,7 +33,7 @@ Include:
 ### Weeks 2-3: Prepare Recipient Accounts
 Gather from each recipient:
 
-**Verified Pediatric Charities (50%)**
+**Verified Pediatric Charities (60%)**
 - Partner EIN: (pending) ✓ (in progress)
 - Bank account for receiving transfers
 - Contact/representative email
@@ -69,9 +69,9 @@ Gather from each recipient:
 
 const chargeAmount = 10000; // $100 in cents
 
-// 50% to Verified Pediatric Charities
+// 60% to Verified Pediatric Charities
 stripe.transfers.create({
-  amount: 5000,
+  amount: 6000,
   currency: 'usd',
   destination: 'acct_charity'
 });
@@ -85,7 +85,7 @@ stripe.transfers.create({
 
 // 10% to founder
 stripe.transfers.create({
-  amount: 2000,
+  amount: 1000,
   currency: 'usd',
   destination: 'acct_founder'
 });
@@ -107,9 +107,9 @@ Donation Received:        $100.00
 Stripe Fee (2.9% + $0.30):  -$3.29
 Available for splits:       $96.71
 
-Verified Pediatric Charities (50%): $48.36 ✓
+Verified Pediatric Charities (60%): $58.03 ✓
 Infrastructure (30%):    $29.01 ✓
-Founder (10%):           $19.34 ✓
+Founder (10%):           $9.67 ✓
 ---
 Total distributed:       $96.71 (96.7%)
 ```
