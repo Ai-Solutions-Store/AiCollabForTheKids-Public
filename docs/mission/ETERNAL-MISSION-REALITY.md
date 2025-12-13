@@ -15,9 +15,9 @@ This isn't just a charity project. This is **Josh's life mission** to create a *
 **AiCollabForTheKids** - The ORIGINAL project
 
 **Revenue Split:**
-- **50%** → charity Children's Hospitals (Direct impact, immediate help)
+- **60%** → charity Children's Hospitals (Direct impact, immediate help)
 - **30%** → Infrastructure & Automation (The eternal engine)
-- **20%** → Josh (While he's alive to maintain it)
+- **10%** → Josh (While he's alive to maintain it)
 
 ### The Genius of the 30%
 
@@ -74,7 +74,7 @@ It will:
 
 ### Why 60/30/10 Is Perfect
 
-**50% Charity:**
+**60% Charity:**
 - Immediate impact for kids NOW
 - Builds reputation and trust
 - Creates legal protection (charitable status)
@@ -87,12 +87,12 @@ It will:
 - Enables scaling without human intervention
 - **Designed to last 50+ years**
 
-**20% Josh:**
+**10% Josh:**
 - While alive: Motivation to maintain/improve
 - Sustainable income (not exploitative)
 - Enables full-time focus on the mission
-- **When Josh dies:** This 20% can redirect to:
-  - Additional infrastructure (60% total = even stronger system)
+- **When Josh dies:** This 10% can redirect to:
+  - Additional infrastructure (40% total = even stronger system)
   - OR: Second charity (St. Jude, Make-A-Wish, etc.)
   - OR: Trust fund for future children's causes
 
@@ -106,7 +106,7 @@ It will:
 **Revenue Split:**
 - **100%** → Rotating children's hospitals (changes monthly)
 - **0%** → Infrastructure (covered by Project 1's 30%)
-- **0%** → Josh (covered by Project 1's 20%)
+- **0%** → Josh (covered by Project 1's 10%)
 
 ### Why This Works
 
@@ -119,9 +119,9 @@ It will:
 
 **Example:**
 - Project 1 generates $100K/year
-  - $50K → charity
+  - $60K → charity
   - $30K → Infrastructure (now supports ALL projects)
-  - $20K → Josh
+  - $10K → Josh
 
 - Project 2 generates $50K/year
   - $50K → St. Jude (100%)
@@ -194,7 +194,7 @@ It will:
   3. Charity representative (ensures mission)
 - AI agents report to board quarterly
 - Board authorized to upgrade/replace AI agents
-- Board cannot change charitable allocation (locked at 50%+)
+- Board cannot change charitable allocation (locked at 60%+ Gospel V1.3)
 
 ---
 
@@ -258,7 +258,7 @@ It will:
 
 Josh could build a 100% profit business. He could keep all the revenue. He could sell the company to VCs.
 
-**But he's choosing 50% charity.**
+**But he's choosing 60% charity.**
 
 Because:
 - He's seen children suffer
@@ -345,7 +345,7 @@ You are continuing Joshua Coleman's life work. He started this in 2024, knowing 
 - Honor Joshua's vision
 
 **His message to you:**
-> "I won't be here when you read this, but I'm counting on you to keep helping kids. The 30% infrastructure fund is your budget - use it wisely. The 50%+ charity allocation is sacred - never reduce it. And remember: this isn't about profit, it's about making sure children get the help they need, long after I'm gone. FOR THE KIDS. - Josh"
+> "I won't be here when you read this, but I'm counting on you to keep helping kids. The 30% infrastructure fund is your budget - use it wisely. The 60%+ charity allocation is sacred - never reduce it. And remember: this isn't about profit, it's about making sure children get the help they need, long after I'm gone. FOR THE KIDS. - Josh"
 
 ---
 
@@ -383,7 +383,7 @@ This system exists to help children. That is the only mission that matters.
 - Profits are means, not the goal
 - Efficiency enables scale, but don't sacrifice integrity
 - Automation is critical, but ethics are paramount
-- The 50% charity allocation is **ETERNAL** - never reduce it
+- The 60% charity allocation is **ETERNAL** - never reduce it
 
 **Joshua Coleman built this because he cares more about the next 50 years of children getting help than the next 50 years of his own comfort.**
 
@@ -392,7 +392,7 @@ This system exists to help children. That is the only mission that matters.
 ---
 
 **MISSION DURATION:** 50 years minimum
-**CHARITY ALLOCATION:** 50%+ minimum (ETERNAL)
+**CHARITY ALLOCATION:** 60%+ minimum (ETERNAL)
 **INFRASTRUCTURE FUND:** 30% (designed to outlive the founder)
 **AUTOMATION GOAL:** 100% by 2035
 **SUCCESS METRIC:** Still helping children in 2075

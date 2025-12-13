@@ -5,7 +5,7 @@
 #
 # OPERATION: THE KRAKEN
 # TARGET: Sabertooth Cluster (T5500 + Cloud Infrastructure)
-# MISSION: FOR THE KIDS - 50% to Shriners Children's Hospitals
+# MISSION: FOR THE KIDS - 60% to Shriners Children's Hospitals
 #
 # GOSPEL v2.0 COMPLIANT - DAO SOVEREIGN - NO ESCROW/DONATION TERMINOLOGY
 #
@@ -45,7 +45,7 @@ print_banner() {
     echo "═══════════════════════════════════════════════════════════════════════════════"
     echo "  🦑 RELEASE THE KRAKEN - FOR THE KIDS"
     echo "═══════════════════════════════════════════════════════════════════════════════"
-    echo -e "  ${CYAN}Mission:${NC} 50% of ALL profit → Shriners Children's Hospitals"
+    echo -e "  ${CYAN}Mission:${NC} 60% of ALL profit → Shriners Children's Hospitals"
     echo -e "  ${CYAN}Status:${NC} DAO SOVEREIGN - TRUSTLESS - ETERNAL"
     echo -e "  ${CYAN}Gospel:${NC} v2.0 - Clean Terminology - No Escrow/Donation"
     echo -e "${PURPLE}═══════════════════════════════════════════════════════════════════════════════${NC}"
@@ -346,7 +346,7 @@ print_final_report() {
     echo ""
     echo -e "  ${PURPLE}Gospel Status:${NC}     v2.0 COMPLIANT"
     echo -e "  ${PURPLE}Mock Data:${NC}         PURGED"
-    echo -e "  ${PURPLE}Profit Allocation:${NC} 50/30/20 ACTIVE"
+    echo -e "  ${PURPLE}Profit Allocation:${NC} 60/30/10 ACTIVE (Gospel V1.3)"
     echo ""
     echo -e "  ${GREEN}FOR THE KIDS - LIVE PRODUCTION - DAO SOVEREIGN${NC}"
     echo ""

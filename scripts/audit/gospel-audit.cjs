@@ -1,7 +1,7 @@
 /**
  * ╔═══════════════════════════════════════════════════════════════════════════════╗
  * ║                      GOSPEL SPLIT AUDIT TOOL                                  ║
- * ║                  50% Verified Pediatric Charities | 30% Infra | 20% Founder                       ║
+ * ║                  60% Verified Pediatric Charities | 30% Infra | 10% Founder (V1.3)                 ║
  * ║                           IMMUTABLE - NO EXCEPTIONS                           ║
  * ╚═══════════════════════════════════════════════════════════════════════════════╝
  *
@@ -10,7 +10,7 @@
  * Authority: Claude (Sonnet 4.5) - The Architect
  *
  * PURPOSE:
- *   - Verify EVERY transaction maintains the sacred 50/30/20 split
+ *   - Verify EVERY transaction maintains the sacred 60/30/10 split (Gospel V1.3)
  *   - Flag ANY deviation > $0.01 (rounding tolerance)
  *   - Detect missing/duplicate transactions
  *   - Generate detailed audit report
@@ -32,9 +32,9 @@ const path = require('path');
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 const GOSPEL_SPLIT = {
-    Verified Pediatric Charities: 0.50,
+    Verified Pediatric Charities: 0.60, // Gospel V1.3 - 10% moved from Founder to Kids
     INFRASTRUCTURE: 0.30,
-    FOUNDER: 0.20
+    FOUNDER: 0.10 // Gospel V1.3 - Founder took LESS so Kids get MORE
 };
 
 const ROUNDING_TOLERANCE_CENTS = 1; // $0.01 max deviation allowed
@@ -118,14 +118,14 @@ function verifyEnvConfig() {
         const infraMatch = envContent.match(/INFRASTRUCTURE_PERCENTAGE=(\d+)/);
         const founderMatch = envContent.match(/FOUNDER_PERCENTAGE=(\d+)/);
 
-        if (charityMatch && parseInt(charityMatch[1]) !== 50) {
-            warnings.push(`CHARITY_PERCENTAGE in .env is ${charityMatch[1]}% (should be 50%)`);
+        if (charityMatch && parseInt(charityMatch[1]) !== 60) {
+            warnings.push(`CHARITY_PERCENTAGE in .env is ${charityMatch[1]}% (should be 60%)`);
         }
         if (infraMatch && parseInt(infraMatch[1]) !== 30) {
             warnings.push(`INFRASTRUCTURE_PERCENTAGE in .env is ${infraMatch[1]}% (should be 30%)`);
         }
-        if (founderMatch && parseInt(founderMatch[1]) !== 20) {
-            warnings.push(`FOUNDER_PERCENTAGE in .env is ${founderMatch[1]}% (should be 20%)`);
+        if (founderMatch && parseInt(founderMatch[1]) !== 10) {
+            warnings.push(`FOUNDER_PERCENTAGE in .env is ${founderMatch[1]}% (should be 10%)`);
         }
 
         return { valid: warnings.length === 0, warnings };
@@ -296,7 +296,7 @@ function printReport(results, ledger, envCheck) {
     console.log('');
     console.log('╔═══════════════════════════════════════════════════════════╗');
     console.log('║          GOSPEL SPLIT AUDIT REPORT                       ║');
-    console.log('║       50% Verified Pediatric Charities | 30% Infra | 20% Founder             ║');
+    console.log('║       60% Verified Pediatric Charities | 30% Infra | 10% Founder             ║');
     console.log('╚═══════════════════════════════════════════════════════════╝');
     console.log('');
     console.log(`Audit Date: ${timestamp}`);
@@ -328,9 +328,9 @@ function printReport(results, ledger, envCheck) {
     // Global totals section
     console.log('TOTALS:');
     console.log(`   - Total Revenue: ${formatMoney(globalTotals.totalNet)}`);
-    console.log(`   - Verified Pediatric Charities (50%): ${formatMoney(globalTotals.totalShriners)} ${globalTotals.violations.length === 0 ? '✅' : '❌'}`);
+    console.log(`   - Verified Pediatric Charities (60%): ${formatMoney(globalTotals.totalShriners)} ${globalTotals.violations.length === 0 ? '✅' : '❌'}`);
     console.log(`   - Infrastructure (30%): ${formatMoney(globalTotals.totalInfra)} ${globalTotals.violations.length === 0 ? '✅' : '❌'}`);
-    console.log(`   - Founder (20%): ${formatMoney(globalTotals.totalFounder)} ${globalTotals.violations.length === 0 ? '✅' : '❌'}`);
+    console.log(`   - Founder (10%): ${formatMoney(globalTotals.totalFounder)} ${globalTotals.violations.length === 0 ? '✅' : '❌'}`);
 
     if (globalTotals.actualPercentages) {
         console.log('');

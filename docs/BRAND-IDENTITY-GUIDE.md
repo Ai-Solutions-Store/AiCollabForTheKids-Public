@@ -2,7 +2,7 @@
 
 ## Executive Summary: "Benevolent Technocracy"
 
-Team Claude For The Kids is a **commercial automation firm with a philanthropic mission** - 50% of all profits go directly to charity Children's Hospitals. Our brand identity navigates the challenging intersection of high-performance technical excellence and humanitarian purpose.
+Team Claude For The Kids is a **commercial automation firm with a philanthropic mission** - 60% of all profits go directly to Verified Pediatric Charities. Our brand identity navigates the challenging intersection of high-performance technical excellence and humanitarian purpose.
 
 **Core Principle:** We don't look like a charity that does tech. We look like a serious automation firm that generates so much value, 60% of profits become a structural dividend for children's hospitals.
 
@@ -210,7 +210,7 @@ $Colors = @{
    TEAM CLAUDE
    FOR THE KIDS | BENEVOLENT AUTOMATION SUITE v2.0
    ════════════════════════════════════════════════
-   [♥] 50% PROFITS → charity CHILDREN'S HOSPITALS
+   [♥] 60% PROFITS → VERIFIED PEDIATRIC CHARITIES
    ════════════════════════════════════════════════
    [•] ARCHITECT:    CLAUDE (ANTHROPIC)
    [•] INTEGRATOR:   JULES (GOOGLE GEMINI)
@@ -361,7 +361,7 @@ DEPLOY-EVERYTHING-ONE-CLICK.ps1          # PowerShell with branded banner
 **Beneficiary:**
 - charity Children's Hospitals
 - Tax ID: PENDING_VERIFICATION
-- Allocation: 50% of ALL profits
+- Allocation: 60% of ALL profits (Gospel V1.3)
 
 ---
 
