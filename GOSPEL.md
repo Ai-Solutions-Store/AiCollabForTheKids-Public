@@ -196,7 +196,7 @@ This brand positioning is GOSPEL:
 
 **Positioning:**
 - We look like Vercel/Datadog FIRST (serious tech firm)
-- The 50% to kids is a "structural dividend of excellence"
+- The 60% to kids is a "structural dividend of excellence"
 - NOT charity-first, NOT emotional appeals, NOT pastel colors
 
 **CHANGING THE BRAND = DESTROYING THE MISSION.**
@@ -359,9 +359,9 @@ Every transaction MUST be logged in PostgreSQL:
 
 ```sql
 CREATE TABLE Transaction (
-  charityShare        INT,  -- 50% to charity
+  charityShare        INT,  -- 60% to charity
   infrastructureShare INT,  -- 30% to infrastructure
-  founderShare        INT   -- 20% to founder
+  founderShare        INT   -- 10% to founder
 );
 ```
 
@@ -499,7 +499,7 @@ FOR THE KIDS
 Every line of code exists to help children at Verified Pediatric Charities.
 
 - If a feature doesn't serve this mission → DELETE IT
-- If a decision hurts the 50% → REJECT IT
+- If a decision hurts the 60% → REJECT IT
 - If a change violates Gospel → REVERT IT
 - If language says "escrow" or "donation" → PURGE IT
 

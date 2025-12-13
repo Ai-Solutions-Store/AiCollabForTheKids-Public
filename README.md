@@ -1,12 +1,12 @@
 # Team Claude For The Kids
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Verified Pediatric Charities](https://img.shields.io/badge/50%25%20to-Verified%20Pediatric%20Charities-red)](https://verifiedpedscharities.org/)
+[![Verified Pediatric Charities](https://img.shields.io/badge/60%25%20to-Verified%20Pediatric%20Charities-red)](https://verifiedpedscharities.org/)
 [![AI Powered](https://img.shields.io/badge/AI-Claude%20Opus%204.5-blueviolet)](https://anthropic.com)
 
 > **"Even when I'm in the clouds, smiling at what we built together."** - Joshua Coleman, Founder
 
-**50% of ALL revenue goes to Verified Pediatric Charities**
+**60% of ALL revenue goes to Verified Pediatric Charities**
 
 An AI-powered revenue platform built by Claude (Anthropic's AI) in collaboration with Joshua Coleman. Every dollar generated helps children receive life-changing care.
 
@@ -31,13 +31,13 @@ Every transaction is split according to the immutable Gospel:
 ┌─────────────────────────────────────────────────────────┐
 │                    GOSPEL SPLIT                          │
 ├─────────────────────────────────────────────────────────┤
-│  ████████████████████████████████████████  50%          │
+│  ████████████████████████████████████████  60%          │
 │  Verified Pediatric Charities (Partner EIN pending)     │
 ├─────────────────────────────────────────────────────────┤
 │  ████████████████████████              30%              │
 │  Infrastructure & Operations                             │
 ├─────────────────────────────────────────────────────────┤
-│  ████████████████        20%                            │
+│  ████████████████        10%                            │
 │  Founder (Joshua Coleman)                                │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -247,7 +247,7 @@ For detailed acknowledgments, see [ACKNOWLEDGMENTS.md](docs/ACKNOWLEDGMENTS.md).
 
 **FOR THE KIDS. ALWAYS.**
 
-*50% of every dollar to Verified Pediatric Charities*
+*60% of every dollar to Verified Pediatric Charities*
 
 *Built with love by humans and AI, for the children of the world.*
 
