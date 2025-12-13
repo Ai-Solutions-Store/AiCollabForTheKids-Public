@@ -104,7 +104,7 @@ export default function KickstarterProgress() {
                 <div className="text-2xl font-bold text-[#078EFA]">${stats.infrastructureAllocated.toLocaleString()}</div>
               </div>
               <div className="text-center p-3 bg-[#DAA520]/20 rounded border border-[#DAA520]/30">
-                <div className="text-xs text-[#DAA520] font-bold">20% FOUNDER</div>
+                <div className="text-xs text-[#DAA520] font-bold">10% Founder</div>
                 <div className="text-2xl font-bold text-[#DAA520]">${stats.founderAllocated.toLocaleString()}</div>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function KickstarterProgress() {
         <CardHeader>
           <CardTitle className="flex items-center gap-3">
             <Receipt className="w-6 h-6 text-[#078EFA]" />
-            Public Transaction Receipts - Gospel 50/30/20 Verified
+            Public Transaction Receipts - Gospel 60/30/10 Verified
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -172,7 +172,7 @@ export default function KickstarterProgress() {
                       <div className="text-[#078EFA] font-bold">${tx.infrastructureAmount.toFixed(2)}</div>
                     </div>
                     <div className="bg-[#DAA520]/20 p-2 rounded border border-[#DAA520]/20">
-                      <div className="text-xs text-[#DAA520] font-bold">20% Founder</div>
+                      <div className="text-xs text-[#DAA520] font-bold">10% Founder</div>
                       <div className="text-[#DAA520] font-bold">${tx.founderAmount.toFixed(2)}</div>
                     </div>
                   </div>

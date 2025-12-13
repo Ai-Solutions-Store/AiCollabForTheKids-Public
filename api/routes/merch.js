@@ -5,9 +5,9 @@
  *
  * Anti-AI Merchandise Store with Gospel-Compliant Revenue Split
  *
- * 50% → Verified Pediatric Charities (CHARITY_EIN=PENDING_VERIFICATION)
+ * 60% → Verified Pediatric Charities (CHARITY_EIN=PENDING_VERIFICATION)
  * 30% → Infrastructure & Operations
- * 20% → Founder
+ * 10% → Founder
  *
  * Stripe Integration for Secure Checkout
  * Webhook Processing for Order Fulfillment

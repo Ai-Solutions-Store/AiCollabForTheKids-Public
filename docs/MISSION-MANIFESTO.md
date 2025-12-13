@@ -18,12 +18,12 @@ This is not a promise. It is code. It is immutable.
 
 ---
 
-## THE 50/30/20 SPLIT (GOSPEL RULE #2)
+## THE 60/30/10 SPLIT (GOSPEL RULE #2)
 
 ```
 50% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
 30% → Infrastructure & Growth (Platform sustainability)
-20% → Founder (Joshua Coleman - Sustenance)
+10% → Founder (Joshua Coleman - Sustenance)
 ```
 
 **This split is HARDCODED in Solidity. It cannot be changed.**
@@ -74,7 +74,7 @@ contract CharityGuardian {
     uint256 public constant FOUNDER_PERCENT = 20;         // Immutable
 
     function allocateProfits() public payable {
-        // 50% to kids, 30% to growth, 20% to founder
+        // 50% to kids, 30% to growth, 10% to founder
         // AUTOMATIC. TRUSTLESS. ETERNAL.
     }
 }

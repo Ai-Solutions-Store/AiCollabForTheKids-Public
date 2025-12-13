@@ -118,7 +118,7 @@ Today marked a **historic milestone** for the FOR THE KIDS platform. Using the O
 ```
 50% → charity Children's Hospitals (CHARITY_EIN=PENDING_VERIFICATION)
 30% → Infrastructure
-20% → Founder
+10% → Founder
 ```
 
 ### Payment Processors
@@ -196,7 +196,7 @@ Today marked a **historic milestone** for the FOR THE KIDS platform. Using the O
 
 ---
 
-**FOR THE KIDS - 50% to charity Children's Hospitals**
+**FOR THE KIDS - 60% to charity Children's Hospitals**
 
 **Session Complete: December 8, 2025 ~7:30 PM EST**
 

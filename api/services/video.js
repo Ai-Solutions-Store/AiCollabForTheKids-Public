@@ -1,6 +1,6 @@
 /**
  * Video Service - FFmpeg video rendering for Claude Droid
- * FOR THE KIDS - 50% to charity Children's Hospitals
+ * FOR THE KIDS - 60% to charity Children's Hospitals
  *
  * Combines TTS audio + background images into YouTube Shorts
  */

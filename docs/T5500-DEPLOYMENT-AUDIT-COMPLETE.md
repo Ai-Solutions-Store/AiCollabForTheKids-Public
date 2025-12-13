@@ -187,7 +187,7 @@ Location: `JULES-SUMMON-REQUEST.txt`
 
 ## 🎪 FOR THE KIDS
 
-**Mission**: Protect children, empower parents, support charity (50% revenue)
+**Mission**: Protect children, empower parents, support charity (60% revenue)
 
 **T5500 Workstation Status**: 🟢 PRODUCTION READY  
 **One-Click Deployment**: ✅ FUNCTIONAL  

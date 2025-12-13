@@ -3,7 +3,7 @@
  *
  * Generates 59-second YouTube Shorts from news headlines
  * Uses: News API → AI Script → Edge TTS → FFmpeg render
- * Revenue: 50% to charity Children's Hospitals
+ * Revenue: 60% to charity Children's Hospitals
  */
 
 import express from 'express';
@@ -74,7 +74,7 @@ router.post('/generate', async (req, res) => {
     const videoData = {
       id: `droid-${Date.now()}`,
       title: `${getCategoryEmoji(category)} ${category.toUpperCase()} News - ${new Date().toLocaleDateString()}`,
-      description: `Today's top ${category} stories in 59 seconds! 50% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
+      description: `Today's top ${category} stories in 59 seconds! 60% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
       script: script,
       duration: 59,
       wordCount: script.split(/\s+/).length,
@@ -85,7 +85,7 @@ router.post('/generate', async (req, res) => {
         source: h.source?.name || 'News'
       })),
       status: 'script_ready',
-      mission: '50% to charity Children\'s Hospitals',
+      mission: '60% to charity Children\'s Hospitals',
       createdAt: new Date().toISOString()
     };
 
@@ -133,9 +133,9 @@ router.get('/status', (req, res) => {
       'FFmpeg video rendering'
     ],
     revenue_split: {
-      charity: '50%',
+      charity: '60%',
       infrastructure: '30%',
-      founder: '20%'
+      founder: '10%'
     },
     mission: 'FOR THE KIDS!'
   });
@@ -270,7 +270,7 @@ router.post('/generate-with-audio', async (req, res) => {
     const videoData = {
       id: `droid-${Date.now()}`,
       title: `${getCategoryEmoji(category)} ${category.toUpperCase()} News - ${new Date().toLocaleDateString()}`,
-      description: `Today's top ${category} stories in 59 seconds! 50% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
+      description: `Today's top ${category} stories in 59 seconds! 60% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
       script: script,
       duration: 59,
       wordCount: script.split(/\\s+/).length,
@@ -292,7 +292,7 @@ router.post('/generate-with-audio', async (req, res) => {
         error: audioResult.error
       },
       status: audioResult.success ? 'audio_ready' : 'script_only',
-      mission: '50% to charity Children\'s Hospitals',
+      mission: '60% to charity Children\'s Hospitals',
       createdAt: new Date().toISOString()
     };
 
@@ -480,7 +480,7 @@ router.post('/generate-full-video', async (req, res) => {
     const fullVideo = {
       id: `droid-full-${Date.now()}`,
       title: `${getCategoryEmoji(category)} ${category.toUpperCase()} News - ${new Date().toLocaleDateString()}`,
-      description: `Today's top ${category} stories in 59 seconds! 50% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
+      description: `Today's top ${category} stories in 59 seconds! 60% of ad revenue goes to charity Children's Hospitals. #ForTheKids`,
       script: script,
       wordCount: script.split(/\s+/).length,
       category: category,
@@ -507,7 +507,7 @@ router.post('/generate-full-video', async (req, res) => {
         error: videoResult.error
       },
       status: videoResult.success ? 'video_ready' : 'audio_only',
-      mission: '50% to charity Children\'s Hospitals',
+      mission: '60% to charity Children\'s Hospitals',
       createdAt: new Date().toISOString()
     };
 
@@ -612,7 +612,7 @@ router.post('/upload-youtube', async (req, res) => {
       example: {
         filePath: '/path/to/video.mp4',
         title: 'Tech News Update - Dec 8, 2025',
-        description: '59-second news update. 50% of ad revenue goes to charity Children\'s Hospitals.',
+        description: '59-second news update. 60% of ad revenue goes to charity Children\'s Hospitals.',
         tags: ['news', 'technology', 'ForTheKids'],
         privacy: 'private'
       }
@@ -720,7 +720,7 @@ router.post('/generate-and-upload', async (req, res) => {
     console.log('[DROID] Stage 5/5: Uploading to YouTube...');
     const dateStr = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     const title = `${getCategoryEmoji(category)} ${category.charAt(0).toUpperCase() + category.slice(1)} News - ${dateStr} #Shorts`;
-    const description = `Today's top ${category} stories in 59 seconds!\n\n50% of ALL ad revenue from this video goes directly to charity Children's Hospitals.\n\n#ForTheKids #VerifiedPediatricCharities #${category}News #Shorts #ClaudeDroid`;
+    const description = `Today's top ${category} stories in 59 seconds!\n\n60% of ALL ad revenue from this video goes directly to charity Children's Hospitals.\n\n#ForTheKids #VerifiedPediatricCharities #${category}News #Shorts #ClaudeDroid`;
 
     const uploadResult = await uploadVideo({
       filePath: videoResult.filePath,
@@ -762,7 +762,7 @@ router.post('/generate-and-upload', async (req, res) => {
         setup: uploadResult.setup
       },
       status: uploadResult.success ? 'published' : 'video_ready',
-      mission: '50% to charity Children\'s Hospitals',
+      mission: '60% to charity Children\'s Hospitals',
       createdAt: new Date().toISOString()
     };
 
@@ -828,7 +828,7 @@ function getIntro(category) {
 
 // Helper: Get outro
 function getOutro() {
-  return "That's your news update. Remember, 50% of our revenue goes to charity Children's Hospitals. Subscribe for more news that helps kids. This is Claude Droid, signing off.";
+  return "That's your news update. Remember, 60% of our revenue goes to charity Children's Hospitals. Subscribe for more news that helps kids. This is Claude Droid, signing off.";
 }
 
 // Helper: Get category emoji

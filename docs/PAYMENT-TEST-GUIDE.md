@@ -58,7 +58,7 @@ curl https://dao.youandinotai.com/health
 
 ## Gospel Split Examples
 
-| Total | charity (50%) | Infrastructure (30%) | Founder (20%) |
+| Total | charity (50%) | Infrastructure (30%) | Founder (10%) |
 |-------|----------------|---------------------|---------------|
 | $24.99 | $12.50 | $7.50 | $5.00 |
 | $29.99 | $15.00 | $9.00 | $6.00 |

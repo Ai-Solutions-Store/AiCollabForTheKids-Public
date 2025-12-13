@@ -43,7 +43,7 @@ https://youandinotai.com
 4. Fill out application:
    - **Account Type:** "Hobbyist" → "Making a bot"
    - **App Name:** "AiCollabForTheKids Donation Bot"
-   - **Use Case:** "Automatically tweet when donations are received for charity (charity Children's Hospitals). 50% of all revenue goes to charity. Tweets provide transparency and social proof."
+   - **Use Case:** "Automatically tweet when donations are received for charity (charity Children's Hospitals). 60% of all revenue goes to charity. Tweets provide transparency and social proof."
    - **Will you make Twitter content available to government?** No
 5. Accept Terms & Submit
 

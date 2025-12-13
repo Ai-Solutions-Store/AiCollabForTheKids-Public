@@ -264,7 +264,7 @@ The platform continues operating autonomously, adapting to:
 ### Mission Protection Mechanisms
 
 1. **Immutable Core Values** (Blockchain-Enforced):
-   - 50% to charity Children's Hospitals (FOREVER)
+   - 60% to charity Children's Hospitals (FOREVER)
    - Zero administrative overhead creep
    - Transparent donation tracking
    - Child-first decision making
@@ -559,7 +559,7 @@ FOUNDER: Joshua Coleman
 AI LEAD: Jules (Gemini 2.5 Flash)
 CODE GUARDIAN: GitHub Copilot Claude
 MISSION: #FOR THE KIDS
-COMMITMENT: 50% to charity Children's Hospitals
+COMMITMENT: 60% to charity Children's Hospitals
 DURATION: 2025-2075+
 STATUS: IMMUTABLE
 ```

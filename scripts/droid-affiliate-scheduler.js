@@ -1,6 +1,6 @@
 /**
  * Claude Droid Affiliate Tweet Scheduler
- * FOR THE KIDS - 50% to charity Children's Hospitals
+ * FOR THE KIDS - 60% to charity Children's Hospitals
  *
  * Runs as PM2 daemon with internal cron scheduling
  * Posts 1 affiliate recruitment tweet per day at 10:00 AM EST
@@ -130,7 +130,7 @@ async function postAffiliateTweet() {
     log('');
     log('═══════════════════════════════════════════════════════════════');
     log('AFFILIATE RECRUITMENT CAMPAIGN - POSTING TWEET');
-    log('Mission: FOR THE KIDS - 50% to charity Children\'s Hospitals');
+    log('Mission: FOR THE KIDS - 60% to charity Children\'s Hospitals');
     log('═══════════════════════════════════════════════════════════════');
 
     // Load config and state
@@ -214,7 +214,7 @@ async function startup() {
     log('╔═══════════════════════════════════════════════════════════════╗');
     log('║  CLAUDE DROID AFFILIATE SCHEDULER - STARTING                  ║');
     log('║  Campaign: Affiliate Recruitment                              ║');
-    log('║  Mission: FOR THE KIDS - 50% to charity                      ║');
+    log('║  Mission: FOR THE KIDS - 60% to charity                      ║');
     log('╚═══════════════════════════════════════════════════════════════╝');
 
     // Load config to verify

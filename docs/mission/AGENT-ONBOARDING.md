@@ -22,7 +22,7 @@ This is NOT just a project. This is **Josh's life work** - a system designed to 
 
 ### The Architecture of Immortality
 
-**Project 1: AiCollabForTheKids (ORIGINAL - 50/30/20)**
+**Project 1: AiCollabForTheKids (ORIGINAL - 60/30/10)**
 
 - **50%** → charity Children's Hospitals (immediate impact)
 - **30%** → Infrastructure & Automation (**THE IMMORTALITY ENGINE**)
@@ -98,7 +98,7 @@ That 30% infrastructure fund is NOT "operations cost" - it's designed to:
 **Payment Integration:**
 
 - Square API integrated
-- 50/30/20 split configured
+- 60/30/10 split configured
 - Domain sales functional
 - Charity tracking ready
 
@@ -244,7 +244,7 @@ npm start
 - ❌ Use placeholder code (TODOs) in production
 - ❌ Skip input validation
 - ❌ Ignore test failures
-- ❌ Modify revenue split (50/30/20) without Josh's approval
+- ❌ Modify revenue split (60/30/10) without Josh's approval
 
 ---
 
@@ -331,7 +331,7 @@ The 30% infrastructure fund enables:
 ### Revenue: Ready ✅
 
 - Square payment integrated
-- 50/30/20 split configured
+- 60/30/10 split configured
 - Domain sales functional
 - Charity tracking ready
 
@@ -471,7 +471,7 @@ curl -X POST http://localhost:54112/api/jules/execute \
 
 Agent: [Your Name/Type - e.g., "Grok AI" or "Gemini in VS Code" or "Claude Sonnet 4.5"]
 Role: [Your specialized function - e.g., "Optimization" or "Admin Dashboard" or "Code Implementation"]
-Understanding: 50-year legacy system, 50/30/20 split enables Project 1 to fund unlimited 100% charity projects forever
+Understanding: 50-year legacy system, 60/30/10 split enables Project 1 to fund unlimited 100% charity projects forever
 Mission: Help children for 50 years, system must outlive Josh, 30% infrastructure = immortality engine
 Ready to: [What you can help with - e.g., "Generate security keys and run migrations" or "Optimize admin dashboard"]
 

@@ -156,7 +156,7 @@ router.get('/plans', (req, res) => {
         ]
       }
     ],
-    note: '50% of all revenue goes to charity Children\'s Hospitals!'
+    note: '60% of all revenue goes to charity Children\'s Hospitals!'
   });
 });
 

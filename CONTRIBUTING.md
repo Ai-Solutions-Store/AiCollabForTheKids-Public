@@ -1,6 +1,6 @@
 # Contributing to Team Claude For The Kids
 
-Thank you for your interest in contributing! This project helps children through AI-powered revenue allocation, with **50% of all revenue going to Verified Pediatric Charities**.
+Thank you for your interest in contributing! This project helps children through AI-powered revenue allocation, with **60% of ALL revenue going to Verified Pediatric Charities**.
 
 ---
 
@@ -11,7 +11,7 @@ Thank you for your interest in contributing! This project helps children through
 ```
 50% → Verified Pediatric Charities
 30% → Infrastructure
-20% → Founder
+10% → Founder
 ```
 
 **This split CANNOT be modified.** Any PR attempting to change the revenue distribution will be rejected. This is hardcoded into the DAO logic and is the foundation of our charitable mission.

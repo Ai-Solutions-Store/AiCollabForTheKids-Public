@@ -54,7 +54,7 @@ if (payment.metadata && payment.metadata.referral_id) {
 | **Gospel Split (on NET):** | | |
 | → charity (50%) | $4.25 | 850 * 0.50 = 425 cents |
 | → Infrastructure (30%) | $2.55 | 850 * 0.30 = 255 cents |
-| → Founder (20%) | $1.69 | 850 * 0.20 = 170 cents |
+| → Founder (10%) | $1.69 | 850 * 0.20 = 170 cents |
 
 **Total:** $1.50 + $4.25 + $2.55 + $1.69 = **$10.19**
 
@@ -79,7 +79,7 @@ The affiliate gets 149 cents ($1.50) from the 999 cents, leaving 850 cents for G
 | **Gospel Split (on GROSS):** | | |
 | → charity (50%) | $5.00 | 999 * 0.50 = 499.5 → 500 cents |
 | → Infrastructure (30%) | $3.00 | 999 * 0.30 = 299.7 → 300 cents |
-| → Founder (20%) | $2.00 | 999 * 0.20 = 199.8 → 199 cents |
+| → Founder (10%) | $2.00 | 999 * 0.20 = 199.8 → 199 cents |
 
 **Total:** $5.00 + $3.00 + $1.99 = **$9.99** ✅
 
@@ -197,7 +197,7 @@ const distribution = calculateSplit(grossAmount);
 ```
 
 If Gospel Split used GROSS amount, we'd pay out:
-- 15% commission + 50% charity + 30% Infra + 20% Founder = **115%** of sale 💸
+- 15% commission + 50% charity + 30% Infra + 10% Founder = **115%** of sale 💸
 
 This would bankrupt the platform immediately.
 
@@ -265,7 +265,7 @@ Commission system ensures:
 - Platform remains sustainable
 - Transparent tracking for all parties
 
-**50% to charity. Always. Even after commissions.**
+**60% to charity. Always. Even after commissions.**
 
 ---
 

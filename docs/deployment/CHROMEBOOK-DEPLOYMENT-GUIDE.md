@@ -183,7 +183,7 @@ Type one of these URLs:
 
 ### **Step 4: Explore Dashboard**
 - **Sidebar:** 27 navigation items
-- **Dashboard View:** Financial Core (50/30/20 split)
+- **Dashboard View:** Financial Core (60/30/10 split)
 - **Antigravity Console:** Applicant tracking
 - **Domain Manager:** 4 domains monitored
 - **Command Center:** Jules AI execution

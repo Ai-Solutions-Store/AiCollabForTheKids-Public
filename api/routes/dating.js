@@ -4,7 +4,7 @@
  * ═══════════════════════════════════════════════════════════════════════════════
  *
  * The first 100% human-verified, zero-AI dating app.
- * 50% of profits go to charity Children's Hospitals.
+ * 60% of profits go to charity Children's Hospitals.
  *
  * Features:
  * - Human verification before matching
@@ -608,7 +608,7 @@ router.get('/founding-members/status', (req, res) => {
     price: 14.99,
     regularPrice: 19.99,
     discount: '20% off for life',
-    mission: '50% of profits go to charity Children\'s Hospitals'
+    mission: '60% of profits go to charity Children\'s Hospitals'
   });
 });
 
@@ -674,7 +674,7 @@ router.get('/stats', (req, res) => {
     },
     mission: {
       charityPartner: GOSPEL_SPLIT.CHARITY_NAME,
-      profitToCharity: '50%',
+      profitToCharity: '60%',
       message: 'Every subscription helps kids in need.'
     }
   });

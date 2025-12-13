@@ -247,7 +247,7 @@ If you provide feedback, suggestions, or ideas, we may use them freely without c
 
 ### 8.3 Charitable Contribution
 
-**Mission:** **50% of all revenue** goes to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
+**Mission:** **60% of all revenue** goes to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
 
 **Your subscription helps kids in need!** View our transparency dashboard at [URL] to see real-time donation tracking.
 
@@ -449,7 +449,7 @@ We are not liable for delays or failures due to circumstances beyond our reasona
 
 ## 18. MISSION STATEMENT
 
-**FOR THE KIDS:** 50% of all revenue from YouAndINotAI goes directly to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
+**FOR THE KIDS:** 60% of all revenue from YouAndINotAI goes directly to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
 
 **Thank you for being part of our mission to help children in need!**
 

@@ -183,7 +183,7 @@
 - Square Integration: ✅ LIVE (Production mode)
 - Affiliate System: ✅ LIVE (Task #067 complete, 15% commission)
 - Total Raised: **$38.97** (from Universal Context)
-- Split: 50/30/20 (IMMUTABLE)
+- Split: 60/30/10 (IMMUTABLE)
 
 ---
 

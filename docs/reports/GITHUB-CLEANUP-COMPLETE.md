@@ -58,7 +58,7 @@ All documentation now live on GitHub.
 ### Repository Details
 **Name:** Ai-Solutions-Store/AiCollabForTheKids
 **Visibility:** Private
-**Description:** FOR THE KIDS | ORIGINAL: 50/30/20 funds infrastructure | ALL NEW: 100% charity | charity Children's Hospital | Infrastructure enables unlimited pure charity projects
+**Description:** FOR THE KIDS | ORIGINAL: 60/30/10 funds infrastructure | ALL NEW: 100% charity | charity Children's Hospital | Infrastructure enables unlimited pure charity projects
 
 ### Branch Status
 **Branches:** 1 (master only)
@@ -278,7 +278,7 @@ AiCollabForTheKids/
 - [x] Rate limiting active
 
 ### Mission Alignment ✅
-- [x] 50/30/20 revenue split documented
+- [x] 60/30/10 revenue split documented
 - [x] 50-year plan explained
 - [x] Automation strategy clear
 - [x] Legal framework outlined

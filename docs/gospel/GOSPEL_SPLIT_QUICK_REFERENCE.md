@@ -16,7 +16,7 @@ Your Standard Stripe account **cannot automatically split payments** to multiple
 - Automatic fund distribution via Transfers API
 - Connected accounts for each recipient
 - Full automation via webhooks
-- 50/30/20 Gospel Split implementation
+- 60/30/10 Gospel Split implementation
 
 ## Immediate Action Items
 
@@ -44,7 +44,7 @@ Gather from each recipient:
 - Bank account details
 - Representative email
 
-**Founder (20%)**
+**Founder (10%)**
 - Personal/business name
 - Tax ID (SSN or EIN)
 - Bank account details
@@ -83,7 +83,7 @@ stripe.transfers.create({
   destination: 'acct_infrastructure'
 });
 
-// 20% to Founder
+// 10% to founder
 stripe.transfers.create({
   amount: 2000,
   currency: 'usd',
@@ -109,7 +109,7 @@ Available for splits:       $96.71
 
 Verified Pediatric Charities (50%): $48.36 ✓
 Infrastructure (30%):    $29.01 ✓
-Founder (20%):           $19.34 ✓
+Founder (10%):           $19.34 ✓
 ---
 Total distributed:       $96.71 (96.7%)
 ```
@@ -161,7 +161,7 @@ A: No - Stripe handles compliance as the regulated entity. You just facilitate t
 **Q: What about tax reporting?**
 A: Stripe generates 1099-NEC for transfers over $600. Keep detailed records.
 
-**Q: Can I change the 50/30/20 split?**
+**Q: Can I change the 60/30/10 split?**
 A: Yes - it's just percentage calculations in your code. Update anytime.
 
 **Q: Does the charity need a Stripe account?**

@@ -2,7 +2,7 @@
  * 💙 SQUARE SUBSCRIPTION API - FOR THE KIDS (Direct REST API - No SDK)
  *
  * Handles subscription creation, management, and tracking
- * 50% of all revenue automatically tracked for charity
+ * 60% of all revenue automatically tracked for charity
  */
 
 import express from 'express';
@@ -75,7 +75,7 @@ router.post('/create-checkout', async (req, res) => {
             amount: plan.price,
             currency: 'USD'
           },
-          note: `50% benefits charity Children's Hospital`
+          note: `60% benefits charity Children's Hospital`
         }]
       },
       checkout_options: {
@@ -192,7 +192,7 @@ async function handlePaymentSuccess(payment) {
     const opsAmount = amount * 0.30;
     const founderAmount = amount * 0.20;
 
-    // Record transaction with 50/30/20 split
+    // Record transaction with 60/30/10 split
     await prisma.transaction.create({
       data: {
         amount,
@@ -209,7 +209,7 @@ async function handlePaymentSuccess(payment) {
       }
     });
 
-    console.log(`💙 Payment processed: $${amount} (50% = $${beneficiaryAmount} → charity)`);
+    console.log(`💙 Payment processed: $${amount} (60% = $${beneficiaryAmount} → charity)`);
   } catch (error) {
     console.error('Error handling payment:', error);
   }
@@ -353,9 +353,9 @@ function mapSquareStatus(squareStatus) {
 
 function getFeaturesByTier(tier) {
   const features = {
-    FREE: ['Basic profile', 'Limited matches (5/day)', 'Text messaging only', '50% to charity'],
-    PREMIUM: ['Enhanced profile', 'Unlimited matches', 'Text + voice messaging', 'See who liked you', 'Ad-free experience', '50% to charity'],
-    VIP: ['Premium profile with badge', 'Unlimited everything', 'Video calling', 'Priority support', 'Advanced filters', 'Profile boost monthly', '50% to charity']
+    FREE: ['Basic profile', 'Limited matches (5/day)', 'Text messaging only', '60% to charity'],
+    PREMIUM: ['Enhanced profile', 'Unlimited matches', 'Text + voice messaging', 'See who liked you', 'Ad-free experience', '60% to charity'],
+    VIP: ['Premium profile with badge', 'Unlimited everything', 'Video calling', 'Priority support', 'Advanced filters', 'Profile boost monthly', '60% to charity']
   };
   return features[tier] || features.FREE;
 }

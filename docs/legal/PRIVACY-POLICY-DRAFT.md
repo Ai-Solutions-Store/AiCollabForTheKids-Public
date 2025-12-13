@@ -15,7 +15,7 @@ Welcome to YouAndINotAI ("we," "us," or "our"). We operate:
 - YouAndINotAI.com (dating platform for adults 18+)
 - AiCollabForTheKids.com (charitable mission site)
 
-**Our Mission:** 50% of all revenue from YouAndINotAI supports charity Children's Hospitals (EIN PENDING_VERIFICATION) and other children's charities.
+**Our Mission:** 60% of all revenue from YouAndINotAI supports charity Children's Hospitals (EIN PENDING_VERIFICATION) and other children's charities.
 
 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our services.
 
@@ -339,7 +339,7 @@ Our services may contain links to third-party websites (e.g., social media, part
 
 ## 12. MISSION STATEMENT
 
-**FOR THE KIDS:** 50% of all revenue from YouAndINotAI goes directly to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
+**FOR THE KIDS:** 60% of all revenue from YouAndINotAI goes directly to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
 
 By using our platform, you are not only finding meaningful connections — you are helping children in need.
 

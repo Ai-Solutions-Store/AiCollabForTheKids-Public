@@ -105,7 +105,7 @@ async function executeProfitAllocation(payment, transaction, previousHash) {
       paymentId: payment.id
     });
 
-    // Execute 20% allocation to Founder account
+    // Execute 10% allocation to Founder account
     console.log('👤 FOUNDER ALLOCATION:', {
       amount: splits.founderAmount,
       account: process.env.SQUARE_ACCOUNT_A || 'ebaytrashortreasure@gmail.com',

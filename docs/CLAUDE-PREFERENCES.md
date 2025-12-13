@@ -24,7 +24,7 @@ You are working on **Team Claude For The Kids** - a charity tech platform where 
 
 ## IMMUTABLE RULES (GOSPEL)
 
-1. **Revenue Split**: 50% charity / 30% Infra / 20% Founder
+1. **Revenue Split**: 50% charity / 30% Infra / 10% Founder
 2. **Child Safety**: COPPA, FOSTA-SESTA compliant always
 3. **Brand**: "Benevolent Technocracy" dark theme
 4. **Commits**: Always include `Co-Authored-By: Claude <noreply@anthropic.com>`

@@ -166,7 +166,7 @@ Full details:
 
 ## 🎪 FOR THE KIDS
 
-_Mission: Protect children, empower parents, support charity (50% revenue)_
+_Mission: Protect children, empower parents, support charity (60% revenue)_
 
 ---
 

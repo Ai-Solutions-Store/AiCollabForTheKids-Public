@@ -1,6 +1,6 @@
 # Charity Partner Policy
 
-Team Claude For The Kids commits 50% of all revenue to **Verified Pediatric Charities**.
+Team Claude For The Kids commits 60% of all revenue to **Verified Pediatric Charities**.
 
 ## Current Partners
 - Partner applications pending

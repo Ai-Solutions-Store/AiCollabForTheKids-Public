@@ -44,7 +44,7 @@
 - ✅ "Profit allocation"
 - ✅ "Revenue distribution"
 - ✅ "Internal profit split"
-- ✅ "50/30/20 allocation"
+- ✅ "60/30/10 allocation"
 
 ---
 
@@ -73,7 +73,7 @@ Funds distributed from company account as needed
 ## 🔗 THE DAO = TRANSPARENCY ONLY
 
 ### What the DAO Smart Contract Does:
-**Purpose:** PROOF of the 50/30/20 split (public blockchain verification)
+**Purpose:** PROOF of the 60/30/10 split (public blockchain verification)
 
 ### How It Works:
 ```
@@ -84,7 +84,7 @@ Transfer batch of revenue to DAO contract address
 Smart contract AUTOMATICALLY splits:
   - 50% → charity wallet (on-chain, PUBLIC)
   - 30% → Infrastructure wallet (on-chain, PUBLIC)
-  - 20% → Founder wallet (on-chain, PUBLIC)
+  - 10% → Founder wallet (on-chain, PUBLIC)
     ↓
 Anyone can verify on Etherscan = TRANSPARENCY
 ```
@@ -105,7 +105,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 ```
 50% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
 30% → Infrastructure & Reinvestment
-20% → Founder (Joshua Coleman)
+10% → Founder (Joshua Coleman)
 ```
 
 **This is:**
@@ -128,7 +128,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 
 **Revenue & Profit:**
 - "50% of net profits allocated to charity"
-- "Revenue distribution: 50/30/20"
+- "Revenue distribution: 60/30/10"
 - "Profit allocation structure"
 - "Internal revenue split"
 
@@ -176,7 +176,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 
 ### 2. Backend API (SPLIT CALCULATION)
 - **File:** `api/server.js`, `api/routes/square-subscriptions.js`
-- **Purpose:** Calculate and track 50/30/20 split
+- **Purpose:** Calculate and track 60/30/10 split
 - **Status:** LIVE (production)
 - **Storage:** PostgreSQL via Prisma
 
@@ -212,7 +212,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 - ❌ "Funds held in escrow for charity"
 
 ### NEW (CORRECT):
-- ✅ "50% of profits allocated to charity Children's Hospitals"
+- ✅ "60% of profits allocated to charity Children's Hospitals"
 - ✅ "Subscribe to premium features"
 - ✅ "Our company commits 50% of net profits to beneficiaries"
 - ✅ "Transparent profit distribution via blockchain"
@@ -237,7 +237,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 
 **Joshua sells stuff.**
 **Company makes profit.**
-**Company splits profit: 50% charity, 30% Infrastructure, 20% Joshua.**
+**Company splits profit: 60% charity, 30% Infrastructure, 10% Joshua.**
 **DAO contract (optional) proves the split publicly on blockchain.**
 
 **NO ESCROW.**

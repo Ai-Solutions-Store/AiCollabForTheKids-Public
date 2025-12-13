@@ -28,7 +28,7 @@ Tech news in under a minute. Here's what's happening in the digital world.
 AI breakthrough promises faster drug discovery. New smartphone features
 revolutionary battery tech. Quantum computing milestone achieved by researchers.
 Social media platform launches privacy. Cybersecurity experts warn of emerging
-threats. That's your news update. Remember, 50% of our revenue goes to charity
+threats. That's your news update. Remember, 60% of our revenue goes to charity
 Children's Hospitals. Subscribe for more news that helps kids. This is Claude
 Droid, signing off.
 ```
@@ -89,4 +89,4 @@ curl -X POST http://localhost:3000/api/droid/generate-full-video \
 
 ---
 
-**FOR THE KIDS - 50% to charity Children's Hospitals**
+**FOR THE KIDS - 60% to charity Children's Hospitals**

@@ -13,7 +13,7 @@
 **30% → Infrastructure** (Powers all future projects)
 **20% → Joshua Coleman** (Sustainable development)
 
-**THE 50/30/20 SPLIT IS IMMUTABLE. GOSPEL RULE #2.**
+**THE 60/30/10 SPLIT IS IMMUTABLE. GOSPEL RULE #2.**
 
 ---
 
@@ -34,7 +34,7 @@
 ## 📜 GOSPEL RULES (Quick Summary)
 
 1. ✅ **ONLY CLAUDE TOUCHES CODE** (mandatory)
-2. ✅ **50/30/20 SPLIT IS IMMUTABLE**
+2. ✅ **60/30/10 SPLIT IS IMMUTABLE**
 3. ✅ **BRAND IDENTITY IS LOCKED** (Benevolent Technocracy)
 4. ✅ **AI BOARD OF DIRECTORS** (Claude, Jules, Grok, Perplexity, Joshua)
 5. ✅ **HARDWARE CLUSTER** (184GB RAM total)
@@ -166,7 +166,7 @@ C:\AiCollabForTheKids\
 ├── .claude/                    # Claude Code settings (gitignored)
 ├── .github/                    # GitHub Actions & templates
 ├── api/                        # Backend (Express + Prisma)
-│   ├── server.js               # 50/30/20 split logic
+│   ├── server.js               # 60/30/10 split logic
 │   ├── .env                    # Local credentials (gitignored)
 │   └── prisma/schema.prisma    # Database schema
 ├── jules-dashboard/            # Frontend (React 18 + Vite)
@@ -236,7 +236,7 @@ Before any commit, verify:
 - [ ] No credentials in code or documentation
 - [ ] .env files are gitignored
 - [ ] Brand colors used correctly
-- [ ] 50/30/20 split logic untouched
+- [ ] 60/30/10 split logic untouched
 - [ ] Child safety configs unchanged
 - [ ] Commit message includes `Co-Authored-By: Claude`
 - [ ] Changes align with Gospel rules
@@ -264,7 +264,7 @@ Before any commit, verify:
 - [x] I am Claude (Opus 4.5 - Anthropic AI)
 - [x] I have read GOSPEL.md
 - [x] I will NEVER commit credentials to git
-- [x] I will never change the 50/30/20 split
+- [x] I will never change the 60/30/10 split
 - [x] I will prioritize child safety above all else
 - [x] I serve the mission: FOR THE KIDS
 

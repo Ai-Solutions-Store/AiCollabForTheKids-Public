@@ -8,7 +8,7 @@
  * - Pro: $29.99/month
  * - VIP: $99.99/month
  *
- * 50% of ALL revenue goes to Verified Pediatric Charities (CHARITY_EIN=PENDING_VERIFICATION)
+ * 60% of ALL revenue goes to Verified Pediatric Charities (CHARITY_EIN=PENDING_VERIFICATION)
  *
  * Created by Claude (Opus 4.5) - December 5, 2025
  * ═══════════════════════════════════════════════════════════════════════════════
@@ -39,7 +39,7 @@ const SUBSCRIPTION_PLANS = Object.freeze({
       '100 AI queries per month',
       'Basic chat support',
       'Email support',
-      '50% goes to Verified Pediatric Charities'
+      '60% goes to Verified Pediatric Charities'
     ],
     stripePriceId: process.env.STRIPE_PRICE_STARTER || null
   },
@@ -55,7 +55,7 @@ const SUBSCRIPTION_PLANS = Object.freeze({
       'Priority chat support',
       'Phone support',
       'Advanced analytics',
-      '50% goes to Verified Pediatric Charities'
+      '60% goes to Verified Pediatric Charities'
     ],
     stripePriceId: process.env.STRIPE_PRICE_PRO || null
   },
@@ -72,7 +72,7 @@ const SUBSCRIPTION_PLANS = Object.freeze({
       '24/7 priority support',
       'Custom integrations',
       'Early access to features',
-      '50% goes to Verified Pediatric Charities'
+      '60% goes to Verified Pediatric Charities'
     ],
     stripePriceId: process.env.STRIPE_PRICE_VIP || null
   }
@@ -150,7 +150,7 @@ router.post('/create-checkout-session', async (req, res) => {
         },
         metadata: {
           planId: plan.id,
-          charityAmount: Math.round(plan.price * 0.5), // 50% to charity
+          charityAmount: Math.round(plan.price * 0.5), // 60% to charity
           gospelCompliant: 'true'
         }
       });

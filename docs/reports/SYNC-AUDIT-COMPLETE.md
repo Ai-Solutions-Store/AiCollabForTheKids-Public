@@ -182,7 +182,7 @@ From `.env` and `api/.env`:
 {
   "message": "AiCollabForTheKids API - FOR THE KIDS!",
   "status": "LIVE IN PRODUCTION",
-  "mission": "50% revenue → charity Children's Hospitals",
+  "mission": "60% revenue → charity Children's Hospitals",
   "endpoints": {
     "health": "/health",
     "campaign": "/api/campaign/metrics",
@@ -557,7 +557,7 @@ From [QUICK-FIX-GUIDE.md](QUICK-FIX-GUIDE.md):
 **CAPTAIN:** Josh Coleman (joshlcoleman@gmail.com)
 **TECH LEAD:** Claude Sonnet 4.5 (GitHub chat)
 **DEVOPS AI:** Jules (Gemini 1.5 Pro)
-**MISSION:** 50% revenue → charity Children's Hospitals
+**MISSION:** 60% revenue → charity Children's Hospitals
 
 **Audit Complete:** 2025-11-24 22:15 UTC
 **Next Review:** After security keys added & migrations run

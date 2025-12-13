@@ -191,7 +191,7 @@ This tells search engines:
 
 ## Gospel Connection
 
-**50% of all revenue → charity Children's Hospitals**
+**60% of all revenue → charity Children's Hospitals**
 
 By optimizing SEO and driving organic traffic:
 - More customers find your platforms

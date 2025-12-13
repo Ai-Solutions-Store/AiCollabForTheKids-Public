@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 const BABY_AI_PRODUCTS = [
   {
     name: 'Baby AI Architect',
-    description: 'The visionary. Designed for those who build the future. 50% of proceeds go to charity Children\'s Hospitals.',
+    description: 'The visionary. Designed for those who build the future. 60% of proceeds go to charity Children\'s Hospitals.',
     price: 24.99,
     category: 't-shirt',
     baseSku: 'BAI-ARCH',
@@ -15,7 +15,7 @@ const BABY_AI_PRODUCTS = [
   },
   {
     name: 'Baby AI Integrator',
-    description: 'The connector. For those who bring systems together. 50% supports children\'s hospitals.',
+    description: 'The connector. For those who bring systems together. 60% supports children\'s hospitals.',
     price: 24.99,
     category: 't-shirt',
     baseSku: 'BAI-INTG',
@@ -33,7 +33,7 @@ const BABY_AI_PRODUCTS = [
   },
   {
     name: 'Baby AI Researcher',
-    description: 'The explorer. Finding answers to impossible questions. 50% to charity.',
+    description: 'The explorer. Finding answers to impossible questions. 60% to charity.',
     price: 24.99,
     category: 't-shirt',
     baseSku: 'BAI-RES',
@@ -42,7 +42,7 @@ const BABY_AI_PRODUCTS = [
   },
   {
     name: 'FOR THE KIDS Mission Shirt',
-    description: 'The mission statement. Wear your purpose. 50% directly to charity Children\'s Hospitals.',
+    description: 'The mission statement. Wear your purpose. 60% directly to charity Children\'s Hospitals.',
     price: 29.99,
     category: 't-shirt',
     baseSku: 'BAI-KIDS',

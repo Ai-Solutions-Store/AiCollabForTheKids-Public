@@ -6,7 +6,7 @@
  * This is the Cloudflare Workers entry point for the API.
  * It wraps the Express app for edge deployment.
  *
- * FOR THE KIDS - 50% to charity Children's Hospitals
+ * FOR THE KIDS - 60% to charity Children's Hospitals
  *
  * Created by Claude (Opus 4.5) - December 3, 2025
  * ═══════════════════════════════════════════════════════════════════════════════
@@ -102,7 +102,7 @@ export default {
           ],
           disclosure: {
             important: 'Campaign funds are for PLATFORM DEVELOPMENT only.',
-            postLaunch: 'AFTER launch, the platform will donate 50% of net revenue to charity.'
+            postLaunch: 'AFTER launch, the platform will donate 60% of net revenue to charity.'
           }
         }, corsHeaders);
       }
@@ -139,7 +139,7 @@ export default {
           },
           mission: {
             charityPartner: "charity Children's Hospitals",
-            profitToCharity: '50%',
+            profitTocharity: '60%',
             message: 'Every subscription helps kids in need.'
           }
         }, corsHeaders);

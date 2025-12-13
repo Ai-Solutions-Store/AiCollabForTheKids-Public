@@ -32,7 +32,7 @@ dotenv.config();
 // Verify Gospel split on startup
 try {
   verifyGospelSplit();
-  console.log('✅ GOSPEL SPLIT VERIFIED: 50% charity | 30% Infra | 20% Founder');
+  console.log('✅ GOSPEL SPLIT VERIFIED: 60% charity | 30% Infra | 10% Founder');
 } catch (error) {
   console.error('🚨 GOSPEL SPLIT VERIFICATION FAILED - SHUTTING DOWN');
   process.exit(1);
@@ -110,7 +110,7 @@ app.get('/', (req, res) => {
   res.json({
     message: 'AiCollabForTheKids API - FOR THE KIDS!',
     status: 'LIVE IN PRODUCTION',
-    mission: '50% revenue → charity Children\'s Hospitals',
+    mission: '60% revenue → charity Children\'s Hospitals',
     endpoints: {
       health: '/health',
       campaign: '/api/campaign/metrics',
@@ -165,7 +165,7 @@ app.get('/api/gospel', (req, res) => {
     gospel: GOSPEL_SPLIT,
     message: 'GOSPEL SPLIT IS IMMUTABLE',
     verified: true,
-    note: '50% to charity | 30% Infrastructure | 20% Founder'
+    note: '60% to charity | 30% Infrastructure | 10% Founder'
   });
 });
 
@@ -187,7 +187,7 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   logger.info(`🚀 Jules API Server running on port ${PORT}`);
   logger.info(`Mission: FOR THE KIDS!`);
-  logger.info(`Revenue: 50% → charity Children's Hospitals`);
+  logger.info(`Revenue: 60% → charity Children's Hospitals`);
 });
 
 export default app;

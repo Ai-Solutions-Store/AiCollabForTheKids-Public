@@ -1,7 +1,7 @@
 {
   "name": "aicollab-for-the-kids",
   "version": "1.0.0",
-  "description": "FOR THE KIDS - 50% revenue to charity Children's Hospital",
+  "description": "FOR THE KIDS - 60% revenue to charity Children's Hospital",
   "type": "module",
   "scripts": {
     "dev": "cd api && npm run dev",

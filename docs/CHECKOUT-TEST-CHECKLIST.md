@@ -30,7 +30,7 @@
 │  6. DAO RECORDS GOSPEL SPLIT                                            │
 │     ├── 50% → charity (pending ledger)                                 │
 │     ├── 30% → Infrastructure                                            │
-│     └── 20% → Founder                                                   │
+│     └── 10% → Founder                                                   │
 │                                                                         │
 │  7. LEDGER UPDATED                                                      │
 │     └── safe-harbor-ledger.json                                         │
@@ -146,4 +146,4 @@ For each payment, confirm the ledger recorded:
 
 ---
 
-**FOR THE KIDS - 50% to charity Children's Hospitals**
+**FOR THE KIDS - 60% to charity Children's Hospitals**

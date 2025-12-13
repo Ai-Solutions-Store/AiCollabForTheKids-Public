@@ -3,7 +3,7 @@
 
 **Date:** November 24, 2025  
 **Project:** youandinotai.com (Dating Platform)  
-**Mission:** 50% revenue → Children's charities (charity EIN PENDING_VERIFICATION)  
+**Mission:** 60% revenue → Children's charities (charity EIN PENDING_VERIFICATION)  
 **Requirement:** 18+ age verification (legally required, ethically mandatory)
 
 ---
@@ -214,7 +214,7 @@ export async function verifyAge(sessionToken: string): Promise<boolean> {
 - Content policy
 - Liability disclaimers
 - Dispute resolution
-- Revenue model transparency (50% to charity)
+- Revenue model transparency (60% to charity)
 - Termination rights
 
 **Template Sections:**
@@ -223,7 +223,7 @@ export async function verifyAge(sessionToken: string): Promise<boolean> {
 You must be at least 18 years old to use this service.
 
 ## Charitable Mission
-50% of all revenue supports charity Children's Hospital (EIN PENDING_VERIFICATION).
+60% of all revenue supports charity Children's Hospital (EIN PENDING_VERIFICATION).
 
 ## Platform Liability
 - Users are responsible for their own conduct

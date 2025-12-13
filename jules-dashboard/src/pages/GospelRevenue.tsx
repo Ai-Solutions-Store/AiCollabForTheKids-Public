@@ -140,7 +140,7 @@ export default function GospelRevenue() {
                 "Kids needs over structure. Non-negotiable."
               </p>
               <p className="text-sm text-gray-400">
-                Live NET profit tracking with immutable 50/30/20 split
+                Live NET profit tracking with immutable 60/30/10 split
               </p>
             </div>
             <div className="flex flex-col items-end gap-2">
@@ -280,12 +280,12 @@ export default function GospelRevenue() {
             </CardContent>
           </Card>
 
-          {/* 20% Founder */}
+          {/* 10% Founder */}
           <Card className="glass-card border-[#DAA520]/50">
             <CardHeader>
               <CardTitle className="text-lg text-white flex items-center gap-2">
                 <DollarSign className="w-5 h-5 text-[#DAA520]" />
-                Founder (20%)
+                Founder (10%)
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -357,7 +357,7 @@ export default function GospelRevenue() {
                 </h3>
                 <p className="text-sm text-gray-300">
                   All revenue calculations use NET profit (gross revenue minus COGS, shipping, payment processor fees, and tax).
-                  The 50/30/20 split is immutable and enforced at the database level. No exceptions, no overrides.
+                  The 60/30/10 split is immutable and enforced at the database level. No exceptions, no overrides.
                 </p>
                 <div className="flex flex-wrap gap-3 pt-2">
                   <Badge className="bg-green-500/20 text-green-400">
@@ -374,7 +374,7 @@ export default function GospelRevenue() {
                   </Badge>
                   <Badge className="bg-green-500/20 text-green-400">
                     <CheckCircle className="w-3 h-3 mr-1" />
-                    50/30/20 immutable
+                    60/30/10 immutable
                   </Badge>
                 </div>
               </div>

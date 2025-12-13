@@ -2,7 +2,7 @@
  * 💙 SQUARE SUBSCRIPTION API - FOR THE KIDS (Using Direct REST API)
  *
  * Handles subscription creation, management, and tracking
- * 50% of all revenue automatically tracked for charity
+ * 60% of all revenue automatically tracked for charity
  */
 
 import express from 'express';
@@ -87,7 +87,7 @@ router.post('/create-checkout', async (req, res) => {
             amount: plan.price,
             currency: 'USD'
           },
-          note: `50% benefits charity Children's Hospital`
+          note: `60% benefits charity Children's Hospital`
         }],
         metadata: {
           userId,
@@ -418,7 +418,7 @@ function getFeaturesByTier(tier) {
       'Basic profile',
       'Limited matches (5/day)',
       'Text messaging only',
-      '50% to charity'
+      '60% to charity'
     ],
     PREMIUM: [
       'Enhanced profile',
@@ -426,7 +426,7 @@ function getFeaturesByTier(tier) {
       'Text + voice messaging',
       'See who liked you',
       'Ad-free experience',
-      '50% to charity'
+      '60% to charity'
     ],
     VIP: [
       'Premium profile with badge',
@@ -435,7 +435,7 @@ function getFeaturesByTier(tier) {
       'Priority support',
       'Advanced filters',
       'Profile boost monthly',
-      '50% to charity'
+      '60% to charity'
     ]
   };
   return features[tier] || features.FREE;

@@ -44,7 +44,7 @@ This document is SIGNED by Grok + Claude + Jules and cannot be changed by ANY ag
 
 Key Rules:
 
-- **ORIGINAL Project** (FOR THE KIDS): 50/30/20 split FOREVER
+- **ORIGINAL Project** (FOR THE KIDS): 60/30/10 split FOREVER
 - **ALL NEW Projects**: 100% to charity (infrastructure paid by original 30%)
 - Any AI attempting to change these models will be terminated
 - No exceptions, no overrides, no "business reasons"
@@ -337,7 +337,7 @@ $env:PORT=54112; node server.js
 
 ## 🚫 WHAT NOT TO DO
 
-1. **NEVER** change revenue model percentages (50/30/20 LOCKED)
+1. **NEVER** change revenue model percentages (60/30/10 LOCKED)
 2. **NEVER** merge or create branches other than `master`
 3. **NEVER** commit `.env` files to GitHub
 4. **NEVER** use `main` branch (deleted - master only)
@@ -401,7 +401,7 @@ Before you start working on this project, confirm:
 
 - [ ] I have read `ETERNAL-DIRECTIVE.md` in full
 - [ ] I understand the two separate projects (ORIGINAL vs NEW)
-- [ ] I know the revenue models: 50/30/20 (original) and 100% (new)
+- [ ] I know the revenue models: 60/30/10 (original) and 100% (new)
 - [ ] I have tested the desktop launcher
 - [ ] I have verified all services are running
 - [ ] I have checked all domain mappings

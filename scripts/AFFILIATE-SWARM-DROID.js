@@ -136,7 +136,7 @@ BRAND IDENTITY (GOSPEL RULE #3 - IMMUTABLE):
 - Secondary Color (Tech): ${this.brand.colors.technology}
 
 REVENUE SPLIT (GOSPEL RULE #2 - IMMUTABLE):
-- 50% → Verified Pediatric Charities
+- 60% → Verified Pediatric Charities
 - 30% → Infrastructure
 - 20% → Founder
 
@@ -246,7 +246,7 @@ Generate the 5 posts now:
         if (content.includes('%') && !content.includes('50%')) {
             if (content.includes('30%') || content.includes('20%')) {
                 // Only flag if other percentages mentioned without 50%
-                violations.push('Mentions split percentages without emphasizing 50% charity');
+                violations.push('Mentions split percentages without emphasizing 60% charity');
             }
         }
 

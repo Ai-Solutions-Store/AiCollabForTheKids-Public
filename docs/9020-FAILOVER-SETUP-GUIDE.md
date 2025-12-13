@@ -193,7 +193,7 @@ sudo tail -f /var/log/failover/failover-$(date '+%Y-%m-%d').log
 ```
 [timestamp] ═══════════════════════════════════════════════════════════════════
 [timestamp] 9020 Failover Monitor Started - Gospel v2.1
-[timestamp] Mission: FOR THE KIDS - 50% to charity
+[timestamp] Mission: FOR THE KIDS - 60% to charity
 [timestamp] Monitoring T5500 at 192.168.0.101
 [timestamp] ═══════════════════════════════════════════════════════════════════
 [timestamp] T5500: HEALTHY

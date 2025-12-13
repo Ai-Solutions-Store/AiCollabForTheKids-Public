@@ -1,6 +1,6 @@
 # Google Analytics 4 Setup Guide
 
-**FOR THE KIDS - 50% to charity Children's Hospitals**
+**FOR THE KIDS - 60% to charity Children's Hospitals**
 
 ---
 

@@ -1,6 +1,6 @@
 /**
  * Claude Droid Daily Video Scheduler
- * FOR THE KIDS - 50% to charity Children's Hospitals
+ * FOR THE KIDS - 60% to charity Children's Hospitals
  *
  * Runs as PM2 daemon with internal cron scheduling
  * Generates one YouTube Shorts video per day at 8 AM EST
@@ -51,7 +51,7 @@ async function generateDailyVideo() {
     log('═══════════════════════════════════════════════════════════════');
     log('CLAUDE DROID DAILY SCHEDULER - GENERATING VIDEO');
     log(`Category: ${category}`);
-    log('Mission: FOR THE KIDS - 50% to charity Children\'s Hospitals');
+    log('Mission: FOR THE KIDS - 60% to charity Children\'s Hospitals');
     log('═══════════════════════════════════════════════════════════════');
 
     try {
@@ -97,7 +97,7 @@ log('');
 log('╔═══════════════════════════════════════════════════════════════╗');
 log('║  CLAUDE DROID DAILY SCHEDULER - STARTED                       ║');
 log('║  Schedule: Daily at 8:00 AM EST (13:00 UTC)                   ║');
-log('║  Mission: FOR THE KIDS - 50% to charity Children\'s          ║');
+log('║  Mission: FOR THE KIDS - 60% to charity Children\'s          ║');
 log('╚═══════════════════════════════════════════════════════════════╝');
 log(`Cron Expression: ${CRON_SCHEDULE}`);
 log('Waiting for next scheduled run...');

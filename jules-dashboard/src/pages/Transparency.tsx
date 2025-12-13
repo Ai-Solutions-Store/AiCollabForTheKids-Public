@@ -3,11 +3,11 @@
  * GOSPEL TRANSPARENCY DASHBOARD - IMMUTABLE FOUNDATION
  * ═══════════════════════════════════════════════════════════════════════════════
  *
- * This is THE GOSPEL - Public accountability for 50/30/20 revenue split
+ * This is THE GOSPEL - Public accountability for 60/30/10 revenue split
  * Created by Claude (Opus) on SABERTOOTH - December 3, 2025
  *
  * GOSPEL RULES ENFORCED:
- * - Rule #2: 50/30/20 Revenue Split (IMMUTABLE)
+ * - Rule #2: 60/30/10 Revenue Split (IMMUTABLE)
  * - 60% → charity Children's Hospital (EIN: 36-2193608)
  * - 30% → Infrastructure (Immortal Engine)
  * - 20% → Founder (Joshua Coleman)
@@ -258,7 +258,7 @@ export default function Transparency() {
                 </div>
 
                 <div className="p-4 bg-purple-500/10 rounded-xl border border-purple-400/30">
-                  <div className="text-sm text-purple-300 mb-1">Founder (20%)</div>
+                  <div className="text-sm text-purple-300 mb-1">Founder (10%)</div>
                   <div className="text-2xl font-bold text-purple-400">
                     ${(currentMonth?.founderAmount || 0).toLocaleString()}
                   </div>

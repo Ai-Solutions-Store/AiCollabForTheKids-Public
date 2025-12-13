@@ -532,7 +532,7 @@ gh run list --repo Ai-Solutions-Store/AiCollabForTheKids --limit 10
 - ☐ Revenue snapshot (compare to Week 0)
 - ☐ Traffic sources (organic vs direct vs social)
 - ☐ Conversion rate (visitors → purchases)
-- ☐ Gospel split verification (50/30/20 still correct)
+- ☐ Gospel split verification (60/30/10 still correct)
 
 **Issues to Watch For:**
 - Webhook failures (check PM2 logs)
@@ -648,7 +648,7 @@ nslookup youandinotai.com
 - [ ] **Sitemaps submitted to Google Search Console** (manual)
 - [ ] **Twitter auto-tweet enabled** (manual)
 - [ ] **All checkout links tested** (manual)
-- [x] Gospel split verified (50/30/20)
+- [x] Gospel split verified (60/30/10)
 - [x] Webhooks configured and tested
 - [x] PM2 processes running on T5500
 - [x] Cloudflare Tunnel active
@@ -757,7 +757,7 @@ All AI-generated content now includes proper disclosure for compliance with:
 
 **Time investment:**
 - **Total: ~4 hours of focused work**
-- **ROI: Infinite** (enables all revenue → 50% to charity)
+- **ROI: Infinite** (enables all revenue → 60% to charity)
 
 **Every hour spent on launch = More kids helped**
 

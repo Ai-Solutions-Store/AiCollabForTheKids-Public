@@ -41,14 +41,14 @@
 
 ## 🔄 How It Works
 
-### The Original 50/30/20 Project
+### The Original 60/30/10 Project
 - Original project has operational costs built in
-- 50% goes to charity Children's Hospital
+- 60% goes to charity Children's Hospital
 - 30% covers infrastructure for ALL future projects
 - 20% compensates Joshua Coleman
 
 ### Original Project Supports All New Projects
-- Original project generates revenue with 50/30/20 split
+- Original project generates revenue with 60/30/10 split
 - The 30% infrastructure portion covers:
   - Grok AI API costs for ALL new 100% projects
   - Claude AI API costs for ALL new 100% projects  
@@ -81,7 +81,7 @@
 
 ### How to Identify Project Type:
 
-**ORIGINAL (50/30/20 Split):**
+**ORIGINAL (60/30/10 Split):**
 ```bash
 MISSION=FOR_THE_KIDS
 CHARITY_PERCENT=50
@@ -118,7 +118,7 @@ See `.env` files in root and `api/` directories for revenue model variables.
 ## 🏥 Charity Beneficiaries
 
 ### Primary: charity Children's Hospital
-- Original 50/30/20 project: Primary beneficiary (50% allocation)
+- Original 60/30/10 project: Primary beneficiary (50% allocation)
 - ALL new projects: 100% allocation
 
 ### Future Expansion

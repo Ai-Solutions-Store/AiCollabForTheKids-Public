@@ -66,7 +66,7 @@ No humans can pause or redirect the 50%.
 - ✅ Revenue split happens AFTER sale (internal company decision)
 - ✅ NO customer-facing donation requests
 - ✅ NO "tax-deductible contribution" language
-- ✅ Public messaging: "Our company allocates 50% of profits to beneficiaries"
+- ✅ Public messaging: "Our company allocates 60% of profits to beneficiaries"
 
 **Legal Result:** Falls OUTSIDE the definition of "solicitation" under Florida § 496.404.
 
@@ -80,7 +80,7 @@ No humans can pause or redirect the 50%.
 ```
 50% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
 30% → Infrastructure & Reinvestment (Growth)
-20% → Founder (Joshua Coleman - Sustenance)
+10% → Founder (Joshua Coleman - Sustenance)
 ```
 
 ### Revenue Flow
@@ -116,7 +116,7 @@ Public Verification on Etherscan (Trustless Transparency)
 ## THE DAO SMART CONTRACT
 
 ### Purpose
-**PUBLIC PROOF** of the 50/30/20 profit allocation on blockchain.
+**PUBLIC PROOF** of the 60/30/10 profit allocation on blockchain.
 
 ### Clarification
 - ✅ Transparency layer (public verification)
@@ -133,7 +133,7 @@ pragma solidity ^0.8.0;
 /**
  * @title CharityGuardian
  * @dev GOSPEL-COMPLIANT Profit Allocation System
- * 50% charity (Kids), 30% Infrastructure (Growth), 20% Founder (Sustenance)
+ * 50% charity (Kids), 30% Infrastructure (Growth), 10% Founder (Sustenance)
  * "Trustless Transparency for the Kids"
  */
 contract CharityGuardian {
@@ -167,7 +167,7 @@ contract CharityGuardian {
         uint256 balance = address(this).balance;
         require(balance > 0, "No funds to distribute");
 
-        // GOSPEL RULE #2: 50/30/20 SPLIT
+        // GOSPEL RULE #2: 60/30/10 SPLIT
         uint256 charity = (balance * 50) / 100;      // 50%
         uint256 infrastructure = (balance * 30) / 100; // 30%
         uint256 founder = balance - charity - infrastructure; // 20% (removes rounding dust)
@@ -196,8 +196,8 @@ contract CharityGuardian {
 ### ✅ APPROVED LANGUAGE
 
 **Revenue & Profit:**
-- "50% of profits allocated to charity"
-- "Revenue distribution: 50/30/20"
+- "60% of profits allocated to charity"
+- "Revenue distribution: 60/30/10"
 - "Profit allocation structure"
 - "Internal revenue split"
 - "Profit sharing system"

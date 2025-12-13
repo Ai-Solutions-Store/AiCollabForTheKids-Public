@@ -382,7 +382,7 @@ curl http://localhost:54112/api/consent/health
 
 ## 💰 MISSION INTACT
 
-**Revenue Model:** Still 50/30/20 for this original project ✅
+**Revenue Model:** Still 60/30/10 for this original project ✅
 
 ```env
 MISSION=FOR_THE_KIDS

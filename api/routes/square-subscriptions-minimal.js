@@ -72,7 +72,7 @@ router.post('/create-checkout', async (req, res) => {
             amount: plan.price,
             currency: 'USD'
           },
-          note: `50% benefits charity Children's Hospital`
+          note: `60% benefits charity Children's Hospital`
         }]
       },
       checkout_options: {
@@ -169,7 +169,7 @@ router.post('/webhook', express.raw({ type: 'application/json' }), async (req, r
       const payment = event.data.object.payment;
       const amount = Number(payment.amount_money.amount) / 100;
       const beneficiaryAmount = amount * 0.50;
-      console.log(`💙 Payment received: $${amount} (50% = $${beneficiaryAmount} → charity)`);
+      console.log(`💙 Payment received: $${amount} (60% = $${beneficiaryAmount} → charity)`);
       console.log(`   Payment ID: ${payment.id} | Order: ${payment.order_id}`);
     }
 

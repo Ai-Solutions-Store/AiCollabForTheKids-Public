@@ -50,7 +50,7 @@ router.post('/create-checkout', async (req, res) => {
       reason: 'Securing compliant high-risk processor (PaymentCloud)',
       eta: '2-3 weeks',
       alternative: 'Visit ai-solutions.store for AI tools and merchandise',
-      mission: '50% of all revenue still goes to Verified Pediatric Charities'
+      mission: '60% of all revenue still goes to Verified Pediatric Charities'
     },
     support: 'joshlcoleman@gmail.com',
     forTheKids: true

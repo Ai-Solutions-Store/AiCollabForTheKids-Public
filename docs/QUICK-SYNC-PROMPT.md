@@ -102,7 +102,7 @@ MISSION CONTEXT:
 LAUNCH STATUS:
 ✅ Legal handcuffs removed (Corporate Sovereign pivot)
 ✅ Dashboard components updated (Revenue Command, Internal Ledger)
-✅ Backend calculates real 50/30/20 splits
+✅ Backend calculates real 60/30/10 splits
 ✅ Multi-source revenue tracking active
 ⏳ Pending: Link escrow bank account, deploy backend, launch dating app
 
@@ -159,7 +159,7 @@ After syncing, you can ask the AI to:
 ## 🚨 COMMON TASKS AFTER SYNC
 
 ### For VS Code GitHub Copilot
-"Help me implement the backend `/financials` endpoint that calculates 50/30/20 splits from transaction data."
+"Help me implement the backend `/financials` endpoint that calculates 60/30/10 splits from transaction data."
 
 ### For Perplexity
 "Validate that our Corporate Sovereign Mode strategy complies with Florida Statute Chapter 496 § 496.404 regarding solicitation exemptions."

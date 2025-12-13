@@ -4,7 +4,7 @@
 
 Team Claude For The Kids is a **commercial automation firm with a philanthropic mission** - 50% of all profits go directly to charity Children's Hospitals. Our brand identity navigates the challenging intersection of high-performance technical excellence and humanitarian purpose.
 
-**Core Principle:** We don't look like a charity that does tech. We look like a serious automation firm that generates so much value, 50% of profits become a structural dividend for children's hospitals.
+**Core Principle:** We don't look like a charity that does tech. We look like a serious automation firm that generates so much value, 60% of profits become a structural dividend for children's hospitals.
 
 ---
 

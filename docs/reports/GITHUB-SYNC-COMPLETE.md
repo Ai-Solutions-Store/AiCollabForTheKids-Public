@@ -214,7 +214,7 @@ Grafana:    localhost:3001 (dashboards)
 
 ## 💰 REVENUE MODEL (ETERNAL DIRECTIVE)
 
-### Original Project (FOR THE KIDS) - 50/30/20 ✅
+### Original Project (FOR THE KIDS) - 60/30/10 ✅
 ```
 50% → Children's charities
 30% → App developers
@@ -326,7 +326,7 @@ AiCollabForTheKids/
 ### Original Project (FOR THE KIDS)
 **Status:** 95% Complete  
 **Remaining:** Start Cloudflare Tunnel for HTTPS  
-**Revenue Model:** 50/30/20 ✅ (ETERNAL DIRECTIVE enforced)  
+**Revenue Model:** 60/30/10 ✅ (ETERNAL DIRECTIVE enforced)  
 **Ready for:** Public launch after HTTPS activation
 
 ### 100% Charity Projects (40 New Projects)

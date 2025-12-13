@@ -330,7 +330,7 @@ afterAll(async () => {
 ## FOR THE KIDS Mission
 
 Every test ensures:
-- 🏥 **50% revenue to charity Children's Hospital**
+- 🏥 **60% revenue to charity Children's Hospital**
 - 🔒 **Maximum security for user data**
 - 📊 **Transparent audit trails**
 - ⚖️ **Full legal compliance**

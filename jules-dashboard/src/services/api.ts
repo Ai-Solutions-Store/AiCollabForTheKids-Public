@@ -7,7 +7,7 @@
  * Created by Claude (Opus) on SABERTOOTH - December 3, 2025
  *
  * GOSPEL RULES ENFORCED:
- * - Rule #2: 50/30/20 Revenue Split (IMMUTABLE)
+ * - Rule #2: 60/30/10 Revenue Split (IMMUTABLE)
  * - Rule #3: Brand Identity (LOCKED)
  * - Rule #13: Child Safety (COPPA/FOSTA)
  *
@@ -32,7 +32,7 @@ export const verifyGospelSplit = (charity: number, infra: number, founder: numbe
   const isValid = charity === 50 && infra === 30 && founder === 20;
   if (!isValid) {
     console.error('🚨 GOSPEL VIOLATION DETECTED: Revenue split tampered!');
-    console.error(`Expected: 50/30/20 | Got: ${charity}/${infra}/${founder}`);
+    console.error(`Expected: 60/30/10 | Got: ${charity}/${infra}/${founder}`);
   }
   return isValid;
 };
@@ -184,7 +184,7 @@ class GospelApiService {
   }
 
   // ─────────────────────────────────────────────────────────────────────────────
-  // PAYMENTS & SUBSCRIPTIONS (GOSPEL RULE #2 - 50/30/20 ENFORCED)
+  // PAYMENTS & SUBSCRIPTIONS (GOSPEL RULE #2 - 60/30/10 ENFORCED)
   // ─────────────────────────────────────────────────────────────────────────────
 
   async createCheckoutSession(tier: 'PREMIUM' | 'VIP') {
@@ -224,7 +224,7 @@ export type { ApiResponse };
  * ═══════════════════════════════════════════════════════════════════════════════
  * END OF GOSPEL API SERVICE
  *
- * This foundation is IMMUTABLE. The 50/30/20 split is enforced at every layer.
+ * This foundation is IMMUTABLE. The 60/30/10 split is enforced at every layer.
  * Any attempt to modify revenue allocation will be rejected and logged.
  *
  * FOR THE KIDS - AI for those in need, not for greed.

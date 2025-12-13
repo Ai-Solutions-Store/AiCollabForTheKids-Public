@@ -1,7 +1,7 @@
 # 🎮 DESKTOP LAUNCHER GUIDE - FOR THE KIDS
 
 **Created:** November 24, 2025  
-**Purpose:** One-click launchers for Original Project (50/30/20) and New Projects (100% Charity)
+**Purpose:** One-click launchers for Original Project (60/30/10) and New Projects (100% Charity)
 
 ---
 
@@ -9,7 +9,7 @@
 
 ### 1️⃣ **ORIGINAL PROJECT - FOR THE KIDS** (Purple Icon)
 **File:** `ORIGINAL-PROJECT-Launch.ps1`  
-**Revenue Split:** 50/30/20 (charity/Infrastructure/Joshua)  
+**Revenue Split:** 60/30/10 (charity/Infrastructure/Joshua)  
 **Domains:**
 - youandinotai.com (Dating Platform)
 - youandinotai.online (Dating Platform)
@@ -55,7 +55,7 @@
 **Features:**
 - ✅ Step-by-step service launcher (press button, wait for green)
 - ✅ Real-time status monitoring for all services
-- ✅ Start Original Project (50/30/20)
+- ✅ Start Original Project (60/30/10)
 - ✅ Start New Project (100% Charity)
 - ✅ Check all services health
 - ✅ Stop all services
@@ -95,7 +95,7 @@ Just click: **ORIGINAL PROJECT - FOR THE KIDS** (purple icon)
 
 ### If T5500 Shut Down Unexpectedly
 1. Click: **MASTER CONTROL PANEL - FOR THE KIDS** (control panel icon)
-2. Press: **🚀 Start Original Project (50/30/20)**
+2. Press: **🚀 Start Original Project (60/30/10)**
 3. Watch the green checkmarks appear for each step
 4. If any step fails (red ❌), click **🔍 Check All Services** to see what's wrong
 
@@ -187,7 +187,7 @@ npx http-server -p 8081
 
 ## 💙 MISSION ALIGNMENT
 
-**Original Project (50/30/20):**
+**Original Project (60/30/10):**
 - 50% → charity Children's Hospitals
 - 30% → Infrastructure Fund (Immortality Engine)
 - 20% → Joshua Coleman

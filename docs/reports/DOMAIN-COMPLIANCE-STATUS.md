@@ -3,7 +3,7 @@
 
 **Last Updated:** November 24, 2025  
 **Reviewed By:** Jules (Gemini 1.5 Pro)  
-**Mission:** 50% revenue → charity Children's Hospital (EIN PENDING_VERIFICATION)
+**Mission:** 60% revenue → charity Children's Hospital (EIN PENDING_VERIFICATION)
 
 ### 🎉 TIER 1 IMPLEMENTATION COMPLETE (Nov 24, 2025)
 ✅ Multi-layer age verification API (7 endpoints)  
@@ -165,7 +165,7 @@ This document tracks legal compliance status across ALL domains in the AiCollabF
 **Example at $10,000/month revenue:**
 - Gross Revenue: $10,000
 - Compliance Costs: ~$700/month
-- **50% to Charity: $5,000/month**
+- **60% to charity: $5,000/month**
 - **Annual Impact: $60,000 to charity Children's Hospital** 🎉
 
 ---

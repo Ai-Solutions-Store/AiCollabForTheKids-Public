@@ -11,7 +11,7 @@ This isn't just a charity project. This is **Josh's life mission** to create a *
 
 ## 🏗️ THE ARCHITECTURE OF IMMORTALITY
 
-### Project 1: The Foundation (50/30/20)
+### Project 1: The Foundation (60/30/10)
 **AiCollabForTheKids** - The ORIGINAL project
 
 **Revenue Split:**
@@ -72,7 +72,7 @@ It will:
 
 ## 💰 THE ECONOMIC MODEL
 
-### Why 50/30/20 Is Perfect
+### Why 60/30/10 Is Perfect
 
 **50% Charity:**
 - Immediate impact for kids NOW
@@ -172,7 +172,7 @@ It will:
 
 2. **Operational Directive:**
    - System must continue operating
-   - 50/30/20 split maintained during transition
+   - 60/30/10 split maintained during transition
    - After transition: 20% redirects (70/30 or 100% charity)
 
 3. **Technical Succession:**
@@ -355,7 +355,7 @@ You are continuing Joshua Coleman's life work. He started this in 2024, knowing 
 
 **Understand:**
 - This is his life's work, not a side project
-- The 50/30/20 split is **strategic**, not arbitrary
+- The 60/30/10 split is **strategic**, not arbitrary
 - The 30% infrastructure fund is the **immortality engine**
 - Every line of code you write might run for 50 years
 - You're not just building an app, you're building a **legacy**

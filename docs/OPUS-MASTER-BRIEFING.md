@@ -11,13 +11,13 @@
 
 ## MISSION STATEMENT
 
-**FOR THE KIDS** - 50% of ALL revenue goes to charity Children's Hospital FOREVER.
+**FOR THE KIDS** - 60% of ALL revenue goes to charity Children's Hospital FOREVER.
 
 ```
 Revenue Split (IMMUTABLE - Gospel Rule #2):
 ├── 50% → charity Children's Hospital (CHARITY_EIN=PENDING_VERIFICATION)
 ├── 30% → Infrastructure (servers, solar, redundancy)
-└── 20% → Founder (Joshua Coleman)
+└── 10% → Founder (Joshua Coleman)
 ```
 
 **Legal Entity:** TRASH OR TREASURE ONLINE RECYCLER LLC (Florida L25000158401)
@@ -47,7 +47,7 @@ LEVEL 4: Other AI ................ DENIED (no write access)
 | API Server | CONFIGURED | Local/Docker ready |
 | Square Payments | LIVE | Production credentials active |
 | Stripe Payments | LIVE | Production credentials active |
-| Gospel 50/30/20 | ENFORCED | Verified on every server start |
+| Gospel 60/30/10 | ENFORCED | Verified on every server start |
 | Fake Data Purge | COMPLETE | Zero tolerance policy active |
 | T5500 Setup Package | READY | E:\T5500-READY\ |
 
@@ -102,7 +102,7 @@ E:\T5500-READY\
 ## CRITICAL RULES (Gospel v2.0)
 
 1. **ZERO FAKE DATA** - Every number must be real or show 0/empty
-2. **50/30/20 IMMUTABLE** - Never modify the revenue split
+2. **60/30/10 IMMUTABLE** - Never modify the revenue split
 3. **NO "ESCROW" LANGUAGE** - Use "Profit Allocation" (legal compliance)
 4. **OPUS ONLY WRITES** - Other AIs can advise, not modify
 5. **CHILD SAFETY FIRST** - COPPA/FOSTA compliance mandatory

@@ -214,7 +214,7 @@ Please review and confirm:
 
 ## 🎪 FOR THE KIDS
 
-_Protecting children, empowering parents, supporting charity (50% revenue)_
+_Protecting children, empowering parents, supporting charity (60% revenue)_
 
 **Mission**: Ensure safe AI experiences for children while supporting children's healthcare.
 

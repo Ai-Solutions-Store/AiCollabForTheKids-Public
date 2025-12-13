@@ -16,7 +16,7 @@
 - ✅ Square payment production credentials
 - ✅ GitHub credentials (Trollz1004)
 - ✅ 4 security keys generated
-- ✅ Revenue model: 50/30/20 split
+- ✅ Revenue model: 60/30/10 split
 
 ### **Jules Dashboard .env**
 
@@ -84,7 +84,7 @@
 2. **API Server** on port 3000 (Express + Prisma + PostgreSQL)
 3. **Jules Dashboard** on port 5173 (React + Vite + TypeScript)
 4. **Live Deployment** on Cloudflare Pages
-5. **Revenue Model** enforced in code (50/30/20 split)
+5. **Revenue Model** enforced in code (60/30/10 split)
 
 **Quick Start Commands:**
 
@@ -111,7 +111,7 @@ npm run dev  # Port 5173
 
 **Core Components:**
 
-- ✅ Financial Core (50/30/20 split enforced)
+- ✅ Financial Core (60/30/10 split enforced)
 - ✅ Antigravity Console (developer pipeline)
 - ✅ Domain Manager (4 domains monitored)
 - ✅ Command Center (Jules AI active)

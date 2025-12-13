@@ -507,7 +507,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 - 🎯 **Technical**: 99.9% uptime in first month
 - 🎯 **Donations**: First $1,000 raised (= 1 child helped)
-- 🎯 **Transparency**: 50% to charity visible on dashboard
+- 🎯 **Transparency**: 60% to charity visible on dashboard
 - 🎯 **Trust**: Security headers A rating
 - 🎯 **User Experience**: Lighthouse score > 90
 

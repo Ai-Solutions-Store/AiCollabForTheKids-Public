@@ -227,14 +227,14 @@ Server: cloudflare
 
 **Result:**
 ```html
-<title>AI Solutions Store | AI Charity Platform - 50% to charity Children's</title>
+<title>AI Solutions Store | AI Charity Platform - 60% to charity Children's</title>
 ```
 
 **Analysis:**
 - ✅ Title tag present
 - ✅ Includes brand name
 - ✅ Includes value proposition ("AI Charity Platform")
-- ✅ Highlights Gospel Split ("50% to charity Children's")
+- ✅ Highlights Gospel Split ("60% to charity Children's")
 - ✅ Under 60 characters (optimal for search results)
 
 **Status:** ✅ PERFECT - No changes needed
@@ -247,7 +247,7 @@ Server: cloudflare
 
 **Result:**
 ```html
-<meta property="og:title" content="AI Solutions Store | 50% to charity Children's Hospitals">
+<meta property="og:title" content="AI Solutions Store | 60% to charity Children's Hospitals">
 ```
 
 **Analysis:**
@@ -384,7 +384,7 @@ Both sites block the following AI bots:
 **3. Mission-Aligned SEO**
 Both sites include Gospel Split messaging in meta tags:
 - youandinotai.com robots.txt: "50% of all profits go to charity Children's Hospitals"
-- ai-solutions.store title: "50% to charity Children's"
+- ai-solutions.store title: "60% to charity Children's"
 
 **Impact:** SEO serves the mission (transparency + discoverability)
 
@@ -485,12 +485,12 @@ curl -s https://[site]/ | grep "og:title"
    - More revenue → More for charity 💚
 
 2. **Title Tags Include Mission**
-   - ai-solutions.store: "50% to charity Children's" in title
+   - ai-solutions.store: "60% to charity Children's" in title
    - youandinotai.com: Mission statement in robots.txt
    - Every search result = Mission visibility
 
 3. **Robots.txt as Mission Statement**
-   - youandinotai.com explicitly states "50% to charity" in robots.txt
+   - youandinotai.com explicitly states "60% to charity" in robots.txt
    - Even web crawlers see the commitment
    - Transparency at the infrastructure level
 
@@ -548,7 +548,7 @@ Sitemap: https://www.ai-solutions.store/sitemap.xml
 
 **Impact on Gospel Mission:**
 - ✅ Both sites are maximizing organic traffic potential
-- ✅ Every search result includes "50% to charity" messaging
+- ✅ Every search result includes "60% to charity" messaging
 - ✅ SEO strategy aligns with transparency values
 - ✅ More traffic = More revenue = More for the kids 💚
 

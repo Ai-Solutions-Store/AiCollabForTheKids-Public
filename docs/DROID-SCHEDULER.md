@@ -1,6 +1,6 @@
 # Claude Droid Daily Scheduler
 
-**FOR THE KIDS - 50% to charity Children's Hospitals**
+**FOR THE KIDS - 60% to charity Children's Hospitals**
 
 ---
 
@@ -93,7 +93,7 @@ curl -X POST http://localhost:3000/api/droid/generate-full-video \
 [2025-12-08T13:00:00.000Z] ═══════════════════════════════════════════════════════════════
 [2025-12-08T13:00:00.001Z] CLAUDE DROID - GENERATING DAILY VIDEO
 [2025-12-08T13:00:00.002Z] Category: technology
-[2025-12-08T13:00:00.003Z] Mission: FOR THE KIDS - 50% to charity Children's Hospitals
+[2025-12-08T13:00:00.003Z] Mission: FOR THE KIDS - 60% to charity Children's Hospitals
 [2025-12-08T13:00:00.004Z] ═══════════════════════════════════════════════════════════════
 [2025-12-08T13:00:15.000Z] SUCCESS! Video generated:
 [2025-12-08T13:00:15.001Z]   Status: video_ready
@@ -144,4 +144,4 @@ pm2 save
 
 ---
 
-**Mission: FOR THE KIDS - 50% to charity Children's Hospitals**
+**Mission: FOR THE KIDS - 60% to charity Children's Hospitals**

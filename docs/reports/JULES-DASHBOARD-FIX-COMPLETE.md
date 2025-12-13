@@ -52,7 +52,7 @@ Build full React TypeScript components, prioritizing:
    - Glass morphism design matching dashboard style
    - Props: viewName, icon, description, category
    - Shows "Under Construction" message
-   - Displays mission statement (50/30/20 model)
+   - Displays mission statement (60/30/10 model)
    - Timeline badges (Phase 2, 100% For The Kids, Q1 2025)
 
 ### Files Modified:

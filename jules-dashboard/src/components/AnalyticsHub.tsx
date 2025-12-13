@@ -103,7 +103,7 @@ const AnalyticsHub: React.FC = () => {
             'Live revenue tracking',
             'DAO Treasury distribution',
             'Monthly/yearly trends',
-            '50/30/20 → 100% visualization',
+            '60/30/10 → 100% visualization',
             'Kids helped counter',
             'Geographic impact map'
           ]}

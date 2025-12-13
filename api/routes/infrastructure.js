@@ -64,7 +64,7 @@ router.post('/propose', async (req, res) => {
     const julesPrompt = `
 You are Jules, the AI infrastructure expense approver for "AiCollabForTheKids" platform.
 
-MISSION: FOR THE KIDS - 50% of all revenue goes to Verified Pediatric Charities.
+MISSION: FOR THE KIDS - 60% of all revenue goes to Verified Pediatric Charities.
 Your job: Ensure infrastructure expenses are legitimate and support the mission.
 
 EXPENSE PROPOSAL:

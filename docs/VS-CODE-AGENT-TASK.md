@@ -31,7 +31,7 @@ You are helping prep the YouAndINotAI dating app + AiCollabForTheKids charity pl
 
 **Related Docs:**
 - `docs/CORPORATE-SOVEREIGN-MODE.md` — Full legal/financial strategy
-- `docs/mission/ETERNAL-DIRECTIVE.md` — Revenue model (50/30/20 split)
+- `docs/mission/ETERNAL-DIRECTIVE.md` — Revenue model (60/30/10 split)
 - `.github/AI-CREDENTIALS-REFERENCE.md` — All credentials and compliance
 
 ---
@@ -125,7 +125,7 @@ You are helping prep the YouAndINotAI dating app + AiCollabForTheKids charity pl
 
 **What to do:**
 - [ ] Verify Square SDK is configured with PRODUCTION keys (not sandbox)
-- [ ] Check payment endpoints calculate 50/30/20 split correctly
+- [ ] Check payment endpoints calculate 60/30/10 split correctly
 - [ ] Verify error handling for failed payments
 - [ ] Check webhook endpoints are configured for Square callbacks
 
@@ -270,7 +270,7 @@ git grep -i "token"
 - [ ] Run Prisma studio: `npx prisma studio`
 - [ ] Verify tables exist (Transaction, PendingTransfer, Milestone)
 - [ ] Create test transaction (manually in Prisma Studio)
-- [ ] Verify 50/30/20 split is calculated correctly
+- [ ] Verify 60/30/10 split is calculated correctly
 
 ---
 
@@ -387,7 +387,7 @@ If you encounter any of these, ask Josh:
 - `.claude/UNIVERSAL-AGENT-CONTEXT.md` — MANDATORY reading before starting
 - `docs/CORPORATE-SOVEREIGN-MODE.md` — Legal/financial strategy
 - `docs/PREORDER-LANDING-PAGE.md` — Copy for preorder page
-- `docs/mission/ETERNAL-DIRECTIVE.md` — Revenue model (50/30/20)
+- `docs/mission/ETERNAL-DIRECTIVE.md` — Revenue model (60/30/10)
 - `.github/AI-CREDENTIALS-REFERENCE.md` — All credentials
 
 ---

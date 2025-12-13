@@ -60,7 +60,7 @@ grep -r "36-2193608" youandinotai-landing/ aidoesitall-landing/
 ```
 
 **Evidence:**
-- `youandinotai-landing/index.html` Line 12: "50% of profits go to Verified Pediatric Charities"
+- `youandinotai-landing/index.html` Line 12: "60% of profits go to Verified Pediatric Charities"
 - `youandinotai-landing/index.html` Line 344: "→ charity Children's Hospitals"
 - `aidoesitall-landing/index.html` Line 903: "Committed to Verified Pediatric Charities (50%)"
 
@@ -74,7 +74,7 @@ grep -r "36-2193608" youandinotai-landing/ aidoesitall-landing/
 **Severity:** MEDIUM (Internal deployment messages)
 
 **Issues Found:**
-1. `.github/workflows/deploy-revenue-dashboard.yml` Line 41: "Gospel Split: 50% Shriners / 30% Infra / 20% Founder"
+1. `.github/workflows/deploy-revenue-dashboard.yml` Line 41: "Gospel Split: 60% Shriners / 30% Infra / 10% Founder"
 2. `.github/workflows/deploy-youandinotai.yml` Line 41: "FOR THE KIDS - 50% to Shriners!"
 
 **Resolution:**

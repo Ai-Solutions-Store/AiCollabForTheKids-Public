@@ -1,7 +1,7 @@
 # FOR THE KIDS - Distributed Platform Architecture
 ## Gospel Version: v1.0 | Opus 4.5 Controlled
 
-> 50% of ALL revenue → charity Children's Hospitals
+> 60% of ALL revenue → charity Children's Hospitals
 
 ---
 
@@ -170,7 +170,7 @@
 ## Gospel Compliance
 
 This architecture ensures:
-- ✅ 50% revenue split is IMMUTABLE (verified on every API start)
+- ✅ 60% revenue split is IMMUTABLE (verified on every API start)
 - ✅ No single point of failure
 - ✅ Scalable for growth
 - ✅ Your workstation stays lag-free

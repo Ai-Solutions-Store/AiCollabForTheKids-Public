@@ -71,7 +71,7 @@ async function postDonationTweet(amount, source, newTotal) {
         const tweetText = `🤖 AI-Generated | 🎉 New donation! $${amountStr} just raised for charity Children's Hospitals!
 
 Total raised: $${totalStr}
-50% to kids: $${charityAmount}
+60% to kids: $${charityAmount}
 
 Every subscription helps heal children. Join us! 💚
 

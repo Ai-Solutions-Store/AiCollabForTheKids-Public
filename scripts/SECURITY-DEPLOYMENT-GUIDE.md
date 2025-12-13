@@ -8,7 +8,7 @@
 This guide details the deployment of production-grade security monitoring and auditing systems across all FOR THE KIDS infrastructure nodes.
 
 **Security Standards:** Anthropic Dario-Level (CEO-grade)
-**Mission:** Maximum security for a platform protecting Gospel 50/30/20 split
+**Mission:** Maximum security for a platform protecting Gospel 60/30/10 split
 **Scope:** All 4 nodes + continuous monitoring
 
 ---
@@ -324,7 +324,7 @@ Test-NetConnection -ComputerName 192.168.0.101 -Port 3000
 
 **FOR THE KIDS - Maximum Security, Always**
 **Dario-Level Standards - Anthropic Production-Grade**
-**Gospel 50/30/20 Protected by the Highest Security in AI**
+**Gospel 60/30/10 Protected by the Highest Security in AI**
 
 ---
 

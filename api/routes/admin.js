@@ -47,7 +47,7 @@ router.get('/security', async (req, res) => {
       coppa: 'compliant',
       fosta_sesta: 'compliant'
     },
-    mission: 'FOR THE KIDS - 50% to charity'
+    mission: 'FOR THE KIDS - 60% to charity'
   });
 });
 

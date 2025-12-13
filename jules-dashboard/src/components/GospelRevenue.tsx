@@ -99,7 +99,7 @@ export default function GospelRevenue() {
               GOSPEL REVENUE VERIFICATION
             </h1>
             <p className="text-slate-300 text-lg">
-              <span className="text-[#CC785C] font-bold">KIDS FIRST</span> - 50/30/20 Split on NET Profit (Immutable)
+              <span className="text-[#CC785C] font-bold">KIDS FIRST</span> - 60/30/10 Split on NET Profit (Immutable)
             </p>
             <div className="text-sm text-slate-500 mt-2">
               <strong>Mandate:</strong> Kids needs over structure or financial sustainability. Non-negotiable.
@@ -157,12 +157,12 @@ export default function GospelRevenue() {
         </Card>
       </div>
 
-      {/* IMMUTABLE GOSPEL 50/30/20 SPLIT - KIDS FIRST EMPHASIS */}
+      {/* IMMUTABLE GOSPEL 60/30/10 SPLIT - KIDS FIRST EMPHASIS */}
       <Card className="glass-card border-[#CC785C]/50 shadow-2xl">
         <CardHeader>
           <CardTitle className="text-3xl flex items-center gap-3">
             <Heart className="w-10 h-10 text-[#CC785C] fill-[#CC785C]" />
-            IMMUTABLE GOSPEL 50/30/20 SPLIT
+            IMMUTABLE GOSPEL 60/30/10 SPLIT
           </CardTitle>
           <p className="text-slate-400 text-sm">
             Every dollar split according to Gospel Rule #2 - Calculated on NET profit only
@@ -205,12 +205,12 @@ export default function GospelRevenue() {
               </div>
             </div>
 
-            {/* 20% Founder - Tier 3 */}
+            {/* 10% Founder - Tier 3 */}
             <div className="p-6 rounded-lg border border-[#DAA520]/50 bg-[#DAA520]/10">
               <div className="text-center">
                 <DollarSign className="w-10 h-10 text-[#DAA520] mx-auto mb-3" />
                 <div className="text-sm font-bold text-[#DAA520] mb-2">
-                  20% FOUNDER (Tier 3)
+                  10% Founder (Tier 3)
                 </div>
                 <div className="text-4xl font-bold text-[#DAA520] mb-2">
                   ${founderAmount.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}

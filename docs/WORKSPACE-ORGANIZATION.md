@@ -39,7 +39,7 @@ Core mission and agent onboarding documents:
 - `AGENT-ONBOARDING.md` - New AI agent quick start guide
 - `ETERNAL-DIRECTIVE.md` - Core mission principles
 - `ETERNAL-MISSION-REALITY.md` - Project reality checks
-- `REVENUE-MODEL.md` - 50/30/20 charity model
+- `REVENUE-MODEL.md` - 60/30/10 charity model
 - `UNIVERSAL-AGENT-CONTEXT.md` - Complete project context for any AI
 
 ### **Deployment Guides** (`/docs/deployment/`)
@@ -80,7 +80,7 @@ Project audit and status reports:
 Application launcher scripts (PowerShell):
 - `FOR-THE-KIDS-Launch-All.ps1` - Launch all services (MAIN)
 - `MASTER-GUI-Dashboard.ps1` - GUI dashboard launcher
-- `ORIGINAL-PROJECT-Launch.ps1` - Original 50/30/20 project
+- `ORIGINAL-PROJECT-Launch.ps1` - Original 60/30/10 project
 - `NEW-PROJECT-Launch-Template.ps1` - New 100% charity template
 - `100-PERCENT-CHARITY-LAUNCHER-TEMPLATE.ps1` - Charity launcher template
 

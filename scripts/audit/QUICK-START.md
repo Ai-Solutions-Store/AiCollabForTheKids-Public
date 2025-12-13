@@ -70,7 +70,7 @@ execSync('node C:\\AiCollabForTheKids\\scripts\\audit\\gospel-audit.cjs');
 ✅ Each transaction's Infrastructure split = 30% (±$0.01)
 ✅ Each transaction's Founder split = 20% (±$0.01)
 ✅ Total allocated = Net Revenue (±$0.01)
-✅ Global percentages = 50/30/20 (±0.5%)
+✅ Global percentages = 60/30/10 (±0.5%)
 ✅ No duplicate transaction IDs
 ✅ .env Gospel percentages correct
 
@@ -79,7 +79,7 @@ execSync('node C:\\AiCollabForTheKids\\scripts\\audit\\gospel-audit.cjs');
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║          GOSPEL SPLIT AUDIT REPORT                       ║
-║       50% charity | 30% Infra | 20% Founder             ║
+║       50% charity | 30% Infra | 10% Founder             ║
 ╚═══════════════════════════════════════════════════════════╝
 
 STATUS: ✅ GOSPEL INTACT - ALL CHECKS PASSED

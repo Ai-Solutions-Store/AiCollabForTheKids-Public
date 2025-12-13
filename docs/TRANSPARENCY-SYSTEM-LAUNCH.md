@@ -26,7 +26,7 @@ Instead of complex smart contracts, Sablier streams, and crypto wallets...
 
 1. **Public Transparency Dashboard** ([jules-dashboard/src/pages/Transparency.jsx](../jules-dashboard/src/pages/Transparency.jsx))
    - Shows monthly revenue from all sources
-   - Calculates 50/30/20 split automatically
+   - Calculates 60/30/10 split automatically
    - Upload spot for charity receipts
    - Complete historical archive
    - Zero blockchain complexity
@@ -76,7 +76,7 @@ Instead of complex smart contracts, Sablier streams, and crypto wallets...
 
 2. **Dashboard Updates**:
    - Total revenue shown publicly
-   - 50/30/20 split calculated
+   - 60/30/10 split calculated
    - "Payment pending Dec 10" status
 
 3. **Joshua Sends Payment**:
@@ -100,7 +100,7 @@ Instead of complex smart contracts, Sablier streams, and crypto wallets...
 - Joshua confirms amount to send
 
 **10th of Every Month**:
-- Joshua transfers 50% to charity
+- Joshua transfers 60% to charity
 - Receipt uploaded to dashboard
 - Email sent to patienthelp@shrinernet.org
 
@@ -138,7 +138,7 @@ Ask: "Did you receive $23,025 from Joshua Coleman in December 2025?"
 Complete breakdown:
 - All revenue sources
 - Transaction IDs
-- 50/30/20 split calculation
+- 60/30/10 split calculation
 - Receipt scan
 
 ---
@@ -148,7 +148,7 @@ Complete breakdown:
 ### Current Month Card:
 - ✅ Revenue sources (verified)
 - ✅ Total revenue (real-time)
-- ✅ 50/30/20 split (automatic)
+- ✅ 60/30/10 split (automatic)
 - ✅ Payment status (pending/paid/verified)
 - ✅ charity receipt (uploaded after payment)
 

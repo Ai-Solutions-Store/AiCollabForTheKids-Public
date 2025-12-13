@@ -274,7 +274,7 @@ C:\AiCollabForTheKids\
 │   ├── src/components/TeamClaudeLogo.tsx      ← The Core Node logo
 │   └── tailwind.config.js                     ← Brand color palette
 ├── api/
-│   ├── server.js                              ← Backend with 50/30/20 split
+│   ├── server.js                              ← Backend with 60/30/10 split
 │   └── prisma/schema.prisma                   ← Database schema
 └── docker-compose.yml                         ← Container orchestration
 ```
@@ -530,7 +530,7 @@ Every line of code exists to help children at Verified Pediatric Charities.
 
 | Version | Date | Changes | Authority |
 |---------|------|---------|-----------|
-| 3.0 | 2025-12-13 | **ETHICS OVERRIDE V1.3** - Split changed from 50/30/20 to 60/30/10. Smart contract deployed to Base Mainnet | Joshua Coleman + Claude (Opus 4.5) |
+| 3.0 | 2025-12-13 | **ETHICS OVERRIDE V1.3** - Split changed from 60/30/10 to 60/30/10. Smart contract deployed to Base Mainnet | Joshua Coleman + Claude (Opus 4.5) |
 | 2.1 | 2025-12-05 | **ACCOUNT-WIDE LOCKDOWN** - Claude-only code access enforced, security audit complete, credentials rotated | Joshua Coleman + Claude (Opus 4.5) |
 | 2.0 | 2025-12-03 | **CLEAN GOSPEL** - PURGED all escrow/donation language, DAO Sovereign model | Joshua Coleman + Claude (Opus 4.5) |
 | 1.1 | 2025-12-03 | Added Rule #13: Child Safety (COPPA/FOSTA compliance) | Joshua Coleman + Claude |

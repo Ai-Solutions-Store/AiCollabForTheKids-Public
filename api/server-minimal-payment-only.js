@@ -69,7 +69,7 @@ app.get('/health', (req, res) => {
     status: 'healthy',
     service: 'FOR THE KIDS - Payment API',
     timestamp: new Date().toISOString(),
-    mission: '50% → charity Children\'s Hospital'
+    mission: '60% → charity Children\'s Hospital'
   });
 });
 
@@ -87,7 +87,7 @@ app.get('/', (req, res) => {
       createCheckout: 'POST /api/subscriptions/create-checkout',
       webhook: 'POST /api/subscriptions/webhook'
     },
-    mission: '50% of all revenue → charity Children\'s Hospital'
+    mission: '60% of ALL revenue → charity Children\'s Hospital'
   });
 });
 
@@ -118,7 +118,7 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   logger.info(`🚀 Payment API Server running on port ${PORT}`);
   logger.info(`💙 Mission: FOR THE KIDS!`);
-  logger.info(`💰 Revenue: 50% → charity Children's Hospitals`);
+  logger.info(`💰 Revenue: 60% → charity Children's Hospitals`);
   logger.info(`📊 Status: LAUNCH READY - December 10, 2025`);
 });
 

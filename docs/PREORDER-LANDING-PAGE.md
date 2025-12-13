@@ -134,7 +134,7 @@ Manual verification. Real humans review every profile. Photo verification (selfi
 ### **What if I don't find anyone?**
 That's the point. If dating apps worked, you'd delete the app. We're not optimizing for engagement. We're optimizing for real connections. If you find someone, we WANT you to leave.
 
-### **Why 50% to charity?**
+### **Why 60% to charity?**
 Because profit without purpose is pointless. This isn't about getting rich. It's about building a platform that helps kids long after I'm gone. That's the legacy.
 
 ### **Can I cancel anytime?**
@@ -185,7 +185,7 @@ After January 15, 2026: Standard pricing ($19.99/month) applies.
 
 ## 💙 THE MISSION
 
-**50% of profits go to charity Children's Hospitals.**
+**60% of profits go to charity Children's Hospitals.**
 
 This isn't just a dating app. It's a platform that will help kids for the next 50 years.
 

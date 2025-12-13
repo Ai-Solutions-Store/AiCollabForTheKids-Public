@@ -11,10 +11,10 @@
  * - order_put_hold → Log alert
  * - stock_updated → Log inventory change
  *
- * Gospel Compliance: All fulfillment fees are split 50/30/20
- * - 50% → charity Children's Hospitals (CHARITY_EIN=PENDING_VERIFICATION)
+ * Gospel Compliance: All fulfillment fees are split 60/30/10
+ * - 60% → charity Children's Hospitals (CHARITY_EIN=PENDING_VERIFICATION)
  * - 30% → Infrastructure & Operations
- * - 20% → Founder
+ * - 10% → Founder
  *
  * Created by Claude (Haiku 4.5) - December 7, 2025
  * ═══════════════════════════════════════════════════════════════════════════════
@@ -514,9 +514,9 @@ router.get('/health', async (req, res) => {
       timestamp: new Date().toISOString(),
       gospelSplit: {
         verified: gspel,
-        charity: '50%',
+        charity: '60%',
         infrastructure: '30%',
-        founder: '20%'
+        founder: '10%'
       },
       mission: 'FOR THE KIDS'
     });

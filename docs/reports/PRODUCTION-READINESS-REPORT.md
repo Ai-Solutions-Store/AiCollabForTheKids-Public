@@ -412,7 +412,7 @@
 ### Revenue (at 1,000 users, $10/user/month)
 - **Gross Revenue:** $10,000/month
 - **Operating Costs:** $2,230/month (worst case)
-- **50% to charity:** $5,000/month
+- **60% to charity:** $5,000/month
 - **Net Profit:** $2,770/month
 - **Annual to Charity:** $60,000/year 🏥
 
