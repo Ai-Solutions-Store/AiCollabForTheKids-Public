@@ -214,37 +214,37 @@ export default function PreorderKickstarter() {
     };
 
     return (
-      <div className={`relative bg-white/5 backdrop-blur-sm border ${colorClasses[tier.color as keyof typeof colorClasses]} rounded-xl p-6 transition-all hover:bg-white/10`}>
+      <div className={`relative bg-white/5 backdrop-blur-sm border ${colorClasses[tier.color as keyof typeof colorClasses]} rounded-xl p-4 sm:p-6 transition-all hover:bg-white/10`}>
         {tier.popular && (
           <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-            <Badge variant="default" className="bg-gradient-to-r from-purple-500 to-pink-500">
+            <Badge variant="default" className="bg-gradient-to-r from-purple-500 to-pink-500 text-xs sm:text-sm">
               MOST POPULAR
             </Badge>
           </div>
         )}
 
         <div className="flex items-center gap-3 mb-4">
-          <div className={`p-2 rounded-lg bg-white/10 ${iconColors[tier.color as keyof typeof iconColors]}`}>
-            <Icon size={24} />
+          <div className={`p-2 rounded-lg bg-white/10 ${iconColors[tier.color as keyof typeof iconColors]} flex-shrink-0`}>
+            <Icon size={20} className="sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <h3 className="text-lg font-bold text-white">{tier.name}</h3>
-            <p className="text-2xl font-black text-white">${tier.price}</p>
+          <div className="min-w-0 flex-1">
+            <h3 className="text-base sm:text-lg font-bold text-white truncate">{tier.name}</h3>
+            <p className="text-xl sm:text-2xl font-black text-white">${tier.price}</p>
           </div>
         </div>
 
         <ul className="space-y-2 mb-6">
           {tier.rewards.map((reward, idx) => (
-            <li key={idx} className="flex items-start gap-2 text-sm text-gray-300">
+            <li key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-gray-300">
               <CheckCircle className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" />
-              <span>{reward}</span>
+              <span className="break-words">{reward}</span>
             </li>
           ))}
         </ul>
 
         <Button
           variant="outline"
-          className="w-full"
+          className="w-full min-h-[44px] text-sm sm:text-base"
           onClick={() => handleBackProject(tier.id)}
         >
           Select This Tier
@@ -254,18 +254,18 @@ export default function PreorderKickstarter() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 p-6 overflow-auto">
-      <div className="max-w-7xl mx-auto space-y-8">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 p-4 sm:p-6 overflow-auto">
+      <div className="max-w-7xl mx-auto space-y-6 sm:space-y-8">
 
         {/* Hero Section */}
-        <div className="text-center space-y-4 py-8">
+        <div className="text-center space-y-4 py-4 sm:py-8 px-4 sm:px-0">
           <Badge variant="warning" className="mb-4">
             FUNDING CAMPAIGN ACTIVE
           </Badge>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
             Help Fund FOR THE KIDS
           </h1>
-          <p className="text-xl text-purple-200 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl text-purple-200 max-w-3xl mx-auto px-4 sm:px-0">
             Back this project to help us complete the platform and cover Opus 4.5 AI development costs.
             Every dollar goes toward building something that will help kids for 50 years.
           </p>
@@ -273,35 +273,35 @@ export default function PreorderKickstarter() {
 
         {/* Funding Progress */}
         <Card className="border-2 border-green-500/50 bg-green-500/10">
-          <CardContent className="p-8">
-            <div className="grid md:grid-cols-4 gap-6 mb-6">
+          <CardContent className="p-4 sm:p-6 lg:p-8">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 mb-6">
               <div className="text-center">
-                <p className="text-4xl font-black text-green-400">${fundingRaised.toLocaleString()}</p>
-                <p className="text-sm text-green-200">pledged of ${FUNDING_GOAL.toLocaleString()} goal</p>
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-black text-green-400">${fundingRaised.toLocaleString()}</p>
+                <p className="text-xs sm:text-sm text-green-200">pledged of ${FUNDING_GOAL.toLocaleString()} goal</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-black text-white">{backerCount}</p>
-                <p className="text-sm text-gray-300">backers</p>
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-black text-white">{backerCount}</p>
+                <p className="text-xs sm:text-sm text-gray-300">backers</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-black text-white">{daysRemaining}</p>
-                <p className="text-sm text-gray-300">days to go</p>
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-black text-white">{daysRemaining}</p>
+                <p className="text-xs sm:text-sm text-gray-300">days to go</p>
               </div>
               <div className="text-center">
-                <p className="text-4xl font-black text-purple-400">{fundingPercentage.toFixed(0)}%</p>
-                <p className="text-sm text-purple-200">funded</p>
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-black text-purple-400">{fundingPercentage.toFixed(0)}%</p>
+                <p className="text-xs sm:text-sm text-purple-200">funded</p>
               </div>
             </div>
 
-            <div className="h-4 bg-gray-800 rounded-full overflow-hidden mb-4">
+            <div className="h-3 sm:h-4 bg-gray-800 rounded-full overflow-hidden mb-4">
               <div
                 className="h-full bg-gradient-to-r from-green-500 to-emerald-400 transition-all duration-1000"
                 style={{ width: `${fundingPercentage}%` }}
               />
             </div>
 
-            <div className="flex items-center justify-center gap-2 text-sm text-gray-400">
-              <Shield className="w-4 h-4" />
+            <div className="flex items-center justify-center gap-2 text-xs sm:text-sm text-gray-400 px-4 text-center">
+              <Shield className="w-4 h-4 flex-shrink-0" />
               <span>All funds tracked publicly on Transparency Dashboard</span>
             </div>
           </CardContent>
@@ -315,8 +315,8 @@ export default function PreorderKickstarter() {
               What Your Backing Funds
             </CardTitle>
           </CardHeader>
-          <CardContent>
-            <div className="grid md:grid-cols-2 gap-4">
+          <CardContent className="p-4 sm:p-6">
+            <div className="grid sm:grid-cols-2 gap-4">
               <div className="p-4 bg-white/5 rounded-xl border border-white/10">
                 <h4 className="font-bold text-white mb-2 flex items-center gap-2">
                   <Zap className="text-yellow-400" />
@@ -370,7 +370,7 @@ export default function PreorderKickstarter() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="flex flex-col md:flex-row gap-6 items-center">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center">
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-white mb-2">
                   Join the Anti-AI Revolution
@@ -398,14 +398,14 @@ export default function PreorderKickstarter() {
                   </li>
                 </ul>
               </div>
-              <div className="text-center p-6 bg-white/5 rounded-xl border border-pink-400/30">
+              <div className="text-center p-4 sm:p-6 bg-white/5 rounded-xl border border-pink-400/30">
                 <p className="text-sm text-gray-400 mb-1">Founding Member Price</p>
-                <p className="text-4xl font-black text-white mb-1">$14.99<span className="text-lg font-normal">/mo</span></p>
+                <p className="text-3xl sm:text-4xl font-black text-white mb-1">$14.99<span className="text-base sm:text-lg font-normal">/mo</span></p>
                 <p className="text-sm text-pink-300 mb-4 line-through">$19.99/mo regular</p>
                 <Badge variant="warning" className="mb-4">
                   Limited Founding Member Spots
                 </Badge>
-                <Button onClick={handlePreorder} className="w-full">
+                <Button onClick={handlePreorder} className="w-full min-h-[44px] text-sm sm:text-base">
                   <Gift className="w-4 h-4 mr-2" />
                   Preorder Now
                 </Button>
@@ -419,7 +419,7 @@ export default function PreorderKickstarter() {
           <h2 className="text-2xl font-bold text-white mb-6 text-center">
             Select Your Reward Tier
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {REWARD_TIERS.map(tier => (
               <TierCard key={tier.id} tier={tier} />
             ))}

@@ -21,10 +21,10 @@ const Button = React.forwardRef<
   }
 
   const sizeClasses = {
-    default: 'h-10 px-4 py-2',
-    sm: 'h-9 rounded-md px-3 text-sm',
-    lg: 'h-11 rounded-md px-8',
-    icon: 'h-10 w-10',
+    default: 'min-h-[44px] px-4 py-2',
+    sm: 'min-h-[40px] rounded-md px-3 text-sm',
+    lg: 'min-h-[48px] rounded-md px-8',
+    icon: 'h-10 w-10 min-h-[44px]',
   }
 
   return (
