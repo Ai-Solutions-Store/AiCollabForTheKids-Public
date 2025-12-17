@@ -171,7 +171,7 @@ const SubscriptionCheckout: React.FC = () => {
         </p>
       </div>
 
-      {/* Donation Tracker Widget */}
+      {/* Contribution Tracker Widget */}
       <div className="max-w-6xl mx-auto mb-8">
         <div className="bg-gradient-to-r from-brand-coral/20 to-brand-teal/20 rounded-xl p-6 border border-brand-coral/30">
           <div className="flex items-center gap-2 mb-4">

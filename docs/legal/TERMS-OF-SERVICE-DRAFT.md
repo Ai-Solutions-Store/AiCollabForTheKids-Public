@@ -143,7 +143,7 @@ To use the Service, you must:
 - We use cookies (3-box consent system: Essential/Analytics/Marketing)
 - You can manage cookie preferences in account settings
 - Government IDs for verification are encrypted and deleted within 30 days
-- 50% of revenue supports children's charities
+- 60% of revenue supports children's charities
 
 ---
 
@@ -249,7 +249,7 @@ If you provide feedback, suggestions, or ideas, we may use them freely without c
 
 **Mission:** **60% of all revenue** goes to charity Children's Hospitals (EIN PENDING_VERIFICATION) and rotating children's charities.
 
-**Your subscription helps kids in need!** View our transparency dashboard at [URL] to see real-time donation tracking.
+**Your subscription helps kids in need!** View our transparency dashboard at [URL] to see real-time contribution tracking.
 
 ---
 

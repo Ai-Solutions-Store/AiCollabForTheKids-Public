@@ -102,7 +102,7 @@ export default {
           ],
           disclosure: {
             important: 'Campaign funds are for PLATFORM DEVELOPMENT only.',
-            postLaunch: 'AFTER launch, the platform will donate 60% of net revenue to charity.'
+            postLaunch: 'AFTER launch, the platform will contribute 60% of net revenue to charity.'
           }
         }, corsHeaders);
       }

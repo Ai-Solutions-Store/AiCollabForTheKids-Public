@@ -58,9 +58,9 @@
 
 ### Example Calculation
 **Original Project:** Receives $1,000 in donations
-- $500 (50%) → charity Children's Hospital
+- $500 (60%) → charity Children's Hospital
 - $300 (30%) → Infrastructure (pays for AI/electricity for new 100% projects)
-- $200 (20%) → Joshua Coleman
+- $200 (10%) → Joshua Coleman
 
 **New Project:** Receives $1,000 in revenue
 - $1,000 (100%) → Charity

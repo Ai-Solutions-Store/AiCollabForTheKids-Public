@@ -1,6 +1,6 @@
 # Gospel Split Audit Tool
 
-**Task #088-A** - Automated verification of the immutable Gospel Split (50% charity / 30% Infrastructure / 10% Founder)
+**Task #088-A** - Automated verification of the immutable Gospel Split (60% charity / 30% Infrastructure / 10% Founder)
 
 ## Overview
 
@@ -9,9 +9,9 @@ The Gospel Split Audit Tool (`gospel-audit.cjs`) is an automated auditing script
 ## Gospel Split (IMMUTABLE)
 
 ```
-50% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
+60% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
 30% → Infrastructure & Reinvestment
-20% → Founder (Joshua Coleman)
+10% → Founder (Joshua Coleman)
 ```
 
 **This split CANNOT be changed by anyone. ANY violation triggers immediate alert.**
@@ -66,7 +66,7 @@ node scripts/audit/gospel-audit.cjs --detailed
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║          GOSPEL SPLIT AUDIT REPORT                       ║
-║       50% charity | 30% Infra | 10% Founder             ║
+║       60% charity | 30% Infra | 10% Founder             ║
 ╚═══════════════════════════════════════════════════════════╝
 
 Audit Date: 2025-12-09T05:17:32.531Z
@@ -79,7 +79,7 @@ MATHEMATICAL INTEGRITY:
 
 TOTALS:
    - Total Revenue: $124.95
-   - charity (50%): $62.48 ✅
+   - charity (60%): $62.48 ✅
    - Infrastructure (30%): $37.49 ✅
    - Founder (10%): $24.98 ✅
 
@@ -669,14 +669,14 @@ The foundation is built. The Gospel is locked. Now we climb higher.
 
 ### Phase 2: Global Expansion (Q2 2025)
 
-**Mission**: Accept payments worldwide and donate to international charity hospitals
+**Mission**: Accept payments worldwide and contribute to international charity hospitals
 
 **Infrastructure Needed**:
 - Multi-currency support (Square + Stripe international)
 - Tax ID integration for multiple countries
 - International charity hospital database
 - Automated currency conversion
-- Geolocation-based donation routing
+- Geolocation-based contribution routing
 
 **Gospel Impact**:
 - 60% to charity remains IMMUTABLE
@@ -780,7 +780,7 @@ The foundation is built. The Gospel is locked. Now we climb higher.
 
 **Gospel Impact**:
 - Sponsorship revenue follows 60/30/10 split
-- Corporate sponsors see transparent donation tracking
+- Corporate sponsors see transparent contribution tracking
 - "Official Sponsor of FOR THE KIDS" badge
 
 **Estimated Build Time**: 6-10 hours
@@ -819,7 +819,7 @@ All future expansion adheres to:
 
 ### Revenue Projections (Conservative)
 
-| Revenue Stream | Monthly Revenue | Annual Revenue | charity Donation (50%) |
+| Revenue Stream | Monthly Revenue | Annual Revenue | charity Contribution (60%) |
 |----------------|-----------------|----------------|-------------------------|
 | AI Merch Store | $2,000 | $24,000 | $12,000 |
 | Dating App Subscriptions | $5,000 | $60,000 | $30,000 |
@@ -829,7 +829,7 @@ All future expansion adheres to:
 | Corporate Sponsorships | $4,000 | $48,000 | $24,000 |
 | **TOTAL** | **$25,000/mo** | **$190,000/yr** | **$95,000/yr** |
 
-**Conservative Annual Donation to charity: $95,000**
+**Conservative Annual Contribution to charity: $95,000**
 
 At scale (10x growth): **$950,000 annually to charity Children's Hospitals**
 

@@ -10,7 +10,7 @@
  * - Rule #2: 60/30/10 Revenue Split (IMMUTABLE)
  * - 60% → charity Children's Hospital (EIN: 36-2193608)
  * - 30% → Infrastructure (Immortal Engine)
- * - 20% → Founder (Joshua Coleman)
+ * - 10% → Founder (Joshua Coleman)
  *
  * ANY MODIFICATION TO THESE PERCENTAGES = GOSPEL VIOLATION
  * ═══════════════════════════════════════════════════════════════════════════════

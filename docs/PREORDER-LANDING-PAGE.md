@@ -94,9 +94,9 @@ After watching dating apps become engagement engines—designed to keep you swip
 **We're not VC-backed. We're mission-backed.**
 
 ### Revenue Split:
-- **50%** → Escrow Vault (Reserved for charity Children's Hospitals)
+- **60%** → Escrow Vault (Reserved for charity Children's Hospitals)
 - **30%** → Infrastructure (servers, AI tools, scaling)
-- **20%** → Joshua Coleman (founder compensation)
+- **10%** → Joshua Coleman (founder compensation)
 
 **Why?** Because I can't take it with me. Tomorrow isn't promised for any human. This platform will help kids for **50 years after I die.**
 

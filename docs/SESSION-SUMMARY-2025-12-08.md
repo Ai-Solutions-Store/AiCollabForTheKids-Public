@@ -116,7 +116,7 @@ Today marked a **historic milestone** for the FOR THE KIDS platform. Using the O
 
 ### Gospel Split ACTIVE
 ```
-50% → charity Children's Hospitals (CHARITY_EIN=PENDING_VERIFICATION)
+60% → charity Children's Hospitals (CHARITY_EIN=PENDING_VERIFICATION)
 30% → Infrastructure
 10% → Founder
 ```

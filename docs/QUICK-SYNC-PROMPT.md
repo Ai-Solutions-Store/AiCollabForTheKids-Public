@@ -31,12 +31,12 @@ We have pivoted from "Public Charity" to "Corporate Sovereign" mode.
 
 THE PIVOT:
 ❌ OLD: "Donate to help kids" (triggers FDACS registration)
-✅ NEW: "We donate 50% of our profits internally" (standard for-profit)
+✅ NEW: "We contribute 50% of our profits internally" (standard for-profit)
 
 RESULT:
 ✅ No FDACS registration required
 ✅ Standard for-profit LLC operation
-✅ 50% allocation = internal escrow (NOT customer donation)
+✅ 50% allocation = internal escrow (NOT customer contribution)
 ✅ Launch TODAY (not in weeks/months)
 
 TECHNICAL ARCHITECTURE:
@@ -52,7 +52,7 @@ REVENUE MODEL (IMMUTABLE):
 ORIGINAL PROJECT (AiCollabForTheKids):
 - 50% → Escrow Vault (Reserved for charity Children's Hospitals, EIN PENDING_VERIFICATION)
 - 30% → Infrastructure Fund (enables 100% charity for all future projects)
-- 20% → Joshua Coleman (founder compensation)
+- 10% → Joshua Coleman (founder compensation)
 
 NEW PROJECTS (Future):
 - 100% → Charity (infrastructure covered by original 30%)
@@ -77,20 +77,20 @@ YOUR DIRECTIVES:
 
 FORBIDDEN LANGUAGE (Triggers Florida Ch. 496 Registration):
 ❌ "Donate Now"
-❌ "Your donation helps kids"
+❌ "Your contribution helps kids"
 ❌ "Tax-deductible contribution"
 ❌ "Add $1 to support charity"
 ❌ "We are a fundraising platform"
 
 APPROVED LANGUAGE:
-✅ "We donate 50% of our profits to charity Children's Hospitals"
+✅ "We contribute 50% of our profits to charity Children's Hospitals"
 ✅ "Internal Escrow Vault: Reserved for Charitable Impact"
 ✅ "Our company has chosen to support children's healthcare"
 ✅ "Purchase a subscription" / "Join the community"
 
 REQUIRED DASHBOARD DISCLAIMERS:
 All financial displays MUST include:
-"This is an internal corporate financial ledger for TRASH OR TREASURE ONLINE RECYCLER LLC (L25000158401). Funds shown in the 'Escrow Vault' are company assets reserved for charitable allocation at the discretion of ownership. This is not a public donation fund. No customer payments are solicited as donations."
+"This is an internal corporate financial ledger for TRASH OR TREASURE ONLINE RECYCLER LLC (L25000158401). Funds shown in the 'Escrow Vault' are company assets reserved for charitable allocation at the discretion of ownership. This is not a public contribution fund. No customer payments are solicited as donations."
 
 MISSION CONTEXT:
 - 50-Year Vision: Platform helps children for 50 years AFTER Joshua dies

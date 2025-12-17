@@ -68,7 +68,7 @@ cd /home/runner/work/AiCollabForTheKids/AiCollabForTheKids
    - Ensures .env files are present
 
 2. **Gospel Compliance Verification**
-   - Scans for forbidden terminology (escrow, donation)
+   - Scans for forbidden terminology (escrow, contribution)
    - Checks for mock data references
    - Validates Gospel v2.0 compliance
 

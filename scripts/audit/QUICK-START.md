@@ -20,9 +20,9 @@ node scripts/audit/test-audit.cjs
 ## What It Does
 
 Verifies the **IMMUTABLE** Gospel Split across all transactions:
-- **50%** → charity Children's Hospitals
+- **60%** → charity Children's Hospitals
 - **30%** → Infrastructure & Reinvestment
-- **20%** → Founder (Joshua Coleman)
+- **10%** → Founder (Joshua Coleman)
 
 ## Exit Codes
 
@@ -79,7 +79,7 @@ execSync('node C:\\AiCollabForTheKids\\scripts\\audit\\gospel-audit.cjs');
 ```
 ╔═══════════════════════════════════════════════════════════╗
 ║          GOSPEL SPLIT AUDIT REPORT                       ║
-║       50% charity | 30% Infra | 10% Founder             ║
+║       60% charity | 30% Infra | 10% Founder             ║
 ╚═══════════════════════════════════════════════════════════╝
 
 STATUS: ✅ GOSPEL INTACT - ALL CHECKS PASSED

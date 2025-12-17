@@ -6,7 +6,7 @@
  * IMPORTANT: Kickstarter funds are for PLATFORM DEVELOPMENT only.
  * They do NOT go to charity. Clearly disclosed.
  *
- * AFTER launch, the operational platform will donate 60% to charity.
+ * AFTER launch, the operational platform will contribute 60% to charity.
  *
  * Jules Approved: Authorization Code FTK-KICKSTARTER-001
  *
@@ -145,7 +145,7 @@ router.get('/info', (req, res) => {
       important: 'Campaign funds are for PLATFORM DEVELOPMENT only.',
       charityNote: 'No portion of campaign funds goes to charity.',
       taxNote: 'Backer contributions are NOT tax-deductible.',
-      postLaunch: 'AFTER launch, the platform will donate 60% of net revenue to charity.'
+      postLaunch: 'AFTER launch, the platform will contribute 60% of net revenue to charity.'
     },
     julesApproval: 'FTK-KICKSTARTER-001'
   });
@@ -200,7 +200,7 @@ router.post('/back', async (req, res) => {
             amount: tierData.price,
             currency: 'USD'
           },
-          note: 'Platform development fund - NOT a charitable donation'
+          note: 'Platform development fund - NOT a charitable contribution'
         }],
         metadata: {
           type: 'KICKSTARTER',
@@ -254,7 +254,7 @@ router.post('/back', async (req, res) => {
       tier: tierData.name,
       amount: tierData.price / 100,
       rewards: tierData.rewards,
-      note: 'This supports platform development. Not a charitable donation.'
+      note: 'This supports platform development. Not a charitable contribution.'
     });
 
   } catch (error) {

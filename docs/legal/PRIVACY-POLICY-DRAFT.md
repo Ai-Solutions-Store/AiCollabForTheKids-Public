@@ -52,10 +52,10 @@ This Privacy Policy explains how we collect, use, disclose, and safeguard your i
 - We DO NOT store full credit card numbers
 - We receive transaction confirmations only
 
-**Donation Information (AiCollabForTheKids.com):**
+**Contribution Information (AiCollabForTheKids.com):**
 - Donor name (optional, can be anonymous)
 - Email address (for receipts)
-- Donation amount and date
+- Contribution amount and date
 
 ### 2.2 Information Collected Automatically
 
@@ -170,7 +170,7 @@ We use a 3-box consent system:
 
 **Charitable Partners:**
 - charity Children's Hospitals
-- **Data Shared:** Aggregate donation amounts (NO personal donor info unless you opt-in)
+- **Data Shared:** Aggregate contribution amounts (NO personal donor info unless you opt-in)
 - **Purpose:** Impact reporting, tax receipts
 
 ### 4.2 Legal Requirements
@@ -227,7 +227,7 @@ If we are acquired or merge with another company, your information may be transf
 - Can be deleted by user at any time
 - Automatically deleted upon account closure
 
-**Donation Records:**
+**Contribution Records:**
 - Retained for 7 years (tax/legal requirements)
 - Can be anonymized upon request (maintaining aggregate totals only)
 
@@ -343,7 +343,7 @@ Our services may contain links to third-party websites (e.g., social media, part
 
 By using our platform, you are not only finding meaningful connections — you are helping children in need.
 
-**Transparency:** Visit our Impact Dashboard at [URL] to see real-time donation tracking and charity impact.
+**Transparency:** Visit our Impact Dashboard at [URL] to see real-time contribution tracking and charity impact.
 
 ---
 

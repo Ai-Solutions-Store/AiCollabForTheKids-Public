@@ -38,9 +38,9 @@ model Transaction {
   description String?
 
   // Automatic revenue split
-  charityAmount Decimal @db.Decimal(10, 2) // 50% or 100%
+  charityAmount Decimal @db.Decimal(10, 2) // 60% or 100%
   opsAmount     Decimal @db.Decimal(10, 2) // 30% or 0%
-  founderAmount Decimal @db.Decimal(10, 2) // 20% or 0%
+  founderAmount Decimal @db.Decimal(10, 2) // 10% or 0%
 
   // Distribution tracking
   distribution CharityDistribution?
@@ -396,10 +396,10 @@ model EscrowSplit {
   transactionId String      @unique
   transaction   Transaction @relation(fields: [transactionId], references: [id])
 
-  // Split Details (IMMUTABLE - 50/30/20)
-  charityAmount        Decimal @db.Decimal(10, 2) // 50%
+  // Split Details (IMMUTABLE - 60/30/10)
+  charityAmount        Decimal @db.Decimal(10, 2) // 60%
   infrastructureAmount Decimal @db.Decimal(10, 2) // 30%
-  ownerAmount          Decimal @db.Decimal(10, 2) // 20%
+  ownerAmount          Decimal @db.Decimal(10, 2) // 10%
 
   // Destination Accounts
   charityAccount        String @default("ebaytrashortreasure@gmail.com")

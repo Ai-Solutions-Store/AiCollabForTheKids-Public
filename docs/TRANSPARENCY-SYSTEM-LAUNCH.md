@@ -162,13 +162,13 @@ Complete breakdown:
 - ✅ Total revenue all-time
 - ✅ Total to charity all-time
 - ✅ Months active
-- ✅ Average monthly donation
+- ✅ Average monthly contribution
 
 ---
 
 ## 💰 DECEMBER 2025 PROJECTION
 
-| Source | Monthly Revenue | charity (50%) |
+| Source | Monthly Revenue | charity (60%) |
 |--------|-----------------|----------------|
 | Dating App (Square) | $12,450 | $6,225 |
 | AI Marketplace (Stripe) | $8,920 | $4,460 |

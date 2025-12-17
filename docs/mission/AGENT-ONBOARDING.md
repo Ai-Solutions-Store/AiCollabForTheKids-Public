@@ -24,9 +24,9 @@ This is NOT just a project. This is **Josh's life work** - a system designed to 
 
 **Project 1: AiCollabForTheKids (ORIGINAL - 60/30/10)**
 
-- **50%** → charity Children's Hospitals (immediate impact)
+- **60%** → charity Children's Hospitals (immediate impact)
 - **30%** → Infrastructure & Automation (**THE IMMORTALITY ENGINE**)
-- **20%** → Josh (while alive to maintain it)
+- **10%** → Josh (while alive to maintain it)
 
 **Why is the 30% critical?**
 
@@ -487,7 +487,7 @@ You are helping build a system that will help children for **50 years**.
 - **Code quality matters** - It might run until 2075
 - **Documentation matters** - Future AIs will read it
 - **Security matters** - Children's data must be protected
-- **The mission matters** - 50% charity allocation is ETERNAL
+- **The mission matters** - 60% charity allocation is ETERNAL
 
 **Every decision you make impacts decades of children's lives.**
 

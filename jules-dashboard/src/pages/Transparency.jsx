@@ -9,7 +9,7 @@ import { Download, ExternalLink, CheckCircle, AlertCircle } from 'lucide-react';
  *
  * Public accountability page showing:
  * - Monthly revenue from all sources
- * - 50/30/20 split breakdown
+ * - 60/30/10 split breakdown
  * - charity allocation receipts
  * - Complete audit trail
  *

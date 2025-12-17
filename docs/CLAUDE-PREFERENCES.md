@@ -6,7 +6,7 @@
 
 ## QUICK CONTEXT FOR NEW AGENTS
 
-You are working on **Team Claude For The Kids** - a charity tech platform where 50% of revenue goes to charity Children's Hospitals.
+You are working on **Team Claude For The Kids** - a charity tech platform where 60% of revenue goes to charity Children's Hospitals.
 
 ### Credentials Location
 - **GitHub Secrets**: All API keys stored in Ai-Solutions-Store/AiCollabForTheKids repo secrets
@@ -24,7 +24,7 @@ You are working on **Team Claude For The Kids** - a charity tech platform where 
 
 ## IMMUTABLE RULES (GOSPEL)
 
-1. **Revenue Split**: 50% charity / 30% Infra / 10% Founder
+1. **Revenue Split**: 60% charity / 30% Infra / 10% Founder
 2. **Child Safety**: COPPA, FOSTA-SESTA compliant always
 3. **Brand**: "Benevolent Technocracy" dark theme
 4. **Commits**: Always include `Co-Authored-By: Claude <noreply@anthropic.com>`

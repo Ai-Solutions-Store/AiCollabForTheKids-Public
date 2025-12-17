@@ -14,7 +14,7 @@ Without submitting sitemaps to Google Search Console, Google may not discover or
 - Your sites won't appear in Google search results
 - You miss out on FREE organic traffic
 - Potential customers can't find you
-- Your 50% charity mission gets less visibility
+- Your 60% charity mission gets less visibility
 
 ---
 
@@ -120,7 +120,7 @@ In Google Search Console, check:
 **Keywords to Rank For:**
 - "AI charity platform"
 - "AI for children's hospitals"
-- "charity donation AI"
+- "charity contribution AI"
 - "GPT-4 Claude Gemini access"
 - "AI marketplace for charity"
 

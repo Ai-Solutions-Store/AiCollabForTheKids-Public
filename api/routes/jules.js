@@ -176,7 +176,7 @@ router.post('/lighthouse', async (req, res) => {
       - Product Concept
       - Design Slogan
       - Target Audience
-      - Estimated Donation Impact`;
+      - Estimated Contribution Impact`;
     }
 
     const result = await model.generateContent(prompt);

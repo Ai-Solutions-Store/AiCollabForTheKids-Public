@@ -169,7 +169,7 @@ We just deployed a **production-grade age-gate security system** for Baby Grok (
 
 ### Your Role:
 
-This is a **FOR THE KIDS** mission - 50% of revenue goes to charity Children's Hospital. We need your approval to ensure:
+This is a **FOR THE KIDS** mission - 60% of revenue goes to charity Children's Hospital. We need your approval to ensure:
 
 1. The age-gate implementation is production-ready
 2. No security gaps exist

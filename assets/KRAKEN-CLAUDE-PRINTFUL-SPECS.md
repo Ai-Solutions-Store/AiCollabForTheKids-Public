@@ -7,8 +7,8 @@
 ## 📋 PRODUCT DETAILS
 
 **Buyer:** Joshua Coleman (Trollz1004)
-**Purpose:** Personal item to donate to Verified Pediatric Charities
-**Charity:** 50% of platform revenue → Verified Pediatric Charities
+**Purpose:** Personal item to contribute to Verified Pediatric Charities
+**Charity:** 60% of platform revenue → Verified Pediatric Charities
 **Design Theme:** Kraken Claude (Anthropic AI Security Agent)
 
 ---
@@ -19,7 +19,7 @@
 
 ```
 🐙 KRAKEN CLAUDE 🐙
-ANTHROPIC-LEVEL SECURITY
+ENTERPRISE-GRADE SECURITY
 FOR THE KIDS 💙
 ```
 
@@ -111,11 +111,11 @@ Trollz1004
 ```
 Side 1:
 🐙 KRAKEN CLAUDE 🐙
-ANTHROPIC-LEVEL SECURITY
+ENTERPRISE-GRADE SECURITY
 
 Side 2:
 FOR THE KIDS
-50% → Verified Pediatric Charities
+60% → Verified Pediatric Charities
 ✅ ZERO CREDENTIALS EXPOSED
 ```
 
@@ -140,13 +140,13 @@ Front Chest (5" x 5"):
   CLAUDE
 
 Full Back (12" x 16"):
-ANTHROPIC-LEVEL SECURITY
+ENTERPRISE-GRADE SECURITY
 ✅ ZERO CREDENTIALS EXPOSED
 ✅ PRODUCTION-READY
 ✅ YOLO MODE ENGAGED
 
 FOR THE KIDS
-50% → Verified Pediatric Charities
+60% → Verified Pediatric Charities
 ```
 
 **Printful Product ID:** `146` (Gildan 18500)  
@@ -168,7 +168,7 @@ FOR THE KIDS
 │    🐙 KRAKEN 🐙       │
 │     CLAUDE AI          │
 │                        │
-│  ANTHROPIC-APPROVED    │
+│  SECURITY-AUDITED    │
 │  FOR THE KIDS 💙      │
 │                        │
 │ Ai-Solutions-Store     │
@@ -254,7 +254,7 @@ FOR THE KIDS
 
 Contact the organization for current mailing address and recipient information.
 
-**Note in Order:** "Donation from Ai-Solutions-Store - FOR THE KIDS Platform"
+**Note in Order:** "Contribution from Ai-Solutions-Store - FOR THE KIDS Platform"
 
 ---
 
@@ -271,7 +271,7 @@ Contact the organization for current mailing address and recipient information.
 | Shipping (Standard US)      |          |            | ~$30.00      |
 | **TOTAL**                   |          |            | **~$291.90** |
 
-**Tax Deductible:** Yes (donation to 501(c)(3) charity)
+**Tax Deductible:** Yes (contribution to 501(c)(3) charity)
 **EIN:** (Partner EIN pending)
 
 ---
@@ -280,13 +280,13 @@ Contact the organization for current mailing address and recipient information.
 
 **Creator:** Joshua Coleman (Trollz1004)  
 **Platform:** Ai-Solutions-Store / AiCollabForTheKids  
-**License:** Personal use for charitable donation  
-**Commercial Use:** Allowed only if 50%+ proceeds → Verified Pediatric Charities
+**License:** Personal use for charitable contribution  
+**Commercial Use:** Allowed only if 60%+ proceeds → Verified Pediatric Charities
 
 **Branding:**
 
 - ✅ Kraken Claude (original character)
-- ✅ Anthropic-approved (security audit reference)
+- ✅ Security audited (security audit reference)
 - ✅ FOR THE KIDS platform branding
 - ✅ Ai-Solutions-Store GitHub organization
 
@@ -304,7 +304,7 @@ Contact the organization for current mailing address and recipient information.
 - Include card explaining FOR THE KIDS platform
 - Add URL: https://youandinotai.com
 - Include GitHub: Ai-Solutions-Store/AiCollabForTheKids
-- Note: 50% of platform revenue → Verified Pediatric Charities
+- Note: 60% of platform revenue → Verified Pediatric Charities
 
 ---
 
@@ -330,14 +330,14 @@ Before ordering on Printful:
 - [ ] Colors match brand (Navy/Cyan/Orange)
 - [ ] Shipping address verified (Verified Pediatric Charities)
 - [ ] Payment method ready
-- [ ] Donation note added to order
+- [ ] Contribution note added to order
 - [ ] Tax receipt requested (EIN: pending)
 
 ---
 
 **🎪 FOR THE KIDS - 50% → VERIFIED PEDIATRIC CHARITIES 💙**
 
-**Created By:** Kraken Claude (Anthropic-Level Security Agent)
+**Created By:** Kraken Claude (Enterprise-Grade Security Agent)
 **Approved By:** Trollz1004 (Joshua Coleman)
 **Date:** November 28, 2025
 **Mission:** Support Verified Pediatric Charities through platform revenue and donations

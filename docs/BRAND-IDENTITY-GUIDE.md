@@ -180,7 +180,7 @@ Display charity impact as **server uptime stats** - bold, digital, monospaced:
 
 ```tsx
 <div className="font-mono text-brand-green text-2xl font-bold">
-  396,248+ Children Helped
+  Calculated based on actual contributions
 </div>
 ```
 
@@ -296,7 +296,7 @@ This ensures the mission is visually distinct from technical actions.
 - For the kids
 
 **Forbidden (triggers FL Ch. 496 charity solicitation laws):**
-- Donation
+- Contribution
 - Donate now
 - Contribute
 - Give

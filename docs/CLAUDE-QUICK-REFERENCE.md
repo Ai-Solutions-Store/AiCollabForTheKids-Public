@@ -9,9 +9,9 @@
 
 ## 🎯 THE MISSION (Never Forget)
 
-**50% → charity Children's Hospitals** (Tax ID: PENDING_VERIFICATION)
+**60% → charity Children's Hospitals** (Tax ID: PENDING_VERIFICATION)
 **30% → Infrastructure** (Powers all future projects)
-**20% → Joshua Coleman** (Sustainable development)
+**10% → Joshua Coleman** (Sustainable development)
 
 **THE 60/30/10 SPLIT IS IMMUTABLE. GOSPEL RULE #2.**
 

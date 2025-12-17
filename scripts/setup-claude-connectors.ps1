@@ -116,7 +116,7 @@ $julesServerCode = @'
 /**
  * JULES API SERVER - FOR THE KIDS
  * Dashboard Backend: https://6b2f4c58.youandinotai.pages.dev/dashboard
- * Gospel Split: 50/30/20 (Verified Pediatric Charities/Infra/Founder)
+ * Gospel Split: 60/30/10 (Verified Pediatric Charities/Infra/Founder)
  */
 
 const express = require('express');

@@ -203,7 +203,7 @@ cat .env.example | Select-String "@"
    - Test all endpoints with new domains
    - Verify health checks passing
    - Monitor error rates
-   - Validate donation flows
+   - Validate contribution flows
 
 3. **Documentation Updates**:
    - Update repository README

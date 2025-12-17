@@ -17,7 +17,7 @@
 4. **Liability Shield:** Demonstrates good-faith compliance efforts
 
 **How This Supports FOR THE KIDS:**
-- Dating app revenue (50%) funds children's charities
+- Dating app revenue (60%) funds children's charities
 - Proper age verification protects both the platform AND children
 - Legal compliance ensures long-term sustainability of charitable funding
 - Transparency builds trust with donors and partners
@@ -277,7 +277,7 @@ const LiabilityDisclaimer = () => (
       <li>This platform connects consenting adults (18+)</li>
       <li>We verify age but users are responsible for their conduct</li>
       <li>Report any violations to support@youandinotai.com</li>
-      <li>50% of revenue supports children's charities</li>
+      <li>60% of revenue supports children's charities</li>
     </ul>
   </div>
 );
@@ -317,9 +317,9 @@ const LiabilityDisclaimer = () => (
 - ✅ Regular security audits & penetration testing
 
 ### Tier 2: HIGH PRIORITY - Essential Compliance
-**`aicollabforthekids.com` (Mission & Donation Site)**
+**`aicollabforthekids.com` (Mission & Contribution Site)**
 - ✅ 3-box cookie consent (Essential/Analytics/Marketing)
-- ✅ Privacy Policy (donation data, email collection, Amazon Pay integration)
+- ✅ Privacy Policy (contribution data, email collection, Amazon Pay integration)
 - ✅ Terms of Service for site use
 - ✅ Data security for donor information
 - ✅ International privacy compliance
@@ -425,7 +425,7 @@ const LiabilityDisclaimer = () => (
 
 #### aicollabforthekids.com (Mission Site)
 - [ ] 🟠 Deploy basic 3-box cookie consent banner
-- [ ] 🟠 Draft and publish Privacy Policy (donation data, Amazon Pay integration)
+- [ ] 🟠 Draft and publish Privacy Policy (contribution data, Amazon Pay integration)
 - [ ] 🟠 Draft and publish Terms of Service
 - [ ] 🟠 Ensure donor data security (encryption, IAM)
 
@@ -484,7 +484,7 @@ If dating app generates $10,000/month:
 
 ### Public Dashboards
 1. **Charitable Donations Dashboard**
-   - Real-time donation tracking
+   - Real-time contribution tracking
    - charity EIN verification
    - Transaction receipts (anonymized)
 

@@ -12,7 +12,7 @@
  * GOSPEL SPLIT (IMMUTABLE):
  * - 60% → Verified Pediatric Charities (KIDS FIRST, ALWAYS)
  * - 30% → Infrastructure
- * - 20% → Founder
+ * - 10% → Founder
  *
  * Created by Team Claude FOR THE KIDS - December 11, 2025
  * ═══════════════════════════════════════════════════════════════════════════════

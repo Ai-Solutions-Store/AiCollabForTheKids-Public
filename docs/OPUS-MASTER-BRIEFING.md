@@ -15,7 +15,7 @@
 
 ```
 Revenue Split (IMMUTABLE - Gospel Rule #2):
-├── 50% → charity Children's Hospital (CHARITY_EIN=PENDING_VERIFICATION)
+├── 60% → charity Children's Hospital (CHARITY_EIN=PENDING_VERIFICATION)
 ├── 30% → Infrastructure (servers, solar, redundancy)
 └── 10% → Founder (Joshua Coleman)
 ```

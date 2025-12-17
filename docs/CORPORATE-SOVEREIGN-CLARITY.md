@@ -14,7 +14,7 @@
 
 **The ONLY thing "sovereign" refers to:**
 - ✅ Company allocates profits internally (company decision, not public solicitation)
-- ✅ NO donation language ("donate", "contribution", "tax-deductible")
+- ✅ NO contribution language ("contribute", "contribution", "tax-deductible")
 - ✅ NO charity solicitation (avoids Florida Ch. 496 registration)
 - ✅ Products sold as normal business transactions
 - ✅ Revenue split happens AFTER sale (not customer choice)
@@ -82,7 +82,7 @@ Periodically (weekly/monthly):
 Transfer batch of revenue to DAO contract address
     ↓
 Smart contract AUTOMATICALLY splits:
-  - 50% → charity wallet (on-chain, PUBLIC)
+  - 60% → charity wallet (on-chain, PUBLIC)
   - 30% → Infrastructure wallet (on-chain, PUBLIC)
   - 10% → Founder wallet (on-chain, PUBLIC)
     ↓
@@ -103,7 +103,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 
 **The Rule:**
 ```
-50% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
+60% → charity Children's Hospitals (Tax ID: PENDING_VERIFICATION)
 30% → Infrastructure & Reinvestment
 10% → Founder (Joshua Coleman)
 ```
@@ -148,7 +148,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 
 **Forbidden (Florida Ch. 496 violations):**
 - "Donate"
-- "Donation"
+- "Contribution"
 - "Donor"
 - "Contribute"
 - "Contribution"
@@ -195,7 +195,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 **We AVOID registration by:**
 1. ✅ Selling products (NOT soliciting donations)
 2. ✅ Using corporate profit allocation (NOT customer contributions)
-3. ✅ NO "donate" language anywhere customer-facing
+3. ✅ NO "contribute" language anywhere customer-facing
 4. ✅ NO tax-deduction claims
 
 **The mantra:**
@@ -208,7 +208,7 @@ Anyone can verify on Etherscan = TRANSPARENCY
 ### OLD (WRONG):
 - ❌ "50% escrow to charity"
 - ❌ "Donate to help kids"
-- ❌ "Your donation is tax-deductible"
+- ❌ "Your contribution is tax-deductible"
 - ❌ "Funds held in escrow for charity"
 
 ### NEW (CORRECT):

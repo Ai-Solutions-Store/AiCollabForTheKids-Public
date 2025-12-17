@@ -62,7 +62,7 @@ grep -r "36-2193608" youandinotai-landing/ aidoesitall-landing/
 **Evidence:**
 - `youandinotai-landing/index.html` Line 12: "60% of profits go to Verified Pediatric Charities"
 - `youandinotai-landing/index.html` Line 344: "→ charity Children's Hospitals"
-- `aidoesitall-landing/index.html` Line 903: "Committed to Verified Pediatric Charities (50%)"
+- `aidoesitall-landing/index.html` Line 903: "Committed to Verified Pediatric Charities (60%)"
 
 **Conclusion:** All local source files use correct charity terminology.
 

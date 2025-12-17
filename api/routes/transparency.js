@@ -140,7 +140,7 @@ router.get('/current-month', async (req, res) => {
 
 /**
  * POST /api/transparency/upload-receipt
- * Upload charity donation receipt (admin only)
+ * Upload charity contribution receipt (admin only)
  */
 router.post('/upload-receipt', async (req, res) => {
   try {

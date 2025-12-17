@@ -103,7 +103,7 @@ stripe.transfers.create({
 ## Cost Breakdown ($100 Example)
 
 ```
-Donation Received:        $100.00
+Contribution Received:        $100.00
 Stripe Fee (2.9% + $0.30):  -$3.29
 Available for splits:       $96.71
 
@@ -120,7 +120,7 @@ Total distributed:       $96.71 (96.7%)
 ✓ Transparent to donors
 ✓ Compliant with payment regulations
 ✓ Tax-reportable for audit/IRS
-✓ Scalable to any donation amount
+✓ Scalable to any contribution amount
 ✓ Built-in error handling possible
 
 ## Key Risks to Avoid

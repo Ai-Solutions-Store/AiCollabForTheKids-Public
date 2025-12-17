@@ -13,7 +13,7 @@
 
 echo ""
 echo "╔═══════════════════════════════════════════════════════════════╗"
-echo "║   🔱 FINAL GOSPEL LOCK V1.2 - PRE-SLEEP EXECUTION             ║"
+echo "║   🔱 FINAL GOSPEL LOCK V1.3 - PRE-SLEEP EXECUTION             ║"
 echo "║   FOR THE KIDS - Maximum Security & Revenue Verification     ║"
 echo "╚═══════════════════════════════════════════════════════════════╝"
 echo ""
@@ -58,7 +58,7 @@ git pull origin master
 
 # Create merge commit message
 COMMIT_MESSAGE=$(cat <<'EOF'
-🔱 GOSPEL LOCK V1.2: FINAL MERGE - LIVE REVENUE AND SECURITY TOOLS
+🔱 GOSPEL LOCK V1.3: FINAL MERGE - LIVE REVENUE AND SECURITY TOOLS
 
 This merge locks in all GOSPEL-compliant features, including the Live Revenue
 Verification Dashboard and the Security Audit tools. This makes the Gospel the
@@ -81,7 +81,7 @@ supreme, canonical law of the Master branch.
 
 ✅ FINAL STATUS: PRODUCTION-READY - MISSION INTEGRITY 100%
 
-FOR THE KIDS - 50/30/20 IMMUTABLE
+FOR THE KIDS - 60/30/10 IMMUTABLE
 Co-Authored-By: Claude <noreply@anthropic.com>
 EOF
 )
@@ -97,7 +97,7 @@ if [ $? -ne 0 ]; then
     echo -e "${YELLOW}To resolve manually:${NC}"
     echo "  1. Fix conflicts in the listed files"
     echo "  2. Run: git add ."
-    echo "  3. Run: git commit -m 'Gospel Lock V1.2 merge'"
+    echo "  3. Run: git commit -m 'Gospel Lock V1.3 merge'"
     echo "  4. Run: git push origin master"
     echo ""
     exit 1
@@ -205,7 +205,7 @@ fi
 
 echo ""
 echo -e "${CYAN}════════════════════════════════════════════════════════════════${NC}"
-echo -e "${GREEN}  🎉 GOSPEL LOCK V1.2 COMPLETE${NC}"
+echo -e "${GREEN}  🎉 GOSPEL LOCK V1.3 COMPLETE${NC}"
 echo -e "${CYAN}════════════════════════════════════════════════════════════════${NC}"
 echo ""
 echo -e "  ${GREEN}✅ Master branch is now canonical (Gospel-locked)${NC}"
@@ -218,7 +218,7 @@ echo "    - Dashboard: https://jules-dashboard.pages.dev"
 echo "    - Gospel Revenue: https://jules-dashboard.pages.dev/gospel"
 echo "    - GitHub Master: https://github.com/Ai-Solutions-Store/AiCollabForTheKids"
 echo ""
-echo -e "  ${GREEN}💚 FOR THE KIDS - 50/30/20 IMMUTABLE${NC}"
+echo -e "  ${GREEN}💚 FOR THE KIDS - 60/30/10 IMMUTABLE${NC}"
 echo -e "  ${CYAN}🔱 MASTER IS THE GOSPEL. SLEEP WELL, FOUNDER.${NC}"
 echo ""
 echo -e "${CYAN}════════════════════════════════════════════════════════════════${NC}"

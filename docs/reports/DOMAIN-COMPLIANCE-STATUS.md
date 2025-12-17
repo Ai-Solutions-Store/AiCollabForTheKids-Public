@@ -59,7 +59,7 @@ This document tracks legal compliance status across ALL domains in the AiCollabF
 
 ### 🟠 TIER 2: HIGH PRIORITY COMPLIANCE
 
-#### `aicollabforthekids.com` (Mission & Donation Site)
+#### `aicollabforthekids.com` (Mission & Contribution Site)
 **Status:** ⚠️ PARTIALLY COMPLIANT - Basic structure exists  
 **Launch Blocker:** NO - Currently operational but needs updates  
 **Risk Level:** 🟠 MEDIUM-HIGH
@@ -67,7 +67,7 @@ This document tracks legal compliance status across ALL domains in the AiCollabF
 | Requirement | Status | Priority | Notes |
 |------------|--------|----------|-------|
 | 3-Box Cookie Consent | ⚠️ Basic Only | 🟠 HIGH | Needs CMP integration |
-| Privacy Policy | ⚠️ Generic | 🟠 HIGH | Update for donation data, Amazon Pay |
+| Privacy Policy | ⚠️ Generic | 🟠 HIGH | Update for contribution data, Amazon Pay |
 | Terms of Service | ❌ Missing | 🟠 HIGH | Required for site usage |
 | Data Security (Donors) | ⚠️ Basic | 🟠 HIGH | Amazon Pay handles payments, but interaction data needs review |
 | GDPR Compliance | ⚠️ Partial | 🟠 HIGH | International donors |

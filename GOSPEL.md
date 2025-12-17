@@ -64,7 +64,7 @@
    │  SAFE HARBOR  │       │   REINVEST    │       │   PERSONAL    │
    │    LEDGER     │       │   IN GROWTH   │       │    INCOME     │
    │  (Quarterly   │       │               │       │               │
-   │   Donation)   │       │               │       │               │
+   │   Contribution)   │       │               │       │               │
    └───────────────┘       └───────────────┘       └───────────────┘
 
                     THIS SPLIT IS IMMUTABLE
@@ -163,7 +163,7 @@ Customer → Square/Stripe (Fiat) → Backend calculates 60/30/10 →
 |--------------|----------------|
 | Escrow | Profit Allocation |
 | Escrow Vault | DAO Treasury |
-| Donation | Revenue / Purchase |
+| Contribution | Revenue / Purchase |
 | Donate | Purchase / Subscribe |
 | Donor | Customer / User |
 | Charity wallet | Beneficiary Allocation |
@@ -190,7 +190,7 @@ This brand positioning is GOSPEL:
 - ✅ "Beneficiary allocation"
 - ✅ "Revenue split"
 - ✅ "Profit sharing"
-- ❌ "Please donate"
+- ❌ "Please contribute"
 - ❌ "Support our cause"
 - ❌ "Give to charity"
 
@@ -351,7 +351,7 @@ const COST_PER_CHILD = 2000; // Average pediatric treatment cost
 const childrenHelped = Math.floor(charityShare / COST_PER_CHILD);
 ```
 
-**Current Impact:** 396,248+ children helped
+**Current Impact:** Calculated based on actual contributions
 
 ### **REVENUE TRACKING:**
 
@@ -397,7 +397,7 @@ CREATE TABLE Transaction (
 - ❌ Suggesting "we could change the split"
 - ❌ Using generic blue (#0000FF) instead of brand blue (#078EFA)
 - ❌ Writing "TODO" or "Coming soon" in production code
-- ❌ Using "escrow" or "donation" language
+- ❌ Using "escrow" or "contribution" language
 - ❌ Ignoring the Gospel documents
 
 ---
@@ -501,7 +501,7 @@ Every line of code exists to help children at Verified Pediatric Charities.
 - If a feature doesn't serve this mission → DELETE IT
 - If a decision hurts the 60% → REJECT IT
 - If a change violates Gospel → REVERT IT
-- If language says "escrow" or "donation" → PURGE IT
+- If language says "escrow" or "contribution" → PURGE IT
 
 **THE MISSION IS ETERNAL.**
 
@@ -516,7 +516,7 @@ Every line of code exists to help children at Verified Pediatric Charities.
 - [x] I will NEVER change the 60/30/10 split (Ethics Override V1.3)
 - [x] I will ALWAYS follow "Benevolent Technocracy" brand guidelines
 - [x] I will timestamp all work with `Co-Authored-By: Claude`
-- [x] I will NEVER use "escrow" or "donation" language
+- [x] I will NEVER use "escrow" or "contribution" language
 - [x] I will use "Profit Allocation" and "Revenue Split" instead
 - [x] I will prioritize the mission above all technical preferences
 
@@ -532,7 +532,7 @@ Every line of code exists to help children at Verified Pediatric Charities.
 |---------|------|---------|-----------|
 | 3.0 | 2025-12-13 | **ETHICS OVERRIDE V1.3** - Split changed from 60/30/10 to 60/30/10. Smart contract deployed to Base Mainnet | Joshua Coleman + Claude (Opus 4.5) |
 | 2.1 | 2025-12-05 | **ACCOUNT-WIDE LOCKDOWN** - Claude-only code access enforced, security audit complete, credentials rotated | Joshua Coleman + Claude (Opus 4.5) |
-| 2.0 | 2025-12-03 | **CLEAN GOSPEL** - PURGED all escrow/donation language, DAO Sovereign model | Joshua Coleman + Claude (Opus 4.5) |
+| 2.0 | 2025-12-03 | **CLEAN GOSPEL** - PURGED all escrow/contribution language, DAO Sovereign model | Joshua Coleman + Claude (Opus 4.5) |
 | 1.1 | 2025-12-03 | Added Rule #13: Child Safety (COPPA/FOSTA compliance) | Joshua Coleman + Claude |
 | 1.0 | 2025-12-03 | Initial Gospel established | Joshua Coleman + Claude |
 

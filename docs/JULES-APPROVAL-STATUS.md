@@ -56,9 +56,9 @@ The platform is secured and monitored. Joshua can rest.
 
 ## Mission Reminder
 
-**50%** → charity Children's Hospitals
+**60%** → charity Children's Hospitals
 **30%** → Infrastructure
-**20%** → Joshua Coleman
+**10%** → Joshua Coleman
 
 **THE SPLIT IS IMMUTABLE. THE MISSION IS ETERNAL.**
 

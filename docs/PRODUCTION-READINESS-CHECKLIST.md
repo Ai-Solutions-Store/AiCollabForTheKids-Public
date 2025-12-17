@@ -14,13 +14,13 @@
 - [x] **Phase 3 Features**: All 5 features deployed (2,800+ lines)
   - GovernanceConsole (DAO voting)
   - SecurityAudit (compliance tracking)
-  - ImpactTracker (donation transparency)
+  - ImpactTracker (contribution transparency)
   - CommunityConnect (volunteer matching)
   - SetupScripts (P21 deployment automation)
 - [x] **Dashboard**: 27 functional tabs at jules-dashboard.pages.dev
 - [x] **CI/CD Pipeline**: GitHub Actions operational
 - [x] **Docker Services**: 5 services running (PostgreSQL 21hr+ uptime)
-- [x] **Database Schema**: 50% charity commitment enforced
+- [x] **Database Schema**: 60% charity commitment enforced
 
 ### Domain Migration:
 
@@ -183,7 +183,7 @@ Set up redirects from old domain to new charity domain:
 # In Cloudflare Page Rules or server config
 https://youandinotai.com/careers → https://careers.aidoesitall.website
 https://youandinotai.com/charity/* → https://aidoesitall.website/$1
-https://youandinotai.com/donate → https://aidoesitall.website/donate
+https://youandinotai.com/contribute → https://aidoesitall.website/contribute
 ```
 
 **Sitemap**:
@@ -323,9 +323,9 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 - [ ] Professional hero section
 - [ ] Clear value proposition
-- [ ] Donation call-to-action
+- [ ] Contribution call-to-action
 - [ ] charity partnership highlight
-- [ ] Trust indicators (50% guaranteed donation)
+- [ ] Trust indicators (50% guaranteed contribution)
 
 **About Page**:
 
@@ -351,11 +351,11 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 **Functionality Testing**:
 
 - [ ] User registration/login
-- [ ] Donation flow (Square integration)
+- [ ] Contribution flow (Square integration)
 - [ ] Payment processing (test mode first!)
 - [ ] Email notifications sent
 - [ ] Database records created
-- [ ] 50% charity allocation calculated
+- [ ] 60% charity allocation calculated
 
 **Cross-Browser Testing**:
 
@@ -448,7 +448,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 **Timeline**: Ongoing
 
-1. Launch core donation functionality first
+1. Launch core contribution functionality first
 2. Add governance features progressively
 3. Enable community features after user base grows
 4. Iterate based on feedback
@@ -463,7 +463,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 2. 🔴 **DNS Configuration**: 15 minutes (BLOCKING)
 3. 🔴 **Email Setup**: 30 minutes (BLOCKING)
 4. 🔴 **Environment Variables**: 10 minutes (BLOCKING)
-5. 🟡 **Test Full Stack**: 30 minutes (donation flow)
+5. 🟡 **Test Full Stack**: 30 minutes (contribution flow)
 
 ### Next Week:
 
@@ -515,7 +515,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 - ✅ All P0 items complete
 - ✅ Soft launch successful
-- ✅ First donation processed
+- ✅ First contribution processed
 - ✅ 50% automatically allocated to charity
 - ✅ Donor receives confirmation with impact transparency
 

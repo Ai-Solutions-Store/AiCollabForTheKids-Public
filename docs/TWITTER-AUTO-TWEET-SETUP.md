@@ -8,18 +8,18 @@
 
 ## Why This Matters
 
-**Every donation tweet = Free viral marketing**
+**Every contribution tweet = Free viral marketing**
 
 When a payment comes in, automatically posting to Twitter:
-- Creates social proof (people see others donating)
-- Amplifies the 50% charity mission
+- Creates social proof (people see others contributing)
+- Amplifies the 60% charity mission
 - Drives organic traffic back to the sites
 - Builds community momentum
 - Zero cost, maximum reach
 
 **Example Tweet:**
 ```
-🎉 New donation! $19.99 just raised for charity Children's Hospitals!
+🎉 New contribution! $19.99 just raised for charity Children's Hospitals!
 
 Total raised: $48.97
 50% to kids: $24.49
@@ -42,7 +42,7 @@ https://youandinotai.com
 3. Click "Sign up for Free Account"
 4. Fill out application:
    - **Account Type:** "Hobbyist" → "Making a bot"
-   - **App Name:** "AiCollabForTheKids Donation Bot"
+   - **App Name:** "AiCollabForTheKids Contribution Bot"
    - **Use Case:** "Automatically tweet when donations are received for charity (charity Children's Hospitals). 60% of all revenue goes to charity. Tweets provide transparency and social proof."
    - **Will you make Twitter content available to government?** No
 5. Accept Terms & Submit
@@ -54,7 +54,7 @@ https://youandinotai.com
 Once approved:
 
 1. In Developer Portal, click "Create Project"
-2. **Project Name:** "AiCollab Donation Tracker"
+2. **Project Name:** "AiCollab Contribution Tracker"
 3. **Use Case:** "Making a bot"
 4. **App Name:** "ForTheKids Bot"
 5. **App Environment:** "Production"
@@ -138,7 +138,7 @@ The auto-tweet function has been added to `AiSolutions-DAO/backend/dao-logic.js`
 
 **Tweet Format:**
 ```javascript
-🎉 New donation! $19.99 just raised for charity Children's Hospitals!
+🎉 New contribution! $19.99 just raised for charity Children's Hospitals!
 
 Total raised: $48.97
 50% to kids: $24.49
@@ -151,9 +151,9 @@ https://youandinotai.com
 
 **Features:**
 - ✅ Posts to Twitter via API v2
-- ✅ Includes donation amount
+- ✅ Includes contribution amount
 - ✅ Shows running total
-- ✅ Calculates 50% charity split
+- ✅ Calculates 60% charity split
 - ✅ Adds relevant hashtags
 - ✅ Links back to site
 - ✅ Rate limiting (max 1 tweet per minute)
@@ -185,7 +185,7 @@ if (process.env.TWITTER_ENABLED === 'true') {
 Auto-tweet will log to console but not post:
 
 ```
-[Twitter] Would tweet: "🎉 New donation! $9.99..."
+[Twitter] Would tweet: "🎉 New contribution! $9.99..."
 [Twitter] ⚠️ Twitter API not configured - set TWITTER_API_KEY
 ```
 
@@ -200,7 +200,7 @@ After adding credentials to `.env`:
 
 **Success Log:**
 ```
-[Twitter] ✅ Posted tweet: "🎉 New donation! $9.99..."
+[Twitter] ✅ Posted tweet: "🎉 New contribution! $9.99..."
 [Twitter] Tweet ID: 1234567890123456789
 ```
 
@@ -253,10 +253,10 @@ Join the mission: https://youandinotai.com
 #ForTheKids #Milestone
 ```
 
-### Large Donation Tweets
+### Large Contribution Tweets
 ```javascript
-// When donation > $50
-🚀 WOW! $99.99 donation just came in for charity Children's!
+// When contribution > $50
+🚀 WOW! $99.99 contribution just came in for charity Children's!
 
 That's $50 going straight to the kids. You're amazing! 💚
 
@@ -343,7 +343,7 @@ Use Twitter Analytics (free):
 
 ✅ **Allowed:**
 - Automated tweets about your own platform's activity
-- Charity donation announcements
+- Charity contribution announcements
 - Transparent bot behavior
 
 ❌ **Not Allowed:**
@@ -359,7 +359,7 @@ Use Twitter Analytics (free):
 ### Privacy
 
 - No personal information tweeted (names, emails, etc.)
-- Only aggregate totals and donation amounts
+- Only aggregate totals and contribution amounts
 - Compliant with GDPR/CCPA
 
 ---
@@ -371,7 +371,7 @@ If Twitter API is too complex, Joshua can tweet manually:
 ### Copy-Paste Template
 
 ```
-🎉 New donation! $XX.XX just raised for charity Children's Hospitals!
+🎉 New contribution! $XX.XX just raised for charity Children's Hospitals!
 
 Total raised: $XXX.XX
 50% to kids: $XXX.XX
@@ -397,7 +397,7 @@ https://youandinotai.com
 2. ⏳ Create app + get 4 API credentials
 3. ⏳ Add credentials to T5500 `.env` file
 4. ⏳ Restart PM2: `pm2 restart dao-hybrid-ftk`
-5. ⏳ Make test donation to verify auto-tweet works
+5. ⏳ Make test contribution to verify auto-tweet works
 6. ⏳ Monitor Twitter Analytics for engagement
 
 ---

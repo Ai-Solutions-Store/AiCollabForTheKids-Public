@@ -127,7 +127,7 @@ gtag('config', 'G-YOUR_REAL_ID');
 
 ### 🟡 Priority 3: Twitter Auto-Tweet (60 minutes)
 
-**Why This Matters:** Every donation becomes free viral marketing. Social proof = more donations.
+**Why This Matters:** Every contribution becomes free viral marketing. Social proof = more donations.
 
 #### ☐ Enable Twitter Auto-Tweet on Donations (60 min)
 
@@ -140,13 +140,13 @@ gtag('config', 'G-YOUR_REAL_ID');
    - Sign in with Twitter account (create @AiDoesItAll if needed)
    - Click "Sign up for Free Account"
    - **Account Type:** "Hobbyist" → "Making a bot"
-   - **App Name:** "ForTheKids Donation Bot"
+   - **App Name:** "ForTheKids Contribution Bot"
    - **Use Case:** "Automatically announce donations to charity Children's Hospitals"
    - Submit (approval usually instant)
 
 2. **Create Twitter App** (5 min)
    - In Developer Portal, click "Create Project"
-   - **Project Name:** "AiCollab Donation Tracker"
+   - **Project Name:** "AiCollab Contribution Tracker"
    - **App Name:** "ForTheKids Bot"
    - Go to "Keys and tokens" tab
 
@@ -190,10 +190,10 @@ gtag('config', 'G-YOUR_REAL_ID');
    ```
    - Check logs for `[Twitter] ✅ Client initialized`
 
-8. **Test with Donation** (4 min)
-   - Make $1 test donation: https://square.link/u/D2qocvKS
+8. **Test with Contribution** (4 min)
+   - Make $1 test contribution: https://square.link/u/D2qocvKS
    - Check Twitter account for new tweet
-   - Should post: "🎉 New donation! $1.00 just raised..."
+   - Should post: "🎉 New contribution! $1.00 just raised..."
 
 **Verification:**
 - Tweet appears on Twitter timeline
@@ -255,14 +255,14 @@ gtag('config', 'G-YOUR_REAL_ID');
    }
 
    // Call in webhook handlers:
-   sendTelegramNotification(`🎉 New donation: $${amount} for charity!`);
+   sendTelegramNotification(`🎉 New contribution: $${amount} for charity!`);
    ```
 
 5. **Restart PM2 & Test** (3 min)
    ```bash
    pm2 restart dao-hybrid-ftk
    ```
-   - Make test donation
+   - Make test contribution
    - Check Telegram for notification
 
 **Verification:**
@@ -270,7 +270,7 @@ gtag('config', 'G-YOUR_REAL_ID');
 - PM2 logs show `[Telegram] ✅ Notification sent`
 
 **Time Required:** 45 minutes
-**Impact:** Real-time donation alerts, better tracking
+**Impact:** Real-time contribution alerts, better tracking
 
 ---
 
@@ -518,7 +518,7 @@ gh run list --repo Ai-Solutions-Store/AiCollabForTheKids --limit 10
 - ☐ Check PM2 logs for errors: `pm2 logs --lines 100`
 - ☐ Check Safe Harbor Ledger: `curl https://dao.youandinotai.com/stats`
 - ☐ Test one random checkout link per day
-- ☐ Verify Twitter auto-tweet fires (if donation comes in)
+- ☐ Verify Twitter auto-tweet fires (if contribution comes in)
 
 **Day 4-7:**
 - ☐ Check Google Search Console (indexing progress)
@@ -550,7 +550,7 @@ gh run list --repo Ai-Solutions-Store/AiCollabForTheKids --limit 10
 | Metric | Target | Actual |
 |--------|--------|--------|
 | **Total Revenue** | $500-1,000 | ___ |
-| **charity (50%)** | $250-500 | ___ |
+| **charity (60%)** | $250-500 | ___ |
 | **Transactions** | 20-50 | ___ |
 | **Avg Transaction** | $20-30 | ___ |
 
@@ -715,7 +715,7 @@ All AI-generated content now includes proper disclosure for compliance with:
 **3. Twitter Auto-Tweets** (twitter-auto-tweet-code.js)
 
 - ✅ Prefix: `🤖 AI-Generated |`
-- Applied to all donation announcement tweets
+- Applied to all contribution announcement tweets
 - Compliant with Twitter's automation policies
 
 ### Why This Matters

@@ -34,8 +34,8 @@ function getTwitterClient() {
 // =====================================================
 
 /**
- * Post donation announcement to Twitter
- * @param {number} amount - Donation amount
+ * Post contribution announcement to Twitter
+ * @param {number} amount - Contribution amount
  * @param {string} source - Payment source (square-merch, square-dating, stripe)
  * @param {number} newTotal - New total raised
  */
@@ -68,7 +68,7 @@ async function postDonationTweet(amount, source, newTotal) {
         const totalStr = newTotal.toFixed(2);
 
         // Construct tweet with AI disclosure (FTC/CA SB 1001/EU AI Act compliance)
-        const tweetText = `🤖 AI-Generated | 🎉 New donation! $${amountStr} just raised for charity Children's Hospitals!
+        const tweetText = `🤖 AI-Generated | 🎉 New contribution! $${amountStr} just raised for charity Children's Hospitals!
 
 Total raised: $${totalStr}
 60% to kids: $${charityAmount}

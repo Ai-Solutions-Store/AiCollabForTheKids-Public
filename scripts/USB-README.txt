@@ -1,6 +1,6 @@
 ═══════════════════════════════════════════════════════════════════
     GOSPEL v2.1 DEPLOYMENT USB
-    FOR THE KIDS - 50% to charity Children's Hospitals
+    FOR THE KIDS - 60% to charity Children's Hospitals
 ═══════════════════════════════════════════════════════════════════
 
 Created: December 6, 2025

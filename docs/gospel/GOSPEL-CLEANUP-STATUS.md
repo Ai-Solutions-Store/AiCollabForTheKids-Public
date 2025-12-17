@@ -8,7 +8,7 @@
 
 ## ✅ CLEAN GOSPEL DOCUMENTS (AUTHORITATIVE)
 
-These files are the **ONLY** source of truth. All use CLEAN language (no escrow/donation):
+These files are the **ONLY** source of truth. All use CLEAN language (no escrow/contribution):
 
 | File | Status | Notes |
 |------|--------|-------|
@@ -17,7 +17,7 @@ These files are the **ONLY** source of truth. All use CLEAN language (no escrow/
 | `.github/AI-CREDENTIALS-REFERENCE.md` | ✅ CLEAN | All credentials |
 | `.claude/UNIVERSAL-AGENT-CONTEXT.md` | ✅ CLEAN | AI sync prompt |
 | `docs/MISSION-MANIFESTO.md` | ✅ CLEAN | Mission statement |
-| `packages/contracts/CharityGuardian.sol` | ✅ CREATED | DAO smart contract |
+| `packages/contracts/CharityGuardian.sol` | ⏳ PLANNED | DAO smart contract (not deployed) |
 | `api/routes/webhooks.js` | ✅ CLEAN | Uses `profitAllocation` |
 | `.env.example` | ✅ CLEAN | Uses `CHARITY_PERCENT` |
 
@@ -86,7 +86,7 @@ These components reference "Escrow Vault":
 | ESCROW_PERCENT | CHARITY_PERCENT |
 | EscrowSplit (model) | ProfitAllocation |
 | escrowSplit (variable) | profitAllocation |
-| Donation | Revenue / Purchase |
+| Contribution | Revenue / Purchase |
 | Donate | Purchase / Subscribe |
 | Donor | Customer / User |
 
@@ -120,7 +120,7 @@ These are low-priority and can be done incrementally:
 1. Read `GOSPEL.md` FIRST
 2. Use ONLY the clean terminology
 3. NEVER reference legacy "escrow" docs
-4. Report any remaining escrow/donation language for cleanup
+4. Report any remaining escrow/contribution language for cleanup
 
 ---
 

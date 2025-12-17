@@ -99,7 +99,7 @@ To request more quota:
 
 ## Monetization Note
 
-For ad revenue to count toward charity donation:
+For ad revenue to count toward charity contribution:
 1. Channel must be in YouTube Partner Program
 2. Videos must be original content
 3. Content must comply with advertiser guidelines

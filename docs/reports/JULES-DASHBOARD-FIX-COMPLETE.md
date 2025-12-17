@@ -82,7 +82,7 @@ Each "Coming Soon" view displays:
 - **View title** with description
 - **"Under Construction"** section with warning style
 - **Timeline info**: Coming Soon, #FOR THE KIDS badge
-- **Mission statement**: 50% charity / 30% infrastructure / 20% developer
+- **Mission statement**: 60% charity / 30% infrastructure / 20% developer
 - **3 info cards**: Phase 2, 100% For Kids, Q1 2025 Target
 
 **Design tokens maintained:**

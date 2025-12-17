@@ -28,7 +28,7 @@
 │     └── Dating   → /webhook/square-dating (ebaytrashortreasure@gmail.com)│
 │                                                                         │
 │  6. DAO RECORDS GOSPEL SPLIT                                            │
-│     ├── 50% → charity (pending ledger)                                 │
+│     ├── 60% → charity (pending ledger)                                 │
 │     ├── 30% → Infrastructure                                            │
 │     └── 10% → Founder                                                   │
 │                                                                         │

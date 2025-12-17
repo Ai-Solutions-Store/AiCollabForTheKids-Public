@@ -147,7 +147,7 @@
 
 4. **301 Redirects** (15 minutes)
    - [ ] Configure: youandinotai.com/careers → careers.aidoesitall.website
-   - [ ] Configure: youandinotai.com/donate → aidoesitall.website/donate
+   - [ ] Configure: youandinotai.com/contribute → aidoesitall.website/contribute
    - [ ] Test redirects working
 
 ### Priority 1: Production Readiness
@@ -300,8 +300,8 @@
 ### Success Criteria for Soft Launch:
 - ✅ All domains resolving correctly
 - ✅ Email notifications working
-- ✅ First donation processed successfully
-- ✅ 50% charity allocation visible on dashboard
+- ✅ First contribution processed successfully
+- ✅ 60% charity allocation visible on dashboard
 - ✅ No critical errors in 72-hour monitoring period
 - ✅ Page load times < 3 seconds
 - ✅ SSL certificates valid on all subdomains
@@ -314,7 +314,7 @@
 
 **Current Focus**: Complete documentation cleanup (Mission 002), then enable Joshua to configure production infrastructure for soft launch.
 
-**Ultimate Goal**: Professional charity platform operational on aidoesitall.website, helping kids through transparent, AI-powered donation tracking.
+**Ultimate Goal**: Professional charity platform operational on aidoesitall.website, helping kids through transparent, AI-powered contribution tracking.
 
 ---
 

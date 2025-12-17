@@ -83,13 +83,13 @@ You are helping prep the YouAndINotAI dating app + AiCollabForTheKids charity pl
 
 **Search for these FORBIDDEN words:**
 - [ ] "Donate" (should be "Purchase" or "Subscribe")
-- [ ] "Donation" (should be "Escrow Vault" or "Reserved Allocation")
+- [ ] "Contribution" (should be "Escrow Vault" or "Reserved Allocation")
 - [ ] "Tax-deductible"
 - [ ] "Charity Wallet" (should be "Escrow Vault")
 - [ ] "Fundraising platform"
 
 **Replace with approved language:**
-- ✅ "We donate 50% of our profits to charity Children's Hospitals"
+- ✅ "We contribute 50% of our profits to charity Children's Hospitals"
 - ✅ "Internal Escrow Vault: Reserved for Charitable Impact"
 - ✅ "Purchase a subscription"
 - ✅ "Join the community"
@@ -171,7 +171,7 @@ You are helping prep the YouAndINotAI dating app + AiCollabForTheKids charity pl
 
 **Search for:**
 - [ ] "Donate" → Replace with "Purchase" / "Subscribe"
-- [ ] "Donation" → Replace with "Escrow Vault"
+- [ ] "Contribution" → Replace with "Escrow Vault"
 - [ ] "Tax-deductible"
 - [ ] "Charity Wallet"
 
@@ -181,7 +181,7 @@ You are helping prep the YouAndINotAI dating app + AiCollabForTheKids charity pl
 **What to do:**
 - [ ] Verify footer includes: "Operated by TRASH OR TREASURE ONLINE RECYCLER LLC (L25000158401)"
 - [ ] Verify financial displays include disclaimer:
-  > "This is an internal corporate financial ledger for TRASH OR TREASURE ONLINE RECYCLER LLC (L25000158401). Funds shown in the 'Escrow Vault' are company assets reserved for charitable allocation at the discretion of ownership. This is not a public donation fund. No customer payments are solicited as donations."
+  > "This is an internal corporate financial ledger for TRASH OR TREASURE ONLINE RECYCLER LLC (L25000158401). Funds shown in the 'Escrow Vault' are company assets reserved for charitable allocation at the discretion of ownership. This is not a public contribution fund. No customer payments are solicited as donations."
 
 ---
 

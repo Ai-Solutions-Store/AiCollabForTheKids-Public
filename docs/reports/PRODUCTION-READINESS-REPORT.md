@@ -485,7 +485,7 @@
 
 ## 📞 WHAT TO TELL ATTORNEY
 
-"We're launching a dating platform (youandinotai.com) that donates 50% of revenue to charity Children's Hospital. We've implemented:
+"We're launching a dating platform (youandinotai.com) that contributes 60% of revenue to charity Children's Hospital. We've implemented:
 
 - Multi-layer age verification (self-attestation + Yoti + AWS Rekognition)
 - 3-box cookie consent system (GDPR/CCPA compliant)

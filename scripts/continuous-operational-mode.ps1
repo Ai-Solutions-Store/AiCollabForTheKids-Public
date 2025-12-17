@@ -95,16 +95,16 @@ function Run-DailyAudit {
     }
 
     # Run Gospel Split Audit
-    Write-Log "Running Gospel Split audit (50/30/20 verification)..." "AUDIT"
+    Write-Log "Running Gospel Split audit (60/30/10 verification)..." "AUDIT"
     try {
         $gospelAuditOutput = node C:\AiCollabForTheKids\scripts\audit\gospel-audit.cjs 2>&1
         if ($LASTEXITCODE -ne 0) {
             $auditResult.GospelSplit.Valid = $false
-            $auditResult.Alerts += "GOSPEL_SPLIT_VIOLATION: 50/30/20 split verification FAILED"
-            Send-CriticalAlert "Gospel Split Violation" "50/30/20 split verification FAILED - Check Safe Harbor Ledger immediately"
+            $auditResult.Alerts += "GOSPEL_SPLIT_VIOLATION: 60/30/10 split verification FAILED"
+            Send-CriticalAlert "Gospel Split Violation" "60/30/10 split verification FAILED - Check Safe Harbor Ledger immediately"
             Write-Log "Gospel Split audit FAILED - violations detected" "CRITICAL"
         } else {
-            Write-Log "Gospel Split audit PASSED - 50/30/20 verified" "AUDIT"
+            Write-Log "Gospel Split audit PASSED - 60/30/10 verified" "AUDIT"
         }
     } catch {
         $auditResult.Alerts += "GOSPEL_AUDIT_ERROR: Could not run Gospel audit - $($_.Exception.Message)"
@@ -154,7 +154,7 @@ function Install-ScheduledTasks {
             -Action $gospelAction `
             -Trigger $gospelTrigger `
             -Settings $gospelSettings `
-            -Description "Daily Gospel Split audit - 50/30/20 verification FOR THE KIDS" `
+            -Description "Daily Gospel Split audit - 60/30/10 verification FOR THE KIDS" `
             -Force | Out-Null
 
         Write-Log "Gospel Audit scheduled task created (daily @ 6 AM)" "INFO"
@@ -223,7 +223,7 @@ Write-Host "Status: AUTONOMOUS WATCH ACTIVE" -ForegroundColor Green
 Write-Host "Alert Policy: ZERO NOISE (Critical Only)" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "Alerts Trigger On:" -ForegroundColor White
-Write-Host "  - Gospel Split Violation (50/30/20)" -ForegroundColor White
+Write-Host "  - Gospel Split Violation (60/30/10)" -ForegroundColor White
 Write-Host "  - Budget Threshold Exceeded (50%, 80%, 95%)" -ForegroundColor White
 Write-Host "  - Security Score less than 100/100" -ForegroundColor White
 Write-Host "  - Node Failure (T5500, 9020, EC2)" -ForegroundColor White

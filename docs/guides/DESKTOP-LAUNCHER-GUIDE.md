@@ -188,9 +188,9 @@ npx http-server -p 8081
 ## 💙 MISSION ALIGNMENT
 
 **Original Project (60/30/10):**
-- 50% → charity Children's Hospitals
+- 60% → charity Children's Hospitals
 - 30% → Infrastructure Fund (Immortality Engine)
-- 20% → Joshua Coleman
+- 10% → Joshua Coleman
 
 **New Projects (100% Charity):**
 - 100% → Rotating children's charities

@@ -105,7 +105,7 @@
 
                     <div class="space-y-3">
                         <div class="flex justify-between items-center p-3 bg-rose-50 rounded-lg border border-rose-100">
-                            <span class="font-semibold text-rose-800">Verified Pediatric Charities (50%)</span>
+                            <span class="font-semibold text-rose-800">Verified Pediatric Charities (60%)</span>
                             <span class="font-bold text-rose-600" id="charityAmount">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center p-3 bg-blue-50 rounded-lg border border-blue-100">
@@ -113,7 +113,7 @@
                             <span class="font-bold text-blue-600" id="infraAmount">$0.00</span>
                         </div>
                         <div class="flex justify-between items-center p-3 bg-emerald-50 rounded-lg border border-emerald-100">
-                            <span class="font-semibold text-emerald-800">Founder (20%)</span>
+                            <span class="font-semibold text-emerald-800">Founder (10%)</span>
                             <span class="font-bold text-emerald-600" id="founderAmount">$0.00</span>
                         </div>
                     </div>
@@ -381,7 +381,7 @@
             updateFinancials(e.target.value);
         });
 
-        // Real donation counter - will be updated via API when real donations come in
+        // Real contribution counter - will be updated via API when real donations come in
         // NO FAKE DATA - this shows actual donations only
         const donatedEl = document.getElementById('total-donated-counter');
         // Future: fetch from /api/dao/status to get real totals
@@ -432,7 +432,7 @@
 
             addLogLine('', 'text-stone-300');
             addLogLine('STATUS CHECK COMPLETE', 'text-green-500 font-bold');
-            addLogLine('50% → charity Children\'s Hospitals', 'text-rose-400 font-bold');
+            addLogLine('60% → charity Children\'s Hospitals', 'text-rose-400 font-bold');
 
             deployBtn.innerHTML = '&#10003; STATUS CHECKED';
             deployBtn.classList.remove('bg-blue-600', 'hover:bg-blue-500');

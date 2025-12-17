@@ -74,7 +74,7 @@ npx ipfs-deploy jules-dashboard/dist -p pinata
 
 ```solidity
 // SPDX-License-Identifier: MIT
-// GospelDonation.sol - Basic USDC Donation Contract
+// GospelDonation.sol - Basic USDC Contribution Contract
 
 pragma solidity ^0.8.19;
 
@@ -111,7 +111,7 @@ contract GospelDonation {
         founderWallet = _founder;
     }
 
-    function donate(uint256 amount) external {
+    function contribute(uint256 amount) external {
         require(amount > 0, "Amount must be > 0");
 
         // Transfer USDC from donor
@@ -333,11 +333,11 @@ export function CryptoPayButton({ amount }: { amount: number }) {
             args: [GOSPEL_CONTRACT, parseUnits(amount.toString(), 6)]
         });
 
-        // Execute donation with Gospel split
+        // Execute contribution with Gospel split
         await writeContract({
             address: GOSPEL_CONTRACT,
-            abi: ['function donate(uint256)'],
-            functionName: 'donate',
+            abi: ['function contribute(uint256)'],
+            functionName: 'contribute',
             args: [parseUnits(amount.toString(), 6)]
         });
     };

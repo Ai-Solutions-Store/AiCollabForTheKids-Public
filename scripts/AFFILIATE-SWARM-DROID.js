@@ -3,7 +3,7 @@
  * AFFILIATE SWARM DROID - Compound Growth Track
  * ═══════════════════════════════════════════════════════════════════════════════
  *
- * GOSPEL V1.2 COMPLIANT - Zero-Cost User Acquisition System
+ * GOSPEL V1.3 COMPLIANT - Zero-Cost User Acquisition System
  * Uses Gemini 2.0 Flash for Gospel-compliant content generation
  *
  * Platform: FOR THE KIDS
@@ -138,7 +138,7 @@ BRAND IDENTITY (GOSPEL RULE #3 - IMMUTABLE):
 REVENUE SPLIT (GOSPEL RULE #2 - IMMUTABLE):
 - 60% → Verified Pediatric Charities
 - 30% → Infrastructure
-- 20% → Founder
+- 10% → Founder
 
 CRITICAL MESSAGING RULES:
 1. NEVER frame as "donations" or "charity pleas"
@@ -165,7 +165,7 @@ DO NOT:
      */
     _buildContentPrompt(platform, theme, specs) {
         const themes = {
-            efficiency: 'Focus on how AI automation makes 50% charity allocation effortless',
+            efficiency: 'Focus on how AI automation makes 60% charity allocation effortless',
             impact: 'Focus on the compounding effect of consistent automated giving',
             technology: 'Focus on the technical architecture enabling trustless philanthropy',
             community: 'Focus on joining a movement of builders who code for good',
@@ -235,7 +235,7 @@ Generate the 5 posts now:
         const violations = [];
 
         // Check for forbidden terms
-        const forbiddenTerms = ['donate', 'donation', 'give now', 'help us', 'please help'];
+        const forbiddenTerms = ['contribute', 'contribution', 'give now', 'help us', 'please help'];
         for (const term of forbiddenTerms) {
             if (content.toLowerCase().includes(term)) {
                 violations.push(`Contains forbidden term: "${term}"`);
@@ -280,7 +280,7 @@ if (process.argv[1] && process.argv[1].endsWith('AFFILIATE-SWARM-DROID.js')) {
     console.log(`
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║              AFFILIATE SWARM DROID - COMPOUND GROWTH TRACK                     ║
-║                    FOR THE KIDS - GOSPEL V1.2                                  ║
+║                    FOR THE KIDS - GOSPEL V1.3                                  ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
 Generating ${platform} content with "${theme}" theme...

@@ -55,7 +55,7 @@ const newSplitLogic = `function calculateSplit(grossAmount) {
     const amountCents = Math.round(grossAmount); // Already in cents from Square/Stripe
     const shrinersCents = Math.floor(amountCents * 50 / 100);  // 50%
     const infraCents = Math.floor(amountCents * 30 / 100);      // 30%
-    const founderCents = amountCents - shrinersCents - infraCents; // 20% (remainder)
+    const founderCents = amountCents - shrinersCents - infraCents; // 10% (remainder)
 
     return {
         charity: shrinersCents,

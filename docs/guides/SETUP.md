@@ -8,7 +8,7 @@
 
 ### PROJECT 1: "FOR THE KIDS" (ORIGINAL - THIS REPOSITORY)
 
-- **Revenue Model**: `50% charity / 30% Infrastructure / 20% Joshua` (**IMMUTABLE**)
+- **Revenue Model**: `60% charity / 30% Infrastructure / 20% Joshua` (**IMMUTABLE**)
 - **Status**: LIVE IN PRODUCTION
 - **Machine**: Dell T5500 (Dev/Master Node)
 - **Desktop Launcher**: `FOR THE KIDS - Launch All.lnk` (C:\Users\joshl\Desktop)
@@ -372,7 +372,7 @@ $env:PORT=54112; node server.js
 - [x] Unify GitHub account (master branch only)
 - [x] Launch Jules AI for fundraiser approval
 - [x] Initialize Docker Swarm for scale
-- [ ] Process first real donation
+- [ ] Process first real contribution
 - [ ] Deploy to 40 worker nodes
 
 ### Future Projects (100% Charity)

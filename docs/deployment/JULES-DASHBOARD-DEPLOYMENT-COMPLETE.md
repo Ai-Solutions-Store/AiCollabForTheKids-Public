@@ -77,9 +77,9 @@ forkids_jules_YOUR_64_CHAR_HEX_KEY_HERE
 ### **1. Financial Core (DashboardView.tsx)**
 - ✅ 60/30/10 Split Logic = **ACTIVE**
 - ✅ Total Revenue: $17,000 visualization
-- ✅ charity (50%): $8,500
+- ✅ charity (60%): $8,500
 - ✅ Infrastructure (30%): $5,100
-- ✅ Owner (20%): $3,400
+- ✅ Owner (10%): $3,400
 - ✅ P21 Compliance: 100%
 - ✅ Security Score: 98/100
 
@@ -154,7 +154,7 @@ npm run dev
 ## 📊 MISSION STATUS
 
 ### **Platform Capabilities:**
-- ✅ Enforcing 50% donation to charity via code
+- ✅ Enforcing 50% contribution to charity via code
 - ✅ Managing developer "Antigravity" pipeline
 - ✅ Routing multiple domains to single dashboard
 - ✅ Executing AI commands via Jules interface
