@@ -1,0 +1,1627 @@
+{
+  "generatedAt": "2025-12-29T00:42:12.803Z",
+  "totalProducts": 7,
+  "sequences": {
+    "claude-droid": {
+      "id": "SEQ_1766968932792_49E2CE0C",
+      "productId": "claude-droid",
+      "productName": "Claude Droid",
+      "createdAt": "2025-12-29T00:42:12.793Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Claude Droid! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Claude Droid!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Claude Droid working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Claude Droid working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Claude Droid up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Claude Droid users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Marketing Content Engine",
+                  "benefit": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                  "price": 199
+                },
+                {
+                  "name": "Income Droid",
+                  "benefit": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                  "price": 499
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with Claude Droid",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your Claude Droid results",
+            "intro": "You're already generating videos with Claude Droid. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With Claude Droid, you're doing: AI Video Generator - Auto-converts news to YouTube Shorts",
+              "addition": "Add Marketing Content Engine to: AI Social Media Automation - 4 posts/day to 23 platforms",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Marketing Content Engine",
+              "price": 199,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/5qJHNPAq"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Marketing Content Engine",
+              "link": "https://square.link/u/5qJHNPAq"
+            }
+          }
+        },
+        {
+          "delay": 168,
+          "subject": "Ready to level up from Claude Droid?",
+          "type": "upgrade",
+          "body": {
+            "headline": "Ready to level up from Claude Droid?",
+            "intro": "You've been using Claude Droid and we hope you're seeing results. When you're ready for more power...",
+            "comparison": {
+              "current": {
+                "name": "Claude Droid",
+                "price": 299,
+                "features": "AI Video Generator - Auto-converts news to YouTube Shorts"
+              },
+              "upgrade": {
+                "name": "Income Droid",
+                "price": 499,
+                "features": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                "additionalBenefits": [
+                  "More automation capabilities",
+                  "Higher revenue potential",
+                  "Enterprise-grade features"
+                ]
+              }
+            },
+            "upgradeCredit": {
+              "available": true,
+              "amount": 150,
+              "message": "As a Claude Droid customer, get 50% of your original purchase as credit toward Income Droid!"
+            },
+            "cta": {
+              "primary": "Upgrade to Income Droid",
+              "link": "https://square.link/u/OcfHUsv4"
+            }
+          }
+        },
+        {
+          "delay": 336,
+          "subject": "Special offer: Complete your automation stack",
+          "type": "bundle-upsell",
+          "body": {
+            "headline": "Create + Distribute = Maximum Reach",
+            "intro": "You have Claude Droid. Complete your stack and save big.",
+            "bundleDetails": {
+              "name": "Content Creator Bundle",
+              "originalPrice": 498,
+              "bundlePrice": 399,
+              "savings": 99,
+              "description": "Create YouTube content AND distribute to 23 platforms automatically."
+            },
+            "whatYouGet": [
+              {
+                "name": "Marketing Content Engine",
+                "description": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                "value": 199
+              }
+            ],
+            "upgradeOffer": {
+              "message": "Since you already own Claude Droid, pay only for what you don't have!",
+              "creditApplied": 299,
+              "youPay": 100,
+              "savings": 398
+            },
+            "urgency": "Save $99 when you bundle today",
+            "cta": {
+              "primary": "Complete My Stack",
+              "link": "mailto:sales@aidoesitall.website?subject=Content%20Creator%20Bundle%20($399)"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Claude Droid results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Claude Droid results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Claude Droid",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Claude Droid",
+            "intro": "You've been using Claude Droid for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "income-droid": {
+      "id": "SEQ_1766968932796_4F3CFC46",
+      "productId": "income-droid",
+      "productName": "Income Droid",
+      "createdAt": "2025-12-29T00:42:12.796Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Income Droid! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Income Droid!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Income Droid working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Income Droid working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Income Droid up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Income Droid users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Marketing Content Engine",
+                  "benefit": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                  "price": 199
+                },
+                {
+                  "name": "Affiliate System",
+                  "benefit": "White-Label Affiliate Platform - Tiered commissions & tracking",
+                  "price": 599
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with Income Droid",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your Income Droid results",
+            "intro": "You're already generating value with Income Droid. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With Income Droid, you're doing: Monetized Video Automation - 4 revenue-optimized videos daily",
+              "addition": "Add Marketing Content Engine to: AI Social Media Automation - 4 posts/day to 23 platforms",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Marketing Content Engine",
+              "price": 199,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/5qJHNPAq"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Marketing Content Engine",
+              "link": "https://square.link/u/5qJHNPAq"
+            }
+          }
+        },
+        {
+          "delay": 336,
+          "subject": "Special offer: Complete your automation stack",
+          "type": "bundle-upsell",
+          "body": {
+            "headline": "The Complete Passive Income Stack",
+            "intro": "You have Income Droid. Complete your stack and save big.",
+            "bundleDetails": {
+              "name": "Passive Income Bundle",
+              "originalPrice": 997,
+              "bundlePrice": 799,
+              "savings": 198,
+              "description": "Create, distribute, and monetize. Full automation for passive revenue."
+            },
+            "whatYouGet": [
+              {
+                "name": "Claude Droid",
+                "description": "AI Video Generator - Auto-converts news to YouTube Shorts",
+                "value": 299
+              },
+              {
+                "name": "Marketing Content Engine",
+                "description": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                "value": 199
+              }
+            ],
+            "upgradeOffer": {
+              "message": "Since you already own Income Droid, pay only for what you don't have!",
+              "creditApplied": 499,
+              "youPay": 300,
+              "savings": 697
+            },
+            "urgency": "MOST POPULAR - Save $198",
+            "cta": {
+              "primary": "Complete My Stack",
+              "link": "mailto:sales@aidoesitall.website?subject=Passive%20Income%20Bundle%20($799)"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Income Droid results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Income Droid results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Income Droid",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Income Droid",
+            "intro": "You've been using Income Droid for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "marketing-engine": {
+      "id": "SEQ_1766968932797_141F17C8",
+      "productId": "marketing-engine",
+      "productName": "Marketing Content Engine",
+      "createdAt": "2025-12-29T00:42:12.797Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Marketing Content Engine! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Marketing Content Engine!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Marketing Content Engine working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Marketing Content Engine working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Marketing Content Engine up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Marketing Content Engine users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Claude Droid",
+                  "benefit": "AI Video Generator - Auto-converts news to YouTube Shorts",
+                  "price": 299
+                },
+                {
+                  "name": "Income Droid",
+                  "benefit": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                  "price": 499
+                },
+                {
+                  "name": "Affiliate System",
+                  "benefit": "White-Label Affiliate Platform - Tiered commissions & tracking",
+                  "price": 599
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with Marketing Content Engine",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your Marketing Content Engine results",
+            "intro": "You're already generating value with Marketing Content Engine. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With Marketing Content Engine, you're doing: AI Social Media Automation - 4 posts/day to 23 platforms",
+              "addition": "Add Claude Droid to: AI Video Generator - Auto-converts news to YouTube Shorts",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Claude Droid",
+              "price": 299,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/BMn1ZI8w"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Claude Droid",
+              "link": "https://square.link/u/BMn1ZI8w"
+            }
+          }
+        },
+        {
+          "delay": 168,
+          "subject": "Ready to level up from Marketing Content Engine?",
+          "type": "upgrade",
+          "body": {
+            "headline": "Ready to level up from Marketing Content Engine?",
+            "intro": "You've been using Marketing Content Engine and we hope you're seeing results. When you're ready for more power...",
+            "comparison": {
+              "current": {
+                "name": "Marketing Content Engine",
+                "price": 199,
+                "features": "AI Social Media Automation - 4 posts/day to 23 platforms"
+              },
+              "upgrade": {
+                "name": "Jules AI Assistant",
+                "price": 399,
+                "features": "Business Operations AI - DevOps and multi-service orchestration",
+                "additionalBenefits": [
+                  "More automation capabilities",
+                  "Higher revenue potential",
+                  "Enterprise-grade features"
+                ]
+              }
+            },
+            "upgradeCredit": {
+              "available": true,
+              "amount": 100,
+              "message": "As a Marketing Content Engine customer, get 50% of your original purchase as credit toward Jules AI Assistant!"
+            },
+            "cta": {
+              "primary": "Upgrade to Jules AI Assistant",
+              "link": "https://square.link/u/XxWLwMiS"
+            }
+          }
+        },
+        {
+          "delay": 336,
+          "subject": "Special offer: Complete your automation stack",
+          "type": "bundle-upsell",
+          "body": {
+            "headline": "Create + Distribute = Maximum Reach",
+            "intro": "You have Marketing Content Engine. Complete your stack and save big.",
+            "bundleDetails": {
+              "name": "Content Creator Bundle",
+              "originalPrice": 498,
+              "bundlePrice": 399,
+              "savings": 99,
+              "description": "Create YouTube content AND distribute to 23 platforms automatically."
+            },
+            "whatYouGet": [
+              {
+                "name": "Claude Droid",
+                "description": "AI Video Generator - Auto-converts news to YouTube Shorts",
+                "value": 299
+              }
+            ],
+            "upgradeOffer": {
+              "message": "Since you already own Marketing Content Engine, pay only for what you don't have!",
+              "creditApplied": 199,
+              "youPay": 200,
+              "savings": 298
+            },
+            "urgency": "Save $99 when you bundle today",
+            "cta": {
+              "primary": "Complete My Stack",
+              "link": "mailto:sales@aidoesitall.website?subject=Content%20Creator%20Bundle%20($399)"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Marketing Content Engine results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Marketing Content Engine results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Marketing Content Engine",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Marketing Content Engine",
+            "intro": "You've been using Marketing Content Engine for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "jules-ai": {
+      "id": "SEQ_1766968932799_0C29F9C3",
+      "productId": "jules-ai",
+      "productName": "Jules AI Assistant",
+      "createdAt": "2025-12-29T00:42:12.799Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Jules AI Assistant! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Jules AI Assistant!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Jules AI Assistant working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Jules AI Assistant working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Jules AI Assistant up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Jules AI Assistant users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Affiliate System",
+                  "benefit": "White-Label Affiliate Platform - Tiered commissions & tracking",
+                  "price": 599
+                },
+                {
+                  "name": "Income Droid",
+                  "benefit": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                  "price": 499
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with Jules AI Assistant",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your Jules AI Assistant results",
+            "intro": "You're already generating value with Jules AI Assistant. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With Jules AI Assistant, you're doing: Business Operations AI - DevOps and multi-service orchestration",
+              "addition": "Add Affiliate System to: White-Label Affiliate Platform - Tiered commissions & tracking",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Affiliate System",
+              "price": 599,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/X9k1ZM9c"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Affiliate System",
+              "link": "https://square.link/u/X9k1ZM9c"
+            }
+          }
+        },
+        {
+          "delay": 168,
+          "subject": "Ready to level up from Jules AI Assistant?",
+          "type": "upgrade",
+          "body": {
+            "headline": "Ready to level up from Jules AI Assistant?",
+            "intro": "You've been using Jules AI Assistant and we hope you're seeing results. When you're ready for more power...",
+            "comparison": {
+              "current": {
+                "name": "Jules AI Assistant",
+                "price": 399,
+                "features": "Business Operations AI - DevOps and multi-service orchestration"
+              },
+              "upgrade": {
+                "name": "YouAndINotAI Dating Platform",
+                "price": 2499,
+                "features": "Complete Human-Verified Dating App - Full source code",
+                "additionalBenefits": [
+                  "More automation capabilities",
+                  "Higher revenue potential",
+                  "Enterprise-grade features"
+                ]
+              }
+            },
+            "upgradeCredit": {
+              "available": true,
+              "amount": 200,
+              "message": "As a Jules AI Assistant customer, get 50% of your original purchase as credit toward YouAndINotAI Dating Platform!"
+            },
+            "cta": {
+              "primary": "Upgrade to YouAndINotAI Dating Platform",
+              "link": "https://square.link/u/dLV56aVt"
+            }
+          }
+        },
+        {
+          "delay": 336,
+          "subject": "Special offer: Complete your automation stack",
+          "type": "bundle-upsell",
+          "body": {
+            "headline": "Run an Automated Content Business",
+            "intro": "You have Jules AI Assistant. Complete your stack and save big.",
+            "bundleDetails": {
+              "name": "Full Automation Bundle",
+              "originalPrice": 1396,
+              "bundlePrice": 999,
+              "savings": 397,
+              "description": "Everything you need. Video + Marketing + Revenue + DevOps automation."
+            },
+            "whatYouGet": [
+              {
+                "name": "Claude Droid",
+                "description": "AI Video Generator - Auto-converts news to YouTube Shorts",
+                "value": 299
+              },
+              {
+                "name": "Marketing Content Engine",
+                "description": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                "value": 199
+              },
+              {
+                "name": "Income Droid",
+                "description": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                "value": 499
+              }
+            ],
+            "upgradeOffer": {
+              "message": "Since you already own Jules AI Assistant, pay only for what you don't have!",
+              "creditApplied": 399,
+              "youPay": 600,
+              "savings": 796
+            },
+            "urgency": "BEST VALUE - Save $397",
+            "cta": {
+              "primary": "Complete My Stack",
+              "link": "mailto:sales@aidoesitall.website?subject=Full%20Automation%20Bundle%20($999)"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Jules AI Assistant results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Jules AI Assistant results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Jules AI Assistant",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Jules AI Assistant",
+            "intro": "You've been using Jules AI Assistant for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "affiliate-system": {
+      "id": "SEQ_1766968932800_417ED872",
+      "productId": "affiliate-system",
+      "productName": "Affiliate System",
+      "createdAt": "2025-12-29T00:42:12.800Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Affiliate System! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Affiliate System!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Affiliate System working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Affiliate System working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Affiliate System up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Affiliate System users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Marketing Content Engine",
+                  "benefit": "AI Social Media Automation - 4 posts/day to 23 platforms",
+                  "price": 199
+                },
+                {
+                  "name": "Income Droid",
+                  "benefit": "Monetized Video Automation - 4 revenue-optimized videos daily",
+                  "price": 499
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with Affiliate System",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your Affiliate System results",
+            "intro": "You're already generating value with Affiliate System. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With Affiliate System, you're doing: White-Label Affiliate Platform - Tiered commissions & tracking",
+              "addition": "Add Marketing Content Engine to: AI Social Media Automation - 4 posts/day to 23 platforms",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Marketing Content Engine",
+              "price": 199,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/5qJHNPAq"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Marketing Content Engine",
+              "link": "https://square.link/u/5qJHNPAq"
+            }
+          }
+        },
+        {
+          "delay": 168,
+          "subject": "Ready to level up from Affiliate System?",
+          "type": "upgrade",
+          "body": {
+            "headline": "Ready to level up from Affiliate System?",
+            "intro": "You've been using Affiliate System and we hope you're seeing results. When you're ready for more power...",
+            "comparison": {
+              "current": {
+                "name": "Affiliate System",
+                "price": 599,
+                "features": "White-Label Affiliate Platform - Tiered commissions & tracking"
+              },
+              "upgrade": {
+                "name": "YouAndINotAI Dating Platform",
+                "price": 2499,
+                "features": "Complete Human-Verified Dating App - Full source code",
+                "additionalBenefits": [
+                  "More automation capabilities",
+                  "Higher revenue potential",
+                  "Enterprise-grade features"
+                ]
+              }
+            },
+            "upgradeCredit": {
+              "available": true,
+              "amount": 300,
+              "message": "As a Affiliate System customer, get 50% of your original purchase as credit toward YouAndINotAI Dating Platform!"
+            },
+            "cta": {
+              "primary": "Upgrade to YouAndINotAI Dating Platform",
+              "link": "https://square.link/u/dLV56aVt"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Affiliate System results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Affiliate System results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Affiliate System",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Affiliate System",
+            "intro": "You've been using Affiliate System for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "dating-platform": {
+      "id": "SEQ_1766968932802_EA8EA40B",
+      "productId": "dating-platform",
+      "productName": "YouAndINotAI Dating Platform",
+      "createdAt": "2025-12-29T00:42:12.802Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to YouAndINotAI Dating Platform! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with YouAndINotAI Dating Platform!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's YouAndINotAI Dating Platform working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's YouAndINotAI Dating Platform working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have YouAndINotAI Dating Platform up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most YouAndINotAI Dating Platform users also use these tools to maximize results...",
+              "products": [
+                {
+                  "name": "Affiliate System",
+                  "benefit": "White-Label Affiliate Platform - Tiered commissions & tracking",
+                  "price": 599
+                }
+              ]
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 72,
+          "subject": "Multiply your results with YouAndINotAI Dating Platform",
+          "type": "cross-sell",
+          "body": {
+            "headline": "Multiply your YouAndINotAI Dating Platform results",
+            "intro": "You're already generating value with YouAndINotAI Dating Platform. Here's how to amplify that...",
+            "valueStack": {
+              "current": "With YouAndINotAI Dating Platform, you're doing: Complete Human-Verified Dating App - Full source code",
+              "addition": "Add Affiliate System to: White-Label Affiliate Platform - Tiered commissions & tracking",
+              "result": "Combined, you get a complete automation ecosystem that works 24/7."
+            },
+            "offer": {
+              "product": "Affiliate System",
+              "price": 599,
+              "savings": "Save time on manual distribution",
+              "link": "https://square.link/u/X9k1ZM9c"
+            },
+            "urgency": "Bundle within 48 hours for exclusive pricing",
+            "cta": {
+              "primary": "Add Affiliate System",
+              "link": "https://square.link/u/X9k1ZM9c"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your YouAndINotAI Dating Platform results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your YouAndINotAI Dating Platform results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Custom AI Solution Build",
+              "price": 2499,
+              "duration": "Project-based",
+              "includes": [
+                "Discovery call (2 hours)",
+                "Custom solution architecture",
+                "Full development & delivery",
+                "Source code ownership",
+                "90-day support included",
+                "Training documentation"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for YouAndINotAI Dating Platform",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for YouAndINotAI Dating Platform",
+            "intro": "You've been using YouAndINotAI Dating Platform for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    },
+    "custom-consult": {
+      "id": "SEQ_1766968932803_54A12D0E",
+      "productId": "custom-consult",
+      "productName": "Custom AI Consultation",
+      "createdAt": "2025-12-29T00:42:12.803Z",
+      "emails": [
+        {
+          "delay": 0,
+          "subject": "Welcome to Custom AI Consultation! Here's your quick-start guide",
+          "type": "welcome",
+          "body": {
+            "headline": "You made an excellent choice with Custom AI Consultation!",
+            "intro": "Thank you for your purchase. You're now part of a community that uses AI to build real passive income.",
+            "quickStart": [
+              "Download your files from the delivery email",
+              "Follow the setup guide (takes 15 minutes)",
+              "Run your first automation",
+              "Watch the results come in"
+            ],
+            "cta": {
+              "primary": "Access Setup Guide",
+              "secondary": "Join Our Discord Community"
+            },
+            "gospelReminder": "60% of all NET profits go to verified pediatric charities",
+            "footer": "Remember: 60% of the profit from your purchase goes directly to verified pediatric charities. FOR THE KIDS."
+          }
+        },
+        {
+          "delay": 24,
+          "subject": "How's Custom AI Consultation working for you?",
+          "type": "checkin",
+          "body": {
+            "headline": "How's Custom AI Consultation working for you?",
+            "intro": "Just checking in to make sure everything is running smoothly.",
+            "content": "By now, you should have Custom AI Consultation up and running. If you're seeing results, that's amazing! If you're stuck, reply to this email and we'll help.",
+            "softUpsell": {
+              "headline": "Get More From Your Investment",
+              "offer": "Pro tip: Most Custom AI Consultation users also use these tools to maximize results...",
+              "products": []
+            },
+            "cta": {
+              "primary": "Get Help",
+              "secondary": "Explore Add-ons"
+            }
+          }
+        },
+        {
+          "delay": 504,
+          "subject": "Want to 10x your Custom AI Consultation results?",
+          "type": "consultation",
+          "body": {
+            "headline": "Want to 10x your Custom AI Consultation results?",
+            "intro": "Some of our most successful users have taken their automation to the next level with personalized guidance.",
+            "socialProof": {
+              "stat": "3.2x average ROI increase",
+              "testimonial": "After our consultation, I restructured my entire workflow. Now making $5K/month passively.",
+              "attribution": "- Consultation client"
+            },
+            "offer": {
+              "name": "Growth Strategy Session",
+              "price": 299,
+              "duration": "2 hours + follow-up",
+              "includes": [
+                "2-hour deep-dive session",
+                "Custom automation strategy",
+                "Revenue optimization plan",
+                "30-day email follow-up",
+                "Implementation checklist"
+              ]
+            },
+            "valueProps": [
+              "Custom strategy for YOUR business",
+              "Direct access to AI automation experts",
+              "Implementation roadmap you can follow",
+              "Ongoing support after the call"
+            ],
+            "cta": {
+              "primary": "Book Your Session",
+              "link": "mailto:sales@aidoesitall.website?subject=Consultation Request"
+            }
+          }
+        },
+        {
+          "delay": 720,
+          "subject": "Priority support available for Custom AI Consultation",
+          "type": "support-upsell",
+          "body": {
+            "headline": "Priority support for Custom AI Consultation",
+            "intro": "You've been using Custom AI Consultation for a month now. Ready for faster help and exclusive benefits?",
+            "currentLevel": {
+              "id": "basic-support",
+              "name": "Basic Support",
+              "price": 0,
+              "priceMonthly": 0,
+              "features": [
+                "Documentation access",
+                "Community Discord support",
+                "Email support (48hr response)"
+              ],
+              "included": true
+            },
+            "upgradeOptions": [
+              {
+                "id": "priority-support",
+                "name": "Priority Support",
+                "price": 49,
+                "priceMonthly": 49,
+                "features": [
+                  "Everything in Basic",
+                  "Priority email (24hr response)",
+                  "1 monthly check-in call (15min)",
+                  "Priority bug fixes",
+                  "Early access to updates"
+                ],
+                "upsellPitch": "Get priority attention for your business-critical tools"
+              },
+              {
+                "id": "pro-support",
+                "name": "Pro Support",
+                "price": 149,
+                "priceMonthly": 149,
+                "features": [
+                  "Everything in Priority",
+                  "Same-day email response",
+                  "2 monthly calls (30min each)",
+                  "Direct Slack/Discord channel",
+                  "Configuration assistance",
+                  "Custom integrations help"
+                ],
+                "upsellPitch": "Dedicated support for serious operators",
+                "recommended": true
+              }
+            ],
+            "comparison": {
+              "basic": {
+                "responseTime": "48 hours",
+                "calls": "None",
+                "priority": "Standard queue"
+              },
+              "priority": {
+                "responseTime": "24 hours",
+                "calls": "1 per month (15min)",
+                "priority": "Front of queue"
+              },
+              "pro": {
+                "responseTime": "Same day",
+                "calls": "2 per month (30min each)",
+                "priority": "Dedicated channel"
+              }
+            },
+            "recommended": "pro-support",
+            "cta": {
+              "primary": "Upgrade Support",
+              "secondary": "Learn More"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

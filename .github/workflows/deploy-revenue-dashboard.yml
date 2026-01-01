@@ -1,0 +1,42 @@
+name: Deploy Revenue Dashboard to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'dashboard/**'
+      - '.github/workflows/deploy-revenue-dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy Revenue Dashboard to Cloudflare Pages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: teamclaude-dashboard
+          directory: dashboard
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          wranglerVersion: '3'
+
+      - name: Deployment success notification
+        if: success()
+        run: |
+          echo "Revenue Dashboard deployed to Cloudflare Pages!"
+          echo "Live at: https://teamclaude-dashboard.pages.dev"
+          echo "Gospel Split: 60% Verified Pediatric Charities / 30% Infra / 10% Founder"
+          echo "FOR THE KIDS!"

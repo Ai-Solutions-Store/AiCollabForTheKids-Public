@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aidoesitall.website/contribute/sitemap.xml
+
+# FOR THE KIDS - Help children in hospitals
+# 60% of contributions go directly to pediatric charities

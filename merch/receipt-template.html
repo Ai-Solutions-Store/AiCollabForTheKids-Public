@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Receipt | FOR THE KIDS</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .receipt {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .receipt-header {
+            background: linear-gradient(135deg, #0a0a0f, #1a1a2e);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .receipt-header h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            background: linear-gradient(90deg, #00ff88, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .receipt-header p {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .receipt-body {
+            padding: 30px;
+        }
+
+        .order-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .info-group label {
+            display: block;
+            color: #888;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .info-group span {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .items-table th {
+            text-align: left;
+            padding: 10px;
+            background: #f9f9f9;
+            color: #666;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .items-table td {
+            padding: 15px 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .items-table .product-name {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .items-table .product-variant {
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        .totals {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+        }
+
+        .total-row.final {
+            border-top: 2px solid #ddd;
+            margin-top: 10px;
+            padding-top: 15px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* Split Breakdown - The Gospel */
+        .split-section {
+            background: linear-gradient(135deg, rgba(0,255,136,0.1), rgba(0,212,255,0.1));
+            border: 1px solid #00ff88;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .split-section h3 {
+            color: #00aa55;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .split-bars {
+            display: flex;
+            height: 30px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .split-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .split-bar.charity {
+            width: 60%;
+            background: linear-gradient(90deg, #00ff88, #00cc6a);
+        }
+
+        .split-bar.infra {
+            width: 30%;
+            background: linear-gradient(90deg, #00d4ff, #0099cc);
+        }
+
+        .split-bar.trust {
+            width: 10%;
+            background: linear-gradient(90deg, #ffcc00, #cc9900);
+        }
+
+        .split-legend {
+            display: flex;
+            justify-content: space-around;
+            font-size: 0.8rem;
+        }
+
+        .split-legend-item {
+            text-align: center;
+        }
+
+        .split-legend-item .amount {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .split-legend-item .label {
+            color: #888;
+        }
+
+        /* Verified Badge */
+        .verified-section {
+            text-align: center;
+            padding: 20px;
+            background: #f0fff4;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .verified-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: #00ff88;
+            color: #003322;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .verified-text {
+            margin-top: 10px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        /* Footer */
+        .receipt-footer {
+            background: #0a0a0f;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .receipt-footer .thank-you {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #00ff88;
+        }
+
+        .receipt-footer .blockchain-notice {
+            font-size: 0.85rem;
+            color: #ffd700;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: rgba(255,215,0,0.1);
+            border-radius: 6px;
+            border: 1px solid rgba(255,215,0,0.3);
+        }
+
+        .receipt-footer .mission {
+            font-size: 0.8rem;
+            color: #888;
+            margin-top: 15px;
+        }
+
+        .receipt-footer .mission strong {
+            color: #00ff88;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="receipt-header">
+            <h1>FOR THE KIDS</h1>
+            <p>Purchase Receipt</p>
+        </div>
+
+        <div class="receipt-body">
+            <div class="order-info">
+                <div class="info-group">
+                    <label>Order Number</label>
+                    <span>{{ORDER_NUMBER}}</span>
+                </div>
+                <div class="info-group">
+                    <label>Date</label>
+                    <span>{{ORDER_DATE}}</span>
+                </div>
+                <div class="info-group">
+                    <label>Customer</label>
+                    <span>{{CUSTOMER_NAME}}</span>
+                </div>
+                <div class="info-group">
+                    <label>Email</label>
+                    <span>{{CUSTOMER_EMAIL}}</span>
+                </div>
+            </div>
+
+            <table class="items-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- {{ITEMS_START}} -->
+                    <tr>
+                        <td>
+                            <div class="product-name">{{PRODUCT_NAME}}</div>
+                            <div class="product-variant">{{PRODUCT_VARIANT}}</div>
+                        </td>
+                        <td>{{QUANTITY}}</td>
+                        <td>{{PRICE}}</td>
+                    </tr>
+                    <!-- {{ITEMS_END}} -->
+                </tbody>
+            </table>
+
+            <div class="totals">
+                <div class="total-row">
+                    <span>Subtotal</span>
+                    <span>{{SUBTOTAL}}</span>
+                </div>
+                <div class="total-row">
+                    <span>Shipping</span>
+                    <span>{{SHIPPING}}</span>
+                </div>
+                <div class="total-row">
+                    <span>Tax</span>
+                    <span>{{TAX}}</span>
+                </div>
+                <div class="total-row final">
+                    <span>Total</span>
+                    <span>{{TOTAL}}</span>
+                </div>
+            </div>
+
+            <!-- Gospel Split Visualization -->
+            <div class="split-section">
+                <h3>Your Impact - Gospel Split (60/30/10)</h3>
+                <div class="split-bars">
+                    <div class="split-bar charity">60%</div>
+                    <div class="split-bar infra">30%</div>
+                    <div class="split-bar trust">10%</div>
+                </div>
+                <div class="split-legend">
+                    <div class="split-legend-item">
+                        <div class="amount">{{CHARITY_AMOUNT}}</div>
+                        <div class="label">Kids Charity</div>
+                    </div>
+                    <div class="split-legend-item">
+                        <div class="amount">{{INFRA_AMOUNT}}</div>
+                        <div class="label">Infrastructure</div>
+                    </div>
+                    <div class="split-legend-item">
+                        <div class="amount">{{TRUST_AMOUNT}}</div>
+                        <div class="label">Trust Fund</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="verified-section">
+                <div class="verified-badge">
+                    ✓ VERIFIED ON CHAIN
+                </div>
+                <p class="verified-text">
+                    This transaction is recorded on Base Mainnet blockchain
+                </p>
+            </div>
+        </div>
+
+        <div class="receipt-footer">
+            <div class="thank-you">Thank You For Your Purchase!</div>
+
+            <div class="blockchain-notice">
+                Revenue split enforced by Smart Contract on Base (Block 39435127).
+            </div>
+
+            <div class="mission">
+                Every purchase directly supports children in need.<br>
+                <strong>FOR THE KIDS. ALWAYS.</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

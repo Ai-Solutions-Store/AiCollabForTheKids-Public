@@ -1,0 +1,16 @@
+name: CI Checks - Linting, Types, Tests
+
+# DISABLED: This workflow is redundant with quality-checks.yml
+# The quality-checks.yml properly handles jules-dashboard and api directories
+# This file is kept for reference but only triggers manually
+on:
+  workflow_dispatch:
+
+jobs:
+  ci-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Info
+        run: echo "This workflow is disabled. Use quality-checks.yml instead."

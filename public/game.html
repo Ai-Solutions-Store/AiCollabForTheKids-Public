@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kraken's Logic Maze | For The Kids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { margin: 0; background: #050505; color: #00ffcc; font-family: 'Courier New', monospace; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+        canvas { border: 2px solid #00ffcc; box-shadow: 0 0 20px rgba(0, 255, 204, 0.2); background: #000; }
+        h1 { font-size: 24px; margin-bottom: 10px; text-shadow: 0 0 10px #00ffcc; }
+        .controls { margin-top: 20px; color: #888; font-size: 14px; text-align: center; }
+        a { color: #ff00ff; text-decoration: none; font-weight: bold; border-bottom: 1px dashed #ff00ff; }
+        a:hover { color: #fff; border-bottom: 1px solid #fff; }
+    </style>
+</head>
+<body>
+    <h1>🐙 KRAKEN'S LOGIC MAZE</h1>
+    <canvas id="c" width="800" height="600"></canvas>
+    <div class="controls">
+        Use <b>ARROW KEYS</b> to guide the Kraken (Magenta Square) to the Diamond.<br>
+        Avoid walls. Find the path.<br><br>
+        <span style="color: #ff00ff;">MISSION: FOR THE KIDS</span>
+    </div>
+
+    <script>
+        const c = document.getElementById('c');
+        const x = c.getContext('2d');
+        // 1=Wall, 0=Path, 2=Goal, 3=Start
+        const m = [
+            [1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,1,0,2,1],
+            [1,0,1,1,1,0,1,0,0,1],
+            [1,0,1,0,0,0,0,0,1,1],
+            [1,0,1,0,1,1,1,0,0,1],
+            [1,3,0,0,0,0,1,1,0,1],
+            [1,1,1,1,1,1,1,1,1,1]
+        ];
+        const s = 80; 
+        let g = {x: 1, y: 5}; 
+        const k = {ArrowUp: [0, -1], ArrowDown: [0, 1], ArrowLeft: [-1, 0], ArrowRight: [1, 0]};
+        
+        window.onkeydown = e => {
+            if(k[e.key]){
+                let d = k[e.key];
+                let nx = g.x + d[0]; 
+                let ny = g.y + d[1]; 
+                if(m[ny] && m[ny][nx] !== 1) {
+                    g.x = nx; g.y = ny;
+                    if(m[ny][nx] === 2) {
+                        alert('SYSTEM: LOGIC VERIFIED.\nREWARD UNLOCKED.\n\nRedirecting to Merch...');
+                        window.location.href = '/merch'; 
+                    }
+                }
+                draw();
+                e.preventDefault();
+            }
+        };
+
+        function draw() {
+            x.fillStyle = '#050505';
+            x.fillRect(0, 0, c.width, c.height);
+            for(let y = 0; y < m.length; y++) {
+                for(let col = 0; col < m[y].length; col++) {
+                    let t = m[y][col];
+                    let px = col * s; let py = y * s;
+                    if(t === 1) { x.fillStyle = '#004433'; x.fillRect(px, py, s-2, s-2); }
+                    else if(t === 2) { 
+                        x.fillStyle = '#00ffcc'; x.globalAlpha = 0.2; x.fillRect(px, py, s, s);
+                        x.globalAlpha = 1.0; x.font = '40px Arial'; x.fillStyle = '#fff'; x.fillText('💎', px + 20, py + 55);
+                    }
+                }
+            }
+            x.fillStyle = '#ff00ff';
+            x.shadowBlur = 15; x.shadowColor = '#ff00ff';
+            x.fillRect(g.x * s + 10, g.y * s + 10, s - 20, s - 20); x.shadowBlur = 0;
+        }
+        draw();
+    </script>
+</body>
+</html>

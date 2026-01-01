@@ -1,0 +1,36 @@
+[
+  {
+    "type": "T-Shirt",
+    "id": 409708323,
+    "success": true
+  },
+  {
+    "type": "Hoodie",
+    "success": false,
+    "error": {
+      "code": 400,
+      "result": "Variant not available Variant_id: 1296",
+      "error": {
+        "reason": "BadRequest",
+        "message": "Variant not available Variant_id: 1296"
+      }
+    }
+  },
+  {
+    "type": "Stickers",
+    "id": 409708324,
+    "success": true
+  },
+  {
+    "type": "Phone Cases",
+    "success": false,
+    "error": {
+      "code": 400,
+      "result": "Variant not available Variant_id: 11478",
+      "error": {
+        "reason": "BadRequest",
+        "message": "Variant not available Variant_id: 11478"
+      }
+    }
+  }
+]

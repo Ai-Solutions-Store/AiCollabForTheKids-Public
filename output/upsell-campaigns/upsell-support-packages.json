@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2025-12-29T00:42:12.816Z",
+  "packages": [
+    {
+      "id": "priority-support",
+      "name": "Priority Support",
+      "price": 49,
+      "priceMonthly": 49,
+      "features": [
+        "Everything in Basic",
+        "Priority email (24hr response)",
+        "1 monthly check-in call (15min)",
+        "Priority bug fixes",
+        "Early access to updates"
+      ],
+      "upsellPitch": "Get priority attention for your business-critical tools",
+      "annualOption": {
+        "monthlyEquivalent": 41,
+        "annualPrice": 490,
+        "savings": 98
+      },
+      "upsellEmail": {
+        "triggerCondition": "Customer on lower tier shows need signals",
+        "emails": [
+          {
+            "day": 0,
+            "subject": "Your support experience can be better",
+            "angle": "Pain point acknowledgment"
+          },
+          {
+            "day": 3,
+            "subject": "What Priority Support customers get",
+            "angle": "Feature showcase"
+          },
+          {
+            "day": 7,
+            "subject": "Upgrade to Priority Support - special offer",
+            "angle": "Limited time discount (first month 50% off)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-support",
+      "name": "Pro Support",
+      "price": 149,
+      "priceMonthly": 149,
+      "features": [
+        "Everything in Priority",
+        "Same-day email response",
+        "2 monthly calls (30min each)",
+        "Direct Slack/Discord channel",
+        "Configuration assistance",
+        "Custom integrations help"
+      ],
+      "upsellPitch": "Dedicated support for serious operators",
+      "recommended": true,
+      "annualOption": {
+        "monthlyEquivalent": 124,
+        "annualPrice": 1490,
+        "savings": 298
+      },
+      "upsellEmail": {
+        "triggerCondition": "Customer on lower tier shows need signals",
+        "emails": [
+          {
+            "day": 0,
+            "subject": "Your support experience can be better",
+            "angle": "Pain point acknowledgment"
+          },
+          {
+            "day": 3,
+            "subject": "What Pro Support customers get",
+            "angle": "Feature showcase"
+          },
+          {
+            "day": 7,
+            "subject": "Upgrade to Pro Support - special offer",
+            "angle": "Limited time discount (first month 50% off)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "enterprise-support",
+      "name": "Enterprise Support",
+      "price": 499,
+      "priceMonthly": 499,
+      "features": [
+        "Everything in Pro",
+        "Unlimited support calls",
+        "Dedicated support engineer",
+        "SLA guarantees (4hr response)",
+        "Custom feature development",
+        "White-glove onboarding",
+        "Quarterly business reviews"
+      ],
+      "upsellPitch": "Enterprise-grade support for mission-critical deployments",
+      "annualOption": {
+        "monthlyEquivalent": 414,
+        "annualPrice": 4990,
+        "savings": 998
+      },
+      "upsellEmail": {
+        "triggerCondition": "Customer on lower tier shows need signals",
+        "emails": [
+          {
+            "day": 0,
+            "subject": "Your support experience can be better",
+            "angle": "Pain point acknowledgment"
+          },
+          {
+            "day": 3,
+            "subject": "What Enterprise Support customers get",
+            "angle": "Feature showcase"
+          },
+          {
+            "day": 7,
+            "subject": "Upgrade to Enterprise Support - special offer",
+            "angle": "Limited time discount (first month 50% off)"
+          }
+        ]
+      }
+    }
+  ],
+  "retentionMetrics": {
+    "basicChurnRate": "15% monthly",
+    "priorityChurnRate": "8% monthly",
+    "proChurnRate": "4% monthly",
+    "enterpriseChurnRate": "2% monthly",
+    "ltvMultipliers": {
+      "basic": 1,
+      "priority": 2.5,
+      "pro": 5,
+      "enterprise": 12
+    }
+  },
+  "upsellTriggers": {
+    "fromBasicToPriority": [
+      "Multiple support tickets in 30 days",
+      "Complex technical questions",
+      "Revenue-generating use case"
+    ],
+    "fromPriorityToPro": [
+      "3+ support tickets/month",
+      "Integration requests",
+      "SLA mentioned in communications"
+    ],
+    "fromProToEnterprise": [
+      "Team deployment signals",
+      "Custom feature requests",
+      "B2B/enterprise email domain"
+    ]
+  }
+}

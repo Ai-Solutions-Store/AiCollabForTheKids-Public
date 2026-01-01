@@ -1,0 +1,65 @@
+[
+  {
+    "conversationId": "CONV_1766968850135_3634C7D3",
+    "visitorId": "visitor_demo",
+    "pageContext": "home",
+    "messages": [
+      {
+        "id": "MSG_1766968850137_DF07B452",
+        "type": "bot",
+        "content": "Hi there! Welcome to AI Does It All - where technology helps kids in need. How can I help you today?",
+        "quickReplies": [
+          "Tell me about your mission",
+          "View AI solutions",
+          "How does it work?",
+          "Contact support"
+        ],
+        "timestamp": "2025-12-29T00:40:50.137Z"
+      },
+      {
+        "id": "MSG_1766968850138_15CA1630",
+        "type": "user",
+        "content": "How much goes to charity?",
+        "timestamp": "2025-12-29T00:40:50.139Z"
+      },
+      {
+        "id": "MSG_1766968850142_7AEE98A2",
+        "type": "bot",
+        "content": "60% of our net profits (after costs like production, shipping, and payment processing) go directly to verified pediatric charities. This is our Gospel commitment - it's immutable and transparent. You can track donations on our public dashboard.\n\nRelated questions you might find helpful:\n- What is AI Does It All's mission?\n- Which charities do you support?",
+        "quickReplies": null,
+        "timestamp": "2025-12-29T00:40:50.142Z"
+      },
+      {
+        "id": "MSG_1766968850148_0C667722",
+        "type": "user",
+        "content": "I have a problem that needs help",
+        "timestamp": "2025-12-29T00:40:50.148Z"
+      },
+      {
+        "id": "MSG_1766968850149_266B044B",
+        "type": "bot",
+        "content": "I'm sorry you're having an issue. Let me create a support ticket so our team can help. I just need a few details.",
+        "quickReplies": null,
+        "timestamp": "2025-12-29T00:40:50.149Z"
+      },
+      {
+        "id": "MSG_1766968850149_9C1A92BF",
+        "type": "bot",
+        "content": "What type of issue are you experiencing?",
+        "quickReplies": [
+          "Technical Issue (bugs/errors)",
+          "Billing & Payments",
+          "Account Access",
+          "Feature Request",
+          "How-To / Training",
+          "Other"
+        ],
+        "timestamp": "2025-12-29T00:40:50.149Z"
+      }
+    ],
+    "startTime": "2025-12-29T00:40:50.135Z",
+    "leadScore": 0,
+    "metadata": {},
+    "mission": "FOR THE KIDS"
+  }
+]

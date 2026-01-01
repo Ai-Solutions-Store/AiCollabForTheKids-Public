@@ -1,0 +1,43 @@
+name: Deploy AI Solutions Store
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'ai-solutions-store/**'
+      - '.github/workflows/deploy-ai-solutions-store-wrangler.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy AI Solutions Store
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ai-solutions-store --project-name=ai-solutions-store --branch=main --commit-dirty=true
+          workingDirectory: '.'
+
+      - name: Deployment success
+        if: success()
+        run: |
+          echo "AI Solutions Store deployed!"
+          echo "Live at: https://ai-solutions-store.pages.dev"
+          echo "Custom domain: https://ai-solutions.store"

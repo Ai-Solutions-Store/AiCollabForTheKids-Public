@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Solutions Store - Real AI Apps, Not Just Chatbots</title>
+    <meta name="description" content="Buy complete AI-powered applications. Video generators, dating apps, marketing engines, and business automation tools. Ready to deploy.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+
+    <!-- Square Web Payments SDK -->
+    <script src="https://web.squarecdn.com/v1/square.js"></script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0d1421 0%, #1a2744 50%, #243352 100%);
+            color: #fff;
+            min-height: 100vh;
+        }
+
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-bottom: 1px solid rgba(192,192,192,0.15);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            background: linear-gradient(180deg, #ffffff 0%, #c0c0c0 40%, #8a9bae 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.4em;
+            color: #8a9bae;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            display: inline-block;
+            background: rgba(192, 192, 192, 0.1);
+            border: 1px solid rgba(192, 192, 192, 0.3);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9em;
+            color: #c0c0c0;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .product {
+            background: rgba(26, 39, 68, 0.8);
+            border: 1px solid rgba(192,192,192,0.15);
+            border-radius: 20px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            border-color: #c0c0c0;
+            box-shadow: 0 20px 40px rgba(192, 192, 192, 0.15);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(180deg, #e8e8e8, #c0c0c0);
+            color: #1a2744;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.75em;
+            font-weight: bold;
+        }
+
+        .product-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(180deg, #ffffff 0%, #c0c0c0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .product-type {
+            color: #8a9bae;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .product p {
+            color: #a0a0a0;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .features li {
+            padding: 8px 0;
+            color: #c0c0c0;
+            font-size: 0.9em;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .features li:before {
+            content: "✓ ";
+            color: #4ade80;
+            font-weight: bold;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .price span {
+            font-size: 0.5em;
+            color: #888;
+        }
+
+        .price-note {
+            font-size: 0.75em;
+            color: #888;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(180deg, #e8e8e8 0%, #c0c0c0 50%, #8a9bae 100%);
+            color: #1a2744;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(192, 192, 192, 0.3);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #c0c0c0;
+            color: #c0c0c0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            margin: 60px 0 40px;
+            color: #fff;
+        }
+
+        .enterprise {
+            background: linear-gradient(135deg, rgba(192, 192, 192, 0.1), rgba(138, 155, 174, 0.1));
+            border: 2px solid rgba(192, 192, 192, 0.3);
+            padding: 50px;
+            border-radius: 25px;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .enterprise h2 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            background: linear-gradient(180deg, #ffffff 0%, #c0c0c0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .enterprise p {
+            color: #8a9bae;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            font-size: 1.1em;
+        }
+
+        /* Merch Section */
+        .merch-section {
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 193, 7, 0.1));
+            border: 2px solid rgba(255, 107, 107, 0.3);
+            border-radius: 25px;
+            padding: 50px;
+            margin: 60px 0;
+        }
+
+        .merch-section h2 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #ff6b6b, #ffc107);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .merch-section .subtitle {
+            text-align: center;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+        }
+
+        .merch-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .merch-item {
+            background: rgba(0,0,0,0.3);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .merch-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(255, 107, 107, 0.2);
+        }
+
+        .merch-item .icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
+
+        .merch-item h4 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .merch-item .description {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .merch-item .price-tag {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ff6b6b;
+            margin-bottom: 15px;
+        }
+
+        .btn-merch {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ffc107 100%);
+        }
+
+        /* Bundles Section */
+        .bundles-section {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(16, 185, 129, 0.1));
+            border: 2px solid rgba(34, 197, 94, 0.3);
+            border-radius: 25px;
+            padding: 50px;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .bundles-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #22c55e, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .bundles-section .subtitle {
+            color: #a0a0a0;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .bundles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .bundle-card {
+            background: rgba(0,0,0,0.4);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 20px;
+            padding: 30px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .bundle-card:hover {
+            transform: translateY(-5px);
+            border-color: #22c55e;
+            box-shadow: 0 15px 30px rgba(34, 197, 94, 0.2);
+        }
+
+        .bundle-card.featured {
+            border-color: #22c55e;
+            background: rgba(34, 197, 94, 0.1);
+        }
+
+        .bundle-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #22c55e, #10b981);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.75em;
+            font-weight: bold;
+        }
+
+        .bundle-card h3 {
+            font-size: 1.4em;
+            margin: 15px 0 10px;
+            color: #fff;
+        }
+
+        .bundle-includes {
+            color: #22c55e;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        .bundle-description {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+
+        .bundle-pricing {
+            margin-bottom: 20px;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: #666;
+            margin-right: 10px;
+        }
+
+        .bundle-price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #22c55e;
+        }
+
+        .btn-bundle {
+            background: linear-gradient(135deg, #22c55e 0%, #10b981 100%);
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(192,192,192,0.15);
+            color: #8a9bae;
+        }
+
+        footer a { color: #c0c0c0; text-decoration: none; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .products { grid-template-columns: 1fr; }
+            .enterprise { padding: 30px 20px; }
+            .merch-section { padding: 30px 20px; }
+        }
+
+        /* Loading state */
+        .btn.loading {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+        .btn.loading::after {
+            content: '...';
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Solutions Store</h1>
+            <p class="tagline">Real AI Apps. Not Just Chatbots.</p>
+            <span class="highlight">Complete applications ready to deploy and monetize</span>
+        </header>
+
+        <div class="products">
+            <!-- Claude Droid -->
+            <div class="product">
+                <span class="product-badge">POPULAR</span>
+                <div class="product-icon">🎬</div>
+                <h3>Claude Droid</h3>
+                <div class="product-type">AI Video Generator</div>
+                <p>Automatically converts news headlines into 59-second YouTube Shorts. Generates scripts, voiceovers, and renders videos with FFmpeg. Uploads directly to YouTube.</p>
+                <ul class="features">
+                    <li>AI script generation from news feeds</li>
+                    <li>Text-to-speech voiceover</li>
+                    <li>Automated video rendering</li>
+                    <li>Direct YouTube upload with OAuth</li>
+                    <li>Multi-category support (tech, business, sports)</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$299 <span>one-time</span></div>
+                        <div class="price-note">or $49/mo subscription</div>
+                    </div>
+                    <button class="btn" onclick="checkout('claude-droid')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Income Droid -->
+            <div class="product">
+                <span class="product-badge">REVENUE</span>
+                <div class="product-icon">💰</div>
+                <h3>Income Droid</h3>
+                <div class="product-type">Monetized Video Automation</div>
+                <p>Generates 4 revenue-optimized videos daily at peak times (6AM, 11AM, 5PM, 9PM). Built for YouTube monetization with analytics tracking.</p>
+                <ul class="features">
+                    <li>4 videos/day on autopilot</li>
+                    <li>Optimal posting times for views</li>
+                    <li>Revenue & metrics tracking</li>
+                    <li>Discord notifications</li>
+                    <li>SQLite database included</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$499 <span>one-time</span></div>
+                        <div class="price-note">or $79/mo subscription</div>
+                    </div>
+                    <button class="btn" onclick="checkout('income-droid')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Marketing Engine -->
+            <div class="product">
+                <div class="product-icon">📢</div>
+                <h3>Marketing Content Engine</h3>
+                <div class="product-type">AI Social Media Automation</div>
+                <p>Auto-generates marketing content and posts to social media 4x daily. Uses Claude AI for content, Discord webhooks for distribution.</p>
+                <ul class="features">
+                    <li>4 posts/day automated</li>
+                    <li>Multiple content types (hooks, proofs, CTAs)</li>
+                    <li>Claude AI content generation</li>
+                    <li>Discord webhook integration</li>
+                    <li>Twitter/X API ready</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$199 <span>one-time</span></div>
+                        <div class="price-note">or $29/mo subscription</div>
+                    </div>
+                    <button class="btn" onclick="checkout('marketing-engine')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Jules AI -->
+            <div class="product">
+                <div class="product-icon">🤖</div>
+                <h3>Jules AI Assistant</h3>
+                <div class="product-type">Business Operations AI</div>
+                <p>Gemini-powered business director. Manages Git/GitHub, Google Cloud, AWS, and multi-service integrations. DevOps on autopilot.</p>
+                <ul class="features">
+                    <li>Git/GitHub automation</li>
+                    <li>GCP & AWS integration</li>
+                    <li>CI/CD pipeline management</li>
+                    <li>Multi-service orchestration</li>
+                    <li>Code conflict resolution</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$399 <span>one-time</span></div>
+                        <div class="price-note">or $59/mo subscription</div>
+                    </div>
+                    <button class="btn" onclick="checkout('jules-ai')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Affiliate System -->
+            <div class="product">
+                <div class="product-icon">🔗</div>
+                <h3>Affiliate System</h3>
+                <div class="product-type">White-Label Affiliate Platform</div>
+                <p>Complete affiliate program with tiered commissions (15-30%), referral tracking, 90-day attribution, and automated payouts. Ready to integrate.</p>
+                <ul class="features">
+                    <li>4-tier commission structure</li>
+                    <li>90-day cookie tracking</li>
+                    <li>Automated monthly payouts</li>
+                    <li>Anti-fraud detection</li>
+                    <li>Full affiliate dashboard</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$599 <span>one-time</span></div>
+                        <div class="price-note">or $89/mo subscription</div>
+                    </div>
+                    <button class="btn" onclick="checkout('affiliate-system')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Dating Platform -->
+            <div class="product">
+                <span class="product-badge">FULL APP</span>
+                <div class="product-icon">💕</div>
+                <h3>YouAndINotAI Dating Platform</h3>
+                <div class="product-type">Human-Verified Dating App</div>
+                <p>Complete dating app with AI-detection to ensure real humans. Video verification, anti-bot systems, matching algorithm, and messaging.</p>
+                <ul class="features">
+                    <li>Human verification (video/captcha)</li>
+                    <li>Anti-AI message detection</li>
+                    <li>Matching & discovery system</li>
+                    <li>Full messaging infrastructure</li>
+                    <li>Subscription billing ready</li>
+                </ul>
+                <div class="price-row">
+                    <div>
+                        <div class="price">$2,499 <span>one-time</span></div>
+                        <div class="price-note">Full source code license</div>
+                    </div>
+                    <button class="btn" onclick="checkout('dating-platform')">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MERCH SECTION - TEMPORARILY DISABLED - Printful fulfillment not configured -->
+        <!-- Re-enable when COGS deduction is implemented in gospel-revenue.js -->
+        <div class="merch-section" style="opacity: 0.7;">
+            <h2>🚧 Merch Coming Soon</h2>
+            <p class="subtitle">We're setting up automated fulfillment. Check back in January 2025!</p>
+            <p style="text-align: center; color: #888; margin-top: 20px;">
+                T-shirts, hoodies, mugs, and stickers - all with 60% of NET profits going to verified pediatric charities.
+            </p>
+        </div>
+
+        <!-- BUNDLES SECTION - Save money, get more -->
+        <div class="bundles-section">
+            <h2>🎁 Bundle & Save</h2>
+            <p class="subtitle">Get more tools, pay less. Best value for serious automation.</p>
+            <div class="bundles-grid">
+                <div class="bundle-card">
+                    <div class="bundle-badge">SAVE $99</div>
+                    <h3>Content Creator Bundle</h3>
+                    <p class="bundle-includes">Claude Droid + Marketing Engine</p>
+                    <p class="bundle-description">Create YouTube content AND distribute to 23 platforms. Maximum reach.</p>
+                    <div class="bundle-pricing">
+                        <span class="original-price">$498</span>
+                        <span class="bundle-price">$399</span>
+                    </div>
+                    <button class="btn btn-bundle" onclick="checkout('content-creator-bundle')">Get Bundle</button>
+                </div>
+                <div class="bundle-card featured">
+                    <div class="bundle-badge">MOST POPULAR</div>
+                    <h3>Passive Income Bundle</h3>
+                    <p class="bundle-includes">Claude Droid + Marketing Engine + Income Droid</p>
+                    <p class="bundle-description">The complete passive income stack. Create, distribute, monetize.</p>
+                    <div class="bundle-pricing">
+                        <span class="original-price">$997</span>
+                        <span class="bundle-price">$799</span>
+                    </div>
+                    <button class="btn btn-bundle" onclick="checkout('passive-income-bundle')">Get Bundle</button>
+                </div>
+                <div class="bundle-card">
+                    <div class="bundle-badge">SAVE $397</div>
+                    <h3>Full Automation Bundle</h3>
+                    <p class="bundle-includes">Claude Droid + Marketing Engine + Income Droid + Jules AI</p>
+                    <p class="bundle-description">Everything you need. Run an automated content business.</p>
+                    <div class="bundle-pricing">
+                        <span class="original-price">$1,396</span>
+                        <span class="bundle-price">$999</span>
+                    </div>
+                    <button class="btn btn-bundle" onclick="checkout('full-automation-bundle')">Get Bundle</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="enterprise">
+            <h2>Need Custom AI Solutions?</h2>
+            <p>We build custom AI-powered applications for your specific business needs. Video generators, automation tools, platforms - you name it.</p>
+            <button class="btn" onclick="checkout('custom-consult')">Book Consultation ($99)</button>
+        </div>
+
+        <footer>
+            <p>
+                <strong>AI Solutions Store</strong> by Trash or Treasure Online Recycler LLC<br>
+                <a href="mailto:sales@aidoesitall.website">sales@aidoesitall.website</a> | <a href="mailto:support@aidoesitall.website">support@aidoesitall.website</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 0.85em;">
+                Built with Claude Opus 4.5 | Payments by Square
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Square Payment Links - Each product has its own checkout
+        const SQUARE_LINKS = {
+            'claude-droid': 'https://square.link/u/BMn1ZI8w',
+            'income-droid': 'https://square.link/u/OcfHUsv4',
+            'marketing-engine': 'https://square.link/u/5qJHNPAq',
+            'jules-ai': 'https://square.link/u/XxWLwMiS',
+            'affiliate-system': 'https://square.link/u/X9k1ZM9c',
+            'dating-platform': 'https://square.link/u/dLV56aVt',
+            'custom-consult': 'https://square.link/u/7oilDQSF',
+            // Bundles - Contact for purchase (Square links to be created)
+            'content-creator-bundle': 'mailto:sales@aidoesitall.website?subject=Content%20Creator%20Bundle%20($399)&body=I%20want%20to%20purchase%20the%20Content%20Creator%20Bundle%20(Claude%20Droid%20%2B%20Marketing%20Engine)%20for%20$399.',
+            'passive-income-bundle': 'mailto:sales@aidoesitall.website?subject=Passive%20Income%20Bundle%20($799)&body=I%20want%20to%20purchase%20the%20Passive%20Income%20Bundle%20(Claude%20Droid%20%2B%20Marketing%20Engine%20%2B%20Income%20Droid)%20for%20$799.',
+            'full-automation-bundle': 'mailto:sales@aidoesitall.website?subject=Full%20Automation%20Bundle%20($999)&body=I%20want%20to%20purchase%20the%20Full%20Automation%20Bundle%20(all%20tools)%20for%20$999.',
+            // Merch
+            'anti-ai-tee': 'https://square.link/u/KxxnmieF',
+            'anti-ai-hoodie': 'https://square.link/u/wjJfoKhF',
+            'kid-ai-tee': 'https://square.link/u/otKgy2qT',
+            'anti-ai-mug': 'https://square.link/u/fP3dYVIe',
+            'sticker-pack': 'https://square.link/u/KoEFp3Y8',
+            'merch-bundle': 'https://square.link/u/8K0mNFut'
+        };
+
+        function checkout(productId) {
+            const btn = event.target;
+            btn.classList.add('loading');
+            btn.textContent = 'Redirecting...';
+
+            const link = SQUARE_LINKS[productId];
+            if (link) {
+                window.location.href = link;
+            } else {
+                window.location.href = 'mailto:sales@aidoesitall.website?subject=Purchase Inquiry';
+            }
+        }
+    </script>
+</body>
+</html>

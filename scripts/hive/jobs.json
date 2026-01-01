@@ -1,0 +1,87 @@
+{
+  "queue": [],
+  "completed": [
+    {
+      "id": "test-002",
+      "type": "writer",
+      "category": "dating",
+      "trend": "New Year Romance",
+      "platform": "twitter",
+      "status": "completed",
+      "created": "2025-12-31T01:00:00Z",
+      "startedAt": "2026-01-01T01:06:47.454Z",
+      "completedAt": "2026-01-01T01:06:47.487Z",
+      "result": {
+        "success": true,
+        "category": "dating",
+        "trend": "New Year Romance",
+        "platform": "twitter",
+        "post": "Hot take: New Year Romance > endless swiping.\n\nhttps://youandinotai.com\n\n#FindLove #ModernLove #DatingAdvice #BuildSomethingGreat",
+        "charCount": 129,
+        "savedTo": "dating-1767229607464.json",
+        "generatedAt": "2026-01-01T01:06:47.466Z"
+      }
+    },
+    {
+      "id": "test-003",
+      "type": "image-gen",
+      "prompt": "A romantic couple watching fireworks on New Year's Eve, modern dating app aesthetic, vibrant colors",
+      "status": "completed",
+      "created": "2025-12-31T01:00:00Z",
+      "startedAt": "2026-01-01T01:06:47.456Z",
+      "completedAt": "2026-01-01T01:06:50.899Z",
+      "result": {
+        "success": true,
+        "prompt": "A romantic couple watching fireworks on New Year's Eve, modern dating app aesthetic, vibrant colors",
+        "imagePath": "C:\\AiCollabForTheKids\\assets\\generated\\a-romantic-couple-watching-fireworks-on-new-year-s-1767229610896.png",
+        "filename": "a-romantic-couple-watching-fireworks-on-new-year-s-1767229610896.png",
+        "mimeType": "image/png",
+        "size": 956084,
+        "model": "gemini-2.0-flash-exp",
+        "provider": "Google Gemini",
+        "textResponse": "I will generate a vibrant image in a modern dating app style of a romantic couple silhouetted against a night sky filled with exploding fireworks, celebrating New Year's Eve.\n\n",
+        "generatedAt": "2026-01-01T01:06:50.898Z"
+      }
+    },
+    {
+      "id": "test-001",
+      "type": "scout",
+      "category": "dating",
+      "status": "completed",
+      "created": "2025-12-31T01:00:00Z",
+      "startedAt": "2026-01-01T01:06:47.448Z",
+      "completedAt": "2026-01-01T01:06:52.296Z",
+      "result": {
+        "success": true,
+        "category": "dating",
+        "trend": "michigan football",
+        "volume": "live",
+        "source": "google-trends",
+        "alternatives": [
+          {
+            "trend": "michigan football",
+            "volume": "live",
+            "source": "google-trends"
+          },
+          {
+            "trend": "texas football",
+            "volume": "live",
+            "source": "google-trends"
+          },
+          {
+            "trend": "texas football",
+            "volume": "live",
+            "source": "google-trends"
+          },
+          {
+            "trend": "ohio state football",
+            "volume": "live",
+            "source": "google-trends"
+          }
+        ],
+        "scannedAt": "2026-01-01T01:06:52.295Z"
+      }
+    }
+  ],
+  "failed": []
+}

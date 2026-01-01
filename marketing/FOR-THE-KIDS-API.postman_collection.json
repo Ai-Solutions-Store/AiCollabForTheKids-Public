@@ -1,0 +1,321 @@
+{
+  "info": {
+    "name": "FOR THE KIDS API",
+    "description": "Complete API collection for FOR THE KIDS platform\n\nMission: 60% of revenue to Verified Pediatric Charities\nGospel V1.3 - Ethics Override\n\nBase URL: https://api.aidoesitall.website",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "version": "1.3.0"
+  },
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "value",
+        "value": "{{API_KEY}}",
+        "type": "string"
+      },
+      {
+        "key": "key",
+        "value": "X-API-Key",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "BASE_URL",
+      "value": "https://api.aidoesitall.website",
+      "type": "string"
+    },
+    {
+      "key": "API_KEY",
+      "value": "your_api_key_here",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Public Endpoints",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/health",
+              "host": ["{{BASE_URL}}"],
+              "path": ["health"]
+            },
+            "description": "Check API service health status"
+          }
+        },
+        {
+          "name": "Gospel Revenue Split",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/gospel",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "gospel"]
+            },
+            "description": "Get immutable 60/30/10 Gospel split configuration"
+          }
+        },
+        {
+          "name": "Transparency Statistics",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/transparency/stats",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "transparency", "stats"]
+            },
+            "description": "Get lifetime platform statistics and revenue distribution"
+          }
+        },
+        {
+          "name": "Current Month Report",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/transparency/current-month",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "transparency", "current-month"]
+            },
+            "description": "Get real-time revenue data for current month"
+          }
+        },
+        {
+          "name": "Monthly Reports",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/transparency/monthly-reports",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "transparency", "monthly-reports"]
+            },
+            "description": "Get all historical monthly revenue reports"
+          }
+        },
+        {
+          "name": "Kickstarter Campaign Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/kickstarter/info",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "kickstarter", "info"]
+            },
+            "description": "Get live Kickstarter campaign statistics"
+          }
+        },
+        {
+          "name": "Kickstarter Stats",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/kickstarter/stats",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "kickstarter", "stats"]
+            },
+            "description": "Get detailed campaign statistics"
+          }
+        },
+        {
+          "name": "Kickstarter Backers List",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/kickstarter/backers",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "kickstarter", "backers"]
+            },
+            "description": "Get list of campaign backers (anonymized)"
+          }
+        },
+        {
+          "name": "Founding Member Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/kickstarter/founding-status",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "kickstarter", "founding-status"]
+            },
+            "description": "Get founding member spot availability"
+          }
+        }
+      ],
+      "description": "Public endpoints that don't require authentication"
+    },
+    {
+      "name": "Compliance & Privacy",
+      "item": [
+        {
+          "name": "Cookie Consent Policy",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/consent/policy",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "consent", "policy"]
+            },
+            "description": "Get current cookie consent policy and requirements"
+          }
+        },
+        {
+          "name": "Record Cookie Consent",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"sessionId\": \"session_{{$timestamp}}\",\n  \"essential\": true,\n  \"analytics\": true,\n  \"marketing\": false\n}"
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/consent/record",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "consent", "record"]
+            },
+            "description": "Record user's cookie consent preferences"
+          }
+        },
+        {
+          "name": "Get Consent Status",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/consent/status/:sessionId",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "consent", "status", ":sessionId"],
+              "variable": [
+                {
+                  "key": "sessionId",
+                  "value": "session_123"
+                }
+              ]
+            },
+            "description": "Get current consent preferences for a session"
+          }
+        },
+        {
+          "name": "Consent Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/consent/health",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "consent", "health"]
+            },
+            "description": "Check consent management system health"
+          }
+        },
+        {
+          "name": "Age Verification - Attest",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"acceptedAge\": true,\n  \"acceptedTos\": true,\n  \"sessionId\": \"session_{{$timestamp}}\"\n}"
+            },
+            "url": {
+              "raw": "{{BASE_URL}}/api/age-verification/attest",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "age-verification", "attest"]
+            },
+            "description": "Self-attestation age verification (Layer 1)"
+          }
+        },
+        {
+          "name": "Age Verification Health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/age-verification/health",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "age-verification", "health"]
+            },
+            "description": "Check age verification system health"
+          }
+        }
+      ],
+      "description": "Cookie consent, age verification, and GDPR/COPPA compliance endpoints"
+    },
+    {
+      "name": "Human Verification",
+      "item": [
+        {
+          "name": "Verification System Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/verify-human/info",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "verify-human", "info"]
+            },
+            "description": "Get information about human verification system"
+          }
+        }
+      ],
+      "description": "Human verification endpoints for dating app (YouAndINotAI)"
+    },
+    {
+      "name": "Protected Endpoints",
+      "item": [
+        {
+          "name": "Admin Status",
+          "request": {
+            "auth": {
+              "type": "apikey",
+              "apikey": [
+                {
+                  "key": "value",
+                  "value": "{{API_KEY}}",
+                  "type": "string"
+                },
+                {
+                  "key": "key",
+                  "value": "X-API-Key",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{BASE_URL}}/api/admin/status",
+              "host": ["{{BASE_URL}}"],
+              "path": ["api", "admin", "status"]
+            },
+            "description": "Get administrative status (requires API key)"
+          }
+        }
+      ],
+      "description": "Protected endpoints requiring API key authentication"
+    }
+  ]
+}

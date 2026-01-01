@@ -1,0 +1,76 @@
+name: Deploy Jules Dashboard to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'jules-dashboard/**'
+      - '.github/workflows/deploy-dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Pages
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for uncommitted changes
+        run: |
+          # Check if this is a valid git repository with commits
+          if ! git rev-parse HEAD >/dev/null 2>&1; then
+            echo "⚠️ Not a git repository or no commits yet - skipping uncommitted changes check"
+          elif ! git diff-index --quiet HEAD -- 2>/dev/null; then
+            echo "❌ Uncommitted changes detected!"
+            echo ""
+            echo "The following files have uncommitted changes:"
+            git diff --name-status HEAD
+            echo ""
+            echo "Please commit all changes before deploying."
+            exit 1
+          else
+            echo "✅ No uncommitted changes - repository is clean"
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: jules-dashboard/package-lock.json
+
+      - name: Install dependencies
+        working-directory: jules-dashboard
+        run: npm ci
+
+
+      - name: Build dashboard
+        working-directory: jules-dashboard
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: jules-dashboard
+          directory: jules-dashboard/dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          wranglerVersion: '3'
+
+      - name: Deployment success notification
+        if: success()
+        run: |
+          echo "✅ Dashboard successfully deployed to Cloudflare Pages!"
+          echo "🚀 Live at: https://jules-dashboard.pages.dev"
+          echo "#FOR THE KIDS 💙"

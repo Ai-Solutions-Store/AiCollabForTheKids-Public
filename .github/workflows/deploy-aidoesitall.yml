@@ -1,0 +1,47 @@
+name: Deploy AiDoesItAll Landing to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'aidoesitall-landing/**'
+      - 'index.html'
+      - '.github/workflows/deploy-aidoesitall.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy Landing Page to Cloudflare Pages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Copy index.html to landing folder
+        run: |
+          mkdir -p aidoesitall-landing
+          cp index.html aidoesitall-landing/index.html
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: aidoesitall
+          directory: aidoesitall-landing
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          wranglerVersion: '3'
+
+      - name: Deployment success notification
+        if: success()
+        run: |
+          echo "Landing page deployed to Cloudflare Pages!"
+          echo "Live at: https://aidoesitall.pages.dev"
+          echo "FOR THE KIDS!"

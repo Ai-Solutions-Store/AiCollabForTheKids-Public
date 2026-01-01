@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2025-12-29T00:42:12.812Z",
+  "packages": [
+    {
+      "id": "starter-consult",
+      "name": "Starter Consultation",
+      "price": 99,
+      "duration": "1 hour",
+      "includes": [
+        "1-hour video call",
+        "Product setup guidance",
+        "Basic customization tips",
+        "Q&A session"
+      ],
+      "squareLink": "https://square.link/u/7oilDQSF",
+      "upsellFrom": [
+        "claude-droid",
+        "marketing-engine"
+      ],
+      "emailSequence": [
+        {
+          "day": 0,
+          "type": "intro",
+          "subject": "Unlock your Starter Consultation",
+          "content": "Overview of what's included and expected outcomes"
+        },
+        {
+          "day": 2,
+          "type": "social-proof",
+          "subject": "See what others achieved",
+          "content": "Case studies and testimonials from consultation clients"
+        },
+        {
+          "day": 5,
+          "type": "value-stack",
+          "subject": "Everything you get with Starter Consultation",
+          "content": "Detailed breakdown of deliverables and ROI"
+        },
+        {
+          "day": 7,
+          "type": "urgency",
+          "subject": "Limited spots available this month",
+          "content": "Scarcity + time-limited bonus offer"
+        }
+      ],
+      "targetProducts": [
+        "claude-droid",
+        "marketing-engine"
+      ],
+      "conversionTriggers": [
+        "Customer asks complex questions in support",
+        "Customer purchases multiple products",
+        "Customer requests custom features",
+        "30+ days post-purchase still engaged"
+      ]
+    },
+    {
+      "id": "growth-consult",
+      "name": "Growth Strategy Session",
+      "price": 299,
+      "duration": "2 hours + follow-up",
+      "includes": [
+        "2-hour deep-dive session",
+        "Custom automation strategy",
+        "Revenue optimization plan",
+        "30-day email follow-up",
+        "Implementation checklist"
+      ],
+      "upsellFrom": [
+        "income-droid",
+        "jules-ai",
+        "affiliate-system"
+      ],
+      "emailSequence": [
+        {
+          "day": 0,
+          "type": "intro",
+          "subject": "Unlock your Growth Strategy Session",
+          "content": "Overview of what's included and expected outcomes"
+        },
+        {
+          "day": 2,
+          "type": "social-proof",
+          "subject": "See what others achieved",
+          "content": "Case studies and testimonials from consultation clients"
+        },
+        {
+          "day": 5,
+          "type": "value-stack",
+          "subject": "Everything you get with Growth Strategy Session",
+          "content": "Detailed breakdown of deliverables and ROI"
+        },
+        {
+          "day": 7,
+          "type": "urgency",
+          "subject": "Limited spots available this month",
+          "content": "Scarcity + time-limited bonus offer"
+        }
+      ],
+      "targetProducts": [
+        "income-droid",
+        "jules-ai",
+        "affiliate-system"
+      ],
+      "conversionTriggers": [
+        "Customer asks complex questions in support",
+        "Customer purchases multiple products",
+        "Customer requests custom features",
+        "30+ days post-purchase still engaged"
+      ]
+    },
+    {
+      "id": "custom-build",
+      "name": "Custom AI Solution Build",
+      "price": 2499,
+      "duration": "Project-based",
+      "includes": [
+        "Discovery call (2 hours)",
+        "Custom solution architecture",
+        "Full development & delivery",
+        "Source code ownership",
+        "90-day support included",
+        "Training documentation"
+      ],
+      "upsellFrom": [
+        "dating-platform"
+      ],
+      "emailSequence": [
+        {
+          "day": 0,
+          "type": "intro",
+          "subject": "Unlock your Custom AI Solution Build",
+          "content": "Overview of what's included and expected outcomes"
+        },
+        {
+          "day": 2,
+          "type": "social-proof",
+          "subject": "See what others achieved",
+          "content": "Case studies and testimonials from consultation clients"
+        },
+        {
+          "day": 5,
+          "type": "value-stack",
+          "subject": "Everything you get with Custom AI Solution Build",
+          "content": "Detailed breakdown of deliverables and ROI"
+        },
+        {
+          "day": 7,
+          "type": "urgency",
+          "subject": "Limited spots available this month",
+          "content": "Scarcity + time-limited bonus offer"
+        }
+      ],
+      "targetProducts": [
+        "dating-platform"
+      ],
+      "conversionTriggers": [
+        "Customer asks complex questions in support",
+        "Customer purchases multiple products",
+        "Customer requests custom features",
+        "30+ days post-purchase still engaged"
+      ]
+    },
+    {
+      "id": "retainer",
+      "name": "Monthly AI Retainer",
+      "price": 999,
+      "priceMonthly": 999,
+      "duration": "Ongoing",
+      "includes": [
+        "10 hours/month development",
+        "Priority feature requests",
+        "Unlimited consultations",
+        "Dedicated AI engineer",
+        "Custom integrations",
+        "Rollover hours (max 20)"
+      ],
+      "upsellFrom": [
+        "full-automation-bundle",
+        "dating-platform"
+      ],
+      "emailSequence": [
+        {
+          "day": 0,
+          "type": "intro",
+          "subject": "Unlock your Monthly AI Retainer",
+          "content": "Overview of what's included and expected outcomes"
+        },
+        {
+          "day": 2,
+          "type": "social-proof",
+          "subject": "See what others achieved",
+          "content": "Case studies and testimonials from consultation clients"
+        },
+        {
+          "day": 5,
+          "type": "value-stack",
+          "subject": "Everything you get with Monthly AI Retainer",
+          "content": "Detailed breakdown of deliverables and ROI"
+        },
+        {
+          "day": 7,
+          "type": "urgency",
+          "subject": "Limited spots available this month",
+          "content": "Scarcity + time-limited bonus offer"
+        }
+      ],
+      "targetProducts": [
+        "full-automation-bundle",
+        "dating-platform"
+      ],
+      "conversionTriggers": [
+        "Customer asks complex questions in support",
+        "Customer purchases multiple products",
+        "Customer requests custom features",
+        "30+ days post-purchase still engaged"
+      ]
+    }
+  ],
+  "qualificationCriteria": {
+    "starterConsult": {
+      "minPurchase": 199,
+      "signals": [
+        "Setup questions",
+        "Feature inquiries"
+      ]
+    },
+    "growthConsult": {
+      "minPurchase": 499,
+      "signals": [
+        "Revenue optimization questions",
+        "Scaling inquiries",
+        "Multiple products owned"
+      ]
+    },
+    "customBuild": {
+      "minPurchase": 999,
+      "signals": [
+        "Enterprise needs",
+        "Custom feature requests",
+        "Budget signals > $5K"
+      ]
+    },
+    "retainer": {
+      "minPurchase": 2499,
+      "signals": [
+        "Ongoing development needs",
+        "Full ecosystem user",
+        "B2B client"
+      ]
+    }
+  },
+  "conversionStrategy": {
+    "warmUp": "Provide exceptional value in support interactions",
+    "qualify": "Ask about business goals and current challenges",
+    "pitch": "Position consultation as investment, not expense",
+    "close": "Offer limited-time incentive or bonus",
+    "followUp": "Send case studies and testimonials"
+  }
+}

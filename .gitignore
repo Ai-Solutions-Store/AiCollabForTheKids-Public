@@ -1,0 +1,171 @@
+# ═══════════════════════════════════════════════════════════════
+# PRODUCTION SECURITY - GITIGNORE
+# FOR THE KIDS - 60/30/10 Revenue Split (Gospel V1.3)
+# Last Updated: 2025-12-13 (Opus 4.5 - FIRST FIRE Complete)
+# ═══════════════════════════════════════════════════════════════
+
+# ─────────────────────────────────────────────────────────────────
+# ENVIRONMENT FILES (CRITICAL - NEVER COMMIT)
+# ─────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env.backup
+**/MASTER-ENV*.env
+**/MASTER-ENV*.md
+**/.env.COMPLETE*
+
+# ─────────────────────────────────────────────────────────────────
+# SECRETS & CREDENTIALS (CRITICAL)
+# ─────────────────────────────────────────────────────────────────
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+credentials.json
+secrets.json
+**/secrets/
+**/*secret*
+**/*credential*
+!**/CREDENTIALS-RECOVERY.md
+
+# EXPLICITLY BLOCKED - CONTAINS LIVE SECRETS (Fixed Dec 28, 2025)
+.github/AI-CREDENTIALS-REFERENCE.md
+
+# GOSPEL SENTRY CREDENTIALS (GOSPEL RULE #11)
+.sentry-credentials
+scripts/sentry/logs/
+
+# ─────────────────────────────────────────────────────────────────
+# CLAUDE CODE LOCAL SETTINGS
+# ─────────────────────────────────────────────────────────────────
+.claude/settings.local.json
+
+# ─────────────────────────────────────────────────────────────────
+# LOGS (Security - may contain sensitive data)
+# ─────────────────────────────────────────────────────────────────
+*.log
+logs/
+**/error.log
+**/combined.log
+**/debug.log
+
+# ─────────────────────────────────────────────────────────────────
+# DEPENDENCIES
+# ─────────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─────────────────────────────────────────────────────────────────
+# BUILD OUTPUTS
+# ─────────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# ─────────────────────────────────────────────────────────────────
+# DOCKER
+# ─────────────────────────────────────────────────────────────────
+.docker/
+docker-compose.override.yml
+
+# ─────────────────────────────────────────────────────────────────
+# AWS/CLOUD SCRIPTS (may contain credentials)
+# ─────────────────────────────────────────────────────────────────
+aws-*.ps1
+setup-aws.bat
+deploy-aws.ps1
+cloudflare-dns.ps1
+budget.json
+lambda.zip
+AWSCLIV2.msi
+*.zip
+
+# ─────────────────────────────────────────────────────────────────
+# OS FILES
+# ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ─────────────────────────────────────────────────────────────────
+# TEMP FILES & BACKUPS
+# ─────────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.backup
+*.bak
+temp/
+tmp/
+nul
+
+# ─────────────────────────────────────────────────────────────────
+# GENERATED MEDIA
+# ─────────────────────────────────────────────────────────────────
+grok-*.png
+grok-*.mp4
+
+# ─────────────────────────────────────────────────────────────────
+# LOCAL FOLDERS
+# ─────────────────────────────────────────────────────────────────
+products/
+
+# ─────────────────────────────────────────────────────────────────
+# DATABASE
+# ─────────────────────────────────────────────────────────────────
+prisma/*.db
+prisma/*.db-journal
+*.sqlite
+*.sqlite3
+
+# ─────────────────────────────────────────────────────────────────
+# IDE/EDITOR LOCAL
+# ─────────────────────────────────────────────────────────────────
+.idea/
+*.sublime-*
+.history/
+
+# ─────────────────────────────────────────────────────────────────
+# SENSITIVE DOCS (keep local reference copies)
+# ─────────────────────────────────────────────────────────────────
+docs/CLAUDE-PREFERENCES.md
+docs/CLAUDE-MASTER-REFERENCE.md
+docs/ENTERPRISE-ENV-SYNC.md
+docs/AB-TESTING-STRATEGY.md
+
+# ─────────────────────────────────────────────────────────────────
+# DEATH CONTINGENCY & WALLET KEYS (NEVER COMMIT - LOCAL ONLY)
+# Contains private keys, mnemonics, and sensitive wallet data
+# ─────────────────────────────────────────────────────────────────
+GOSPEL-DEPLOYER-KEYS-LOCAL-ONLY.md
+DEATH-CONTINGENCY-MASTER-LOG.md
+DAO-TREASURY-WALLETS.md
+**/KEYS-*.md
+**/*-KEYS-*.md
+**/*PRIVATE*.md
+**/*MNEMONIC*.md
+
+# ─────────────────────────────────────────────────────────────────
+# CODACY/LINTING OVERRIDES
+# ─────────────────────────────────────────────────────────────────
+.github/instructions/codacy.instructions.md
+
+# Local Netlify folder
+.netlify
+tempaudit-*
+
+# ─────────────────────────────────────────────────────────────────
+# LOCAL FOLDERS TO EXCLUDE FROM GIT
+# ─────────────────────────────────────────────────────────────────
+manus-summary/
+infrastructure/
+.fx/
+pure-charity-node/
+.wrangler/

@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2025-12-29T00:42:12.807Z",
+  "bundles": [
+    {
+      "id": "content-creator-bundle",
+      "name": "Content Creator Bundle",
+      "products": [
+        {
+          "id": "claude-droid",
+          "name": "Claude Droid",
+          "individualPrice": 299,
+          "description": "AI Video Generator - Auto-converts news to YouTube Shorts"
+        },
+        {
+          "id": "marketing-engine",
+          "name": "Marketing Content Engine",
+          "individualPrice": 199,
+          "description": "AI Social Media Automation - 4 posts/day to 23 platforms"
+        }
+      ],
+      "originalPrice": 498,
+      "bundlePrice": 399,
+      "savings": 99,
+      "headline": "Create + Distribute = Maximum Reach",
+      "description": "Create YouTube content AND distribute to 23 platforms automatically.",
+      "urgency": "Save $99 when you bundle today",
+      "checkoutLink": "mailto:sales@aidoesitall.website?subject=Content%20Creator%20Bundle%20($399)",
+      "emailSubject": "Save $99: Content Creator Bundle",
+      "valueCalculation": {
+        "totalIndividual": 498,
+        "bundlePrice": 399,
+        "youSave": 99,
+        "percentSaved": 20
+      },
+      "targetAudience": "content-creators",
+      "urgencyTactics": [
+        "Limited time offer",
+        "Save $99 vs buying separately",
+        "Most popular choice",
+        "Complete ecosystem access"
+      ]
+    },
+    {
+      "id": "passive-income-bundle",
+      "name": "Passive Income Bundle",
+      "products": [
+        {
+          "id": "claude-droid",
+          "name": "Claude Droid",
+          "individualPrice": 299,
+          "description": "AI Video Generator - Auto-converts news to YouTube Shorts"
+        },
+        {
+          "id": "marketing-engine",
+          "name": "Marketing Content Engine",
+          "individualPrice": 199,
+          "description": "AI Social Media Automation - 4 posts/day to 23 platforms"
+        },
+        {
+          "id": "income-droid",
+          "name": "Income Droid",
+          "individualPrice": 499,
+          "description": "Monetized Video Automation - 4 revenue-optimized videos daily"
+        }
+      ],
+      "originalPrice": 997,
+      "bundlePrice": 799,
+      "savings": 198,
+      "headline": "The Complete Passive Income Stack",
+      "description": "Create, distribute, and monetize. Full automation for passive revenue.",
+      "urgency": "MOST POPULAR - Save $198",
+      "featured": true,
+      "checkoutLink": "mailto:sales@aidoesitall.website?subject=Passive%20Income%20Bundle%20($799)",
+      "emailSubject": "Save $198: Passive Income Bundle",
+      "valueCalculation": {
+        "totalIndividual": 997,
+        "bundlePrice": 799,
+        "youSave": 198,
+        "percentSaved": 20
+      },
+      "targetAudience": "passive-income-seekers",
+      "urgencyTactics": [
+        "Limited time offer",
+        "Save $198 vs buying separately",
+        "Most popular choice",
+        "Complete ecosystem access"
+      ]
+    },
+    {
+      "id": "full-automation-bundle",
+      "name": "Full Automation Bundle",
+      "products": [
+        {
+          "id": "claude-droid",
+          "name": "Claude Droid",
+          "individualPrice": 299,
+          "description": "AI Video Generator - Auto-converts news to YouTube Shorts"
+        },
+        {
+          "id": "marketing-engine",
+          "name": "Marketing Content Engine",
+          "individualPrice": 199,
+          "description": "AI Social Media Automation - 4 posts/day to 23 platforms"
+        },
+        {
+          "id": "income-droid",
+          "name": "Income Droid",
+          "individualPrice": 499,
+          "description": "Monetized Video Automation - 4 revenue-optimized videos daily"
+        },
+        {
+          "id": "jules-ai",
+          "name": "Jules AI Assistant",
+          "individualPrice": 399,
+          "description": "Business Operations AI - DevOps and multi-service orchestration"
+        }
+      ],
+      "originalPrice": 1396,
+      "bundlePrice": 999,
+      "savings": 397,
+      "headline": "Run an Automated Content Business",
+      "description": "Everything you need. Video + Marketing + Revenue + DevOps automation.",
+      "urgency": "BEST VALUE - Save $397",
+      "checkoutLink": "mailto:sales@aidoesitall.website?subject=Full%20Automation%20Bundle%20($999)",
+      "emailSubject": "Save $397: Full Automation Bundle",
+      "valueCalculation": {
+        "totalIndividual": 1396,
+        "bundlePrice": 999,
+        "youSave": 397,
+        "percentSaved": 28
+      },
+      "targetAudience": "passive-income-seekers",
+      "urgencyTactics": [
+        "Limited time offer",
+        "Save $397 vs buying separately",
+        "Most popular choice",
+        "Complete ecosystem access"
+      ]
+    }
+  ],
+  "ltvAnalysis": {
+    "singleProductAvgLTV": 350,
+    "bundleBuyerAvgLTV": 1200,
+    "multiplier": 3.4,
+    "targetConversionRate": 0.15,
+    "projectedRevenueIncrease": "240%"
+  }
+}

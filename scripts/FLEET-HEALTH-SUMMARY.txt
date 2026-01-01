@@ -1,0 +1,171 @@
+═══════════════════════════════════════════════════════════════════════════════
+  FLEET HEALTH MONITORING SYSTEM - INSTALLATION COMPLETE
+  Gospel V1.3 - FOR THE KIDS (60/30/10 IMMUTABLE)
+═══════════════════════════════════════════════════════════════════════════════
+
+📦 FILES CREATED (9 total, 78KB)
+─────────────────────────────────────────────────────────────────────────────
+
+CORE SCRIPTS:
+  ✓ scripts/fleet-health-monitor.js (25KB)          - Main monitoring engine
+  ✓ scripts/RUN-FLEET-HEALTH-CHECK.ps1 (2.6KB)      - PowerShell wrapper
+  ✓ scripts/SETUP-FLEET-HEALTH-SCHEDULER.ps1 (6.7KB) - Scheduler setup
+  ✓ scripts/fleet-health-ecosystem.config.js (2.1KB) - PM2 configuration
+
+TEST SCRIPTS:
+  ✓ scripts/test-health-endpoints.js (5.1KB)        - Quick endpoint test
+  ✓ scripts/test-fleet-health.js (7.9KB)            - Demo script
+
+DOCUMENTATION:
+  ✓ scripts/FLEET-HEALTH-MONITOR-README.md (7.6KB)  - Full documentation
+  ✓ scripts/FLEET-HEALTH-QUICKSTART.md (5.8KB)      - Quick start guide
+  ✓ infrastructure/automation/FLEET-HEALTH-MONITORING.md (15KB) - Architecture
+
+═══════════════════════════════════════════════════════════════════════════════
+🎯 MONITORED NODES
+═══════════════════════════════════════════════════════════════════════════════
+
+  1. Sabertooth (192.168.0.104) - Command Node
+     Services: claude-droid, dashboard-dev
+     Health: http://localhost:3000/health
+
+  2. T5500 (192.168.0.101) - Compute Node  
+     Services: jules-api, dao-platform, gospel-ledger
+     Health: https://light-customize-fare-tournaments.trycloudflare.com/health
+
+  3. 9020 (192.168.0.103) - DAO Tribute Node
+     Services: shriners-tribute
+     Health: None configured
+
+  4. EC2 (3.84.226.108) - Cloud Node
+     Services: api-public
+     Health: http://3.84.226.108:3000/health
+
+═══════════════════════════════════════════════════════════════════════════════
+🔍 HEALTH CHECKS PERFORMED
+═══════════════════════════════════════════════════════════════════════════════
+
+  ✓ Connectivity Check         - Ping test (2s timeout)
+  ✓ Health Endpoint Check      - HTTP request (5s threshold)
+  ✓ PM2 Service Status         - Remote PM2 checks via SSH
+  ✓ Resource Usage (Linux)     - CPU, Memory, Disk monitoring
+
+═══════════════════════════════════════════════════════════════════════════════
+🔔 ALERT CHANNELS
+═══════════════════════════════════════════════════════════════════════════════
+
+  Telegram (Critical Only):
+    - Node unreachable
+    - Service crashed
+    Bot: @AiSolutionsForTheKids_bot
+
+  Discord (All Alerts):
+    - Critical issues
+    - Errors  
+    - Warnings (slow response, high resources)
+    Webhook: Configured in api/.env
+
+═══════════════════════════════════════════════════════════════════════════════
+🚀 QUICK START
+═══════════════════════════════════════════════════════════════════════════════
+
+STEP 1: Test Manual Execution
+  node scripts/fleet-health-monitor.js --node=sabertooth
+
+STEP 2: Setup Automated Monitoring (Run as Administrator)
+  .\scripts\SETUP-FLEET-HEALTH-SCHEDULER.ps1
+
+STEP 3: Verify It's Working
+  Get-ScheduledTask -TaskName "Gospel-Fleet-Health-Monitor"
+  dir C:\AiCollabForTheKids\logs\fleet-health\
+
+═══════════════════════════════════════════════════════════════════════════════
+📋 COMMON COMMANDS
+═══════════════════════════════════════════════════════════════════════════════
+
+Manual Checks:
+  node scripts/fleet-health-monitor.js                    - Check all nodes
+  node scripts/fleet-health-monitor.js --node=t5500       - Check specific node
+  node scripts/fleet-health-monitor.js --save             - Save results
+  node scripts/test-health-endpoints.js                   - Quick endpoint test
+
+PowerShell:
+  .\scripts\RUN-FLEET-HEALTH-CHECK.ps1                    - Basic check
+  .\scripts\RUN-FLEET-HEALTH-CHECK.ps1 -SaveResults       - With logging
+
+Scheduler Management (Run as Admin):
+  .\scripts\SETUP-FLEET-HEALTH-SCHEDULER.ps1 -Disable     - Disable task
+  .\scripts\SETUP-FLEET-HEALTH-SCHEDULER.ps1 -Enable      - Enable task
+  .\scripts\SETUP-FLEET-HEALTH-SCHEDULER.ps1 -Remove      - Remove task
+
+Alternative (PM2):
+  pm2 start scripts/fleet-health-ecosystem.config.js
+  pm2 logs fleet-health-monitor
+
+═══════════════════════════════════════════════════════════════════════════════
+📊 THRESHOLDS
+═══════════════════════════════════════════════════════════════════════════════
+
+  CPU Usage:        > 90%  → Warning
+  Memory Usage:     > 85%  → Warning
+  Disk Usage:       > 90%  → Warning
+  Response Time:    > 5s   → Warning
+  Service Status:   Stopped → Critical
+  Node Reachable:   No     → Critical
+
+═══════════════════════════════════════════════════════════════════════════════
+📁 LOG LOCATIONS
+═══════════════════════════════════════════════════════════════════════════════
+
+  Health Results:   C:\AiCollabForTheKids\logs\fleet-health\health-*.json
+  Errors:           C:\AiCollabForTheKids\logs\fleet-health\error-*.log
+  Scheduled Task:   C:\AiCollabForTheKids\logs\fleet-health\scheduled-task.log
+
+═══════════════════════════════════════════════════════════════════════════════
+📖 DOCUMENTATION
+═══════════════════════════════════════════════════════════════════════════════
+
+  Quick Start:      scripts\FLEET-HEALTH-QUICKSTART.md
+  Full Docs:        scripts\FLEET-HEALTH-MONITOR-README.md
+  Architecture:     infrastructure\automation\FLEET-HEALTH-MONITORING.md
+  Demo:             node scripts\test-fleet-health.js
+
+═══════════════════════════════════════════════════════════════════════════════
+✅ SYSTEM STATUS
+═══════════════════════════════════════════════════════════════════════════════
+
+  [✓] Core monitoring script created
+  [✓] PowerShell wrapper created
+  [✓] Scheduler setup script created
+  [✓] PM2 configuration created
+  [✓] Test scripts created
+  [✓] Full documentation created
+  [✓] Environment variables configured
+  [✓] SSH access configured
+
+  READY FOR DEPLOYMENT!
+
+═══════════════════════════════════════════════════════════════════════════════
+🎯 NEXT STEPS
+═══════════════════════════════════════════════════════════════════════════════
+
+  1. Test the monitor:
+     node scripts/fleet-health-monitor.js
+
+  2. Setup automated monitoring (as Admin):
+     .\scripts\SETUP-FLEET-HEALTH-SCHEDULER.ps1
+
+  3. Monitor the logs:
+     dir C:\AiCollabForTheKids\logs\fleet-health\
+
+  4. Review alerts in Telegram and Discord
+
+═══════════════════════════════════════════════════════════════════════════════
+
+                        FOR THE KIDS - 60/30/10 IMMUTABLE
+                         Gospel V1.3 (Ethics Override)
+
+      Automated health monitoring ensures the FOR THE KIDS platform remains
+         available 24/7 to serve verified pediatric charities worldwide.
+
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,37 @@
+﻿TO: info@giveth.io
+FROM: Joshua Coleman <joshlcoleman@gmail.com>
+SUBJECT: How Blockchain Solved Charity's Overhead Problem - Partnership Inquiry
+DATE: 2025-12-13 16:31:23
+
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+Hi,
+
+I'm reaching out because I've built something that might interest you: a DAO with an IMMUTABLE 60/30/10 revenue split hardcoded into the smart contract.
+
+**The Problem We Solved:**
+Traditional charities spend 15-30% on overhead and have trust issues. Donors never know if their money actually reached the cause.
+
+**Our Solution:**
+- 60% of ALL revenue automatically flows to verified pediatric charities
+- 30% to infrastructure
+- 10% to founder
+- This split is IMMUTABLE - not even I can change it
+
+**Proof It Works (First Transaction Live):**
+https://basescan.org/tx/0x6f781df5df8959b3b515122a5fe8e6b0b87e6238cad4edf5cd362e28f8fdc07d
+
+Every donation triggers an on-chain split. No human can intercept funds. No administrative overhead. Just math.
+
+**Why I'm Reaching Out:**
+I believe organizations like yours could benefit from featuring projects that demonstrate blockchain's true potential for charity. Our model proves that "trust" can be replaced with "verify."
+
+Would you be open to a brief call to discuss how this might align with your mission?
+
+Best regards,
+Joshua Coleman
+Founder, FOR THE KIDS
+TRASH OR TREASURE ONLINE RECYCLER LLC
+
+Contract: 0x9855B75061D4c841791382998f0CE8B2BCC965A4 (Base Mainnet)
+Verification: https://basescan.org/tx/0x6f781df5df8959b3b515122a5fe8e6b0b87e6238cad4edf5cd362e28f8fdc07d

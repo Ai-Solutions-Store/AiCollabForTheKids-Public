@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2025-12-29T00:42:12.823Z",
+  "strategy": "ascension-ladder",
+  "ascensionPaths": {
+    "starter-path": {
+      "entry": "marketing-engine",
+      "entryPrice": 199,
+      "steps": [
+        {
+          "product": "claude-droid",
+          "price": 299,
+          "trigger": "day-7"
+        },
+        {
+          "product": "income-droid",
+          "price": 499,
+          "trigger": "day-21"
+        },
+        {
+          "product": "jules-ai",
+          "price": 399,
+          "trigger": "day-45"
+        },
+        {
+          "product": "priority-support",
+          "price": 49,
+          "trigger": "month-2",
+          "recurring": true
+        },
+        {
+          "product": "growth-consult",
+          "price": 299,
+          "trigger": "month-3"
+        }
+      ],
+      "targetLTV": 2044,
+      "timeframe": "90 days"
+    },
+    "creator-path": {
+      "entry": "claude-droid",
+      "entryPrice": 299,
+      "steps": [
+        {
+          "product": "marketing-engine",
+          "price": 199,
+          "trigger": "day-3"
+        },
+        {
+          "product": "income-droid",
+          "price": 499,
+          "trigger": "day-14"
+        },
+        {
+          "product": "pro-support",
+          "price": 149,
+          "trigger": "month-1",
+          "recurring": true
+        },
+        {
+          "product": "affiliate-system",
+          "price": 599,
+          "trigger": "month-2"
+        },
+        {
+          "product": "retainer",
+          "price": 999,
+          "trigger": "month-3",
+          "recurring": true
+        }
+      ],
+      "targetLTV": 4843,
+      "timeframe": "90 days"
+    },
+    "enterprise-path": {
+      "entry": "dating-platform",
+      "entryPrice": 2499,
+      "steps": [
+        {
+          "product": "enterprise-support",
+          "price": 499,
+          "trigger": "week-1",
+          "recurring": true
+        },
+        {
+          "product": "custom-build",
+          "price": 2499,
+          "trigger": "month-1"
+        },
+        {
+          "product": "retainer",
+          "price": 999,
+          "trigger": "month-2",
+          "recurring": true
+        }
+      ],
+      "targetLTV": 10495,
+      "timeframe": "90 days"
+    }
+  },
+  "tactics": {
+    "immediateUpsell": {
+      "timing": "checkout-page",
+      "offer": "Add complementary product at 20% off",
+      "expectedConversion": "12%"
+    },
+    "orderBump": {
+      "timing": "payment-form",
+      "offer": "Priority support add-on ($29 first month)",
+      "expectedConversion": "18%"
+    },
+    "oneClickUpsell": {
+      "timing": "post-purchase",
+      "offer": "Bundle upgrade with credit applied",
+      "expectedConversion": "8%"
+    },
+    "downsell": {
+      "timing": "cart-abandon",
+      "offer": "Start with monthly subscription instead",
+      "expectedConversion": "5%"
+    }
+  },
+  "metrics": {
+    "currentAvgLTV": 425,
+    "targetAvgLTV": 1500,
+    "requiredIncrease": "253%",
+    "keyLevers": [
+      "Increase bundle conversion (target: 25% of buyers)",
+      "Add support tier to 40% of customers",
+      "Convert 10% to consultation",
+      "Reduce churn with engagement"
+    ]
+  },
+  "gospelImpact": {
+    "currentCharityContribution": 255,
+    "targetCharityContribution": 900,
+    "increase": "253%",
+    "message": "Every dollar of LTV increase means 60 cents more FOR THE KIDS"
+  }
+}

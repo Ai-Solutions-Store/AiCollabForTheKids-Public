@@ -1,0 +1,42 @@
+name: Deploy AI Solutions Store to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'ai-solutions-store/**'
+      - '.github/workflows/deploy-ai-solutions-store.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy AI Solutions Store to Cloudflare Pages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_GLOBAL_API_KEY }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ai-solutions-store
+          directory: ai-solutions-store
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          wranglerVersion: '3'
+
+      - name: Deployment success notification
+        if: success()
+        run: |
+          echo "AI Solutions Store deployed to Cloudflare Pages!"
+          echo "Live at: https://ai-solutions-store.pages.dev"
+          echo "15% Commission | Gospel Split: 60/30/10 (Gospel V1.3)"
+          echo "FOR THE KIDS!"

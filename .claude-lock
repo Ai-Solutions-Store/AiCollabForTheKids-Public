@@ -1,0 +1,19 @@
+{
+  "lock_version": "1.0",
+  "locked_by": "Claude Opus 4.5 CLI",
+  "model_id": "claude-opus-4-5-20251101",
+  "timestamp": "2025-12-03T11:45:00Z",
+  "authority": "THE_ARCHITECT",
+  "permissions": {
+    "opus_4.5_cli": "FULL_ACCESS",
+    "gemini_jules": "READ_ONLY_ADVISORY",
+    "other_ai": "DENIED",
+    "human_joshua": "FULL_ACCESS"
+  },
+  "gospel_rules": {
+    "rule_2_immutable": "60/30/10 split FOREVER (Ethics Override V1.3)",
+    "fake_data": "ZERO_TOLERANCE",
+    "mission": "FOR_THE_KIDS"
+  },
+  "seal": "GOSPEL-LOCK-20251203-OPUS45-PRODUCTION"
+}
